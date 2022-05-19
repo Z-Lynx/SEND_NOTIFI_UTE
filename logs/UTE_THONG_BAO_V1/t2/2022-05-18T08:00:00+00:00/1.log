@@ -1,0 +1,36 @@
+[2022-05-18 08:08:50,059] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-18T08:00:00+00:00 [queued]>
+[2022-05-18 08:08:50,069] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-18T08:00:00+00:00 [queued]>
+[2022-05-18 08:08:50,069] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-18 08:08:50,069] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-18 08:08:50,069] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-18 08:08:50,085] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): t2> on 2022-05-18T08:00:00+00:00
+[2022-05-18 08:08:50,089] {standard_task_runner.py:52} INFO - Started process 149 to run task
+[2022-05-18 08:08:50,093] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'UTE_THONG_BAO_V1', 't2', '2022-05-18T08:00:00+00:00', '--job-id', '172', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmpqlfrdlq_', '--error-file', '/tmp/tmp37qcecr_']
+[2022-05-18 08:08:50,094] {standard_task_runner.py:77} INFO - Job 172: Subtask t2
+[2022-05-18 08:08:50,142] {logging_mixin.py:104} INFO - Running <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-18T08:00:00+00:00 [running]> on host 0b42bd968922
+[2022-05-18 08:08:50,208] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=UTE_THONG_BAO_V1
+AIRFLOW_CTX_DAG_ID=UTE_THONG_BAO_V1
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-18T08:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-18T08:00:00+00:00
+[2022-05-18 08:08:50,220] {logging_mixin.py:104} INFO - 2050531200310 221CDPM02 Chuyên đề phần mềm
+[2022-05-18 08:08:55,341] {logging_mixin.py:104} INFO - [+] Successfully sent the mail
+[2022-05-18 08:08:55,341] {logging_mixin.py:104} INFO - 
+
+[!] Done Send Mail :2050531200310
+[2022-05-18 08:08:55,341] {logging_mixin.py:104} INFO - 2050531200360 221CDPM02 Chuyên đề phần mềm
+[2022-05-18 08:08:59,028] {logging_mixin.py:104} INFO - [+] Successfully sent the mail
+[2022-05-18 08:08:59,029] {logging_mixin.py:104} INFO - 
+
+[!] Done Send Mail :2050531200360
+[2022-05-18 08:08:59,029] {logging_mixin.py:104} INFO - 2050531200335 221DHPC03 Đồ họa máy tính
+[2022-05-18 08:08:59,037] {logging_mixin.py:104} INFO - 
+
+[+] DONE SEND MAIL !!
+[2022-05-18 08:08:59,037] {python.py:151} INFO - Done. Returned value was: None
+[2022-05-18 08:08:59,045] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=UTE_THONG_BAO_V1, task_id=t2, execution_date=20220518T080000, start_date=20220518T080850, end_date=20220518T080859
+[2022-05-18 08:08:59,073] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-05-18 08:08:59,084] {local_task_job.py:151} INFO - Task exited with return code 0

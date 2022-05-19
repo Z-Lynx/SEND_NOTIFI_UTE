@@ -1,0 +1,101 @@
+[2022-05-18 08:35:13,416] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.schedule_bgg_crawler 2022-05-18T08:30:00+00:00 [queued]>
+[2022-05-18 08:35:13,434] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.schedule_bgg_crawler 2022-05-18T08:30:00+00:00 [queued]>
+[2022-05-18 08:35:13,434] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-18 08:35:13,434] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-18 08:35:13,434] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-18 08:35:13,446] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): schedule_bgg_crawler> on 2022-05-18T08:30:00+00:00
+[2022-05-18 08:35:13,452] {standard_task_runner.py:52} INFO - Started process 3310 to run task
+[2022-05-18 08:35:13,460] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'UTE_THONG_BAO_V1', 'schedule_bgg_crawler', '2022-05-18T08:30:00+00:00', '--job-id', '185', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmp92ez97di', '--error-file', '/tmp/tmpvf_mbvk2']
+[2022-05-18 08:35:13,461] {standard_task_runner.py:77} INFO - Job 185: Subtask schedule_bgg_crawler
+[2022-05-18 08:35:13,525] {logging_mixin.py:104} INFO - Running <TaskInstance: UTE_THONG_BAO_V1.schedule_bgg_crawler 2022-05-18T08:30:00+00:00 [running]> on host 0b42bd968922
+[2022-05-18 08:35:13,599] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=UTE_THONG_BAO_V1
+AIRFLOW_CTX_DAG_ID=UTE_THONG_BAO_V1
+AIRFLOW_CTX_TASK_ID=schedule_bgg_crawler
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-18T08:30:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-18T08:30:00+00:00
+[2022-05-18 08:35:13,600] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-18 08:35:13,602] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'cd /opt/***/dags/test && scrapy crawl thongbao && echo "xong t1"']
+[2022-05-18 08:35:13,615] {subprocess.py:75} INFO - Output:
+[2022-05-18 08:35:15,270] {subprocess.py:79} INFO - sh: 1: dags/test: not found
+[2022-05-18 08:35:15,285] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: thongbao)
+[2022-05-18 08:35:15,287] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.12 (default, Dec 21 2021, 11:15:53) - [GCC 8.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-5.13.0-39-generic-x86_64-with-glibc2.2.5
+[2022-05-18 08:35:15,293] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.crawler] INFO: Overridden settings:
+[2022-05-18 08:35:15,293] {subprocess.py:79} INFO - {'BOT_NAME': 'thongbao',
+[2022-05-18 08:35:15,293] {subprocess.py:79} INFO -  'FEED_EXPORT_ENCODING': 'utf-8',
+[2022-05-18 08:35:15,293] {subprocess.py:79} INFO -  'NEWSPIDER_MODULE': 'thongbao.spiders',
+[2022-05-18 08:35:15,294] {subprocess.py:79} INFO -  'SPIDER_MODULES': ['thongbao.spiders']}
+[2022-05-18 08:35:15,298] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+[2022-05-18 08:35:15,332] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.extensions.telnet] INFO: Telnet Password: 5e35685e1804b8f8
+[2022-05-18 08:35:15,367] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.middleware] INFO: Enabled extensions:
+[2022-05-18 08:35:15,367] {subprocess.py:79} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2022-05-18 08:35:15,367] {subprocess.py:79} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2022-05-18 08:35:15,367] {subprocess.py:79} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2022-05-18 08:35:15,367] {subprocess.py:79} INFO -  'scrapy.extensions.logstats.LogStats']
+[2022-05-18 08:35:15,560] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2022-05-18 08:35:15,560] {subprocess.py:79} INFO - ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2022-05-18 08:35:15,560] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2022-05-18 08:35:15,560] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'thongbao.middlewares.ThongbaoDownloaderMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2022-05-18 08:35:15,561] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2022-05-18 08:35:15,567] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2022-05-18 08:35:15,568] {subprocess.py:79} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2022-05-18 08:35:15,568] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+[2022-05-18 08:35:15,568] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2022-05-18 08:35:15,568] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2022-05-18 08:35:15,568] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2022-05-18 08:35:15,587] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.middleware] INFO: Enabled item pipelines:
+[2022-05-18 08:35:15,587] {subprocess.py:79} INFO - ['thongbao.pipelines.ThongbaoPipeline']
+[2022-05-18 08:35:15,587] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.core.engine] INFO: Spider opened
+[2022-05-18 08:35:15,795] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2022-05-18 08:35:15,796] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [thongbao] INFO: Spider opened: thongbao
+[2022-05-18 08:35:15,798] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2022-05-18 08:35:15,803] {subprocess.py:79} INFO - 2022-05-18 08:35:15 [root] DEBUG: current user-agent: N
+[2022-05-18 08:35:16,337] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [filelock] DEBUG: Attempting to acquire lock 140357063806016 on /home/***/.cache/python-tldextract/3.8.12.final__local__ecb11d__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+[2022-05-18 08:35:16,338] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [filelock] INFO: Lock 140357063806016 acquired on /home/***/.cache/python-tldextract/3.8.12.final__local__ecb11d__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+[2022-05-18 08:35:16,342] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [filelock] DEBUG: Attempting to release lock 140357063806016 on /home/***/.cache/python-tldextract/3.8.12.final__local__ecb11d__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+[2022-05-18 08:35:16,342] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [filelock] INFO: Lock 140357063806016 released on /home/***/.cache/python-tldextract/3.8.12.final__local__ecb11d__tldextract-3.3.0/publicsuffix.org-tlds/de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+[2022-05-18 08:35:16,347] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://daotao.ute.udn.vn/> (referer: None)
+[2022-05-18 08:35:16,472] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [root] INFO: [!] OLD_DATA STOP !!
+[2022-05-18 08:35:16,474] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [scrapy.core.engine] INFO: Closing spider (finished)
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO - {'downloader/request_bytes': 217,
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO -  'downloader/request_count': 1,
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO -  'downloader/request_method_count/GET': 1,
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO -  'downloader/response_bytes': 21457,
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO -  'downloader/response_count': 1,
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO -  'downloader/response_status_count/200': 1,
+[2022-05-18 08:35:16,476] {subprocess.py:79} INFO -  'elapsed_time_seconds': 0.679879,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'finish_reason': 'finished',
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'finish_time': datetime.datetime(2022, 5, 18, 8, 35, 16, 475519),
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'httpcompression/response_bytes': 86520,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'httpcompression/response_count': 1,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'log_count/DEBUG': 5,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'log_count/INFO': 14,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'memusage/max': 67002368,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'memusage/startup': 67002368,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'response_received_count': 1,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'scheduler/dequeued': 1,
+[2022-05-18 08:35:16,477] {subprocess.py:79} INFO -  'scheduler/dequeued/memory': 1,
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO -  'scheduler/enqueued': 1,
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO -  'scheduler/enqueued/memory': 1,
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO -  'start_time': datetime.datetime(2022, 5, 18, 8, 35, 15, 795640)}
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO - 2022-05-18 08:35:16 [scrapy.core.engine] INFO: Spider closed (finished)
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO - current user-agent: N
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO - viewMsg.asp?mid=20021
+[2022-05-18 08:35:16,478] {subprocess.py:79} INFO - 20021
+[2022-05-18 08:35:16,648] {subprocess.py:79} INFO - xong t1
+[2022-05-18 08:35:16,649] {subprocess.py:83} INFO - Command exited with return code 0
+[2022-05-18 08:35:16,687] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=UTE_THONG_BAO_V1, task_id=schedule_bgg_crawler, execution_date=20220518T083000, start_date=20220518T083513, end_date=20220518T083516
+[2022-05-18 08:35:16,720] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-05-18 08:35:16,760] {local_task_job.py:151} INFO - Task exited with return code 0

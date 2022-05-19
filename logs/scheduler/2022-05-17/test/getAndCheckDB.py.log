@@ -1,0 +1,947 @@
+[2022-05-17 05:29:54,920] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:29:54,921] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:29:54,921] {logging_mixin.py:104} INFO - [2022-05-17 05:29:54,921] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:29:54,998] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:29:55,021] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.105 seconds
+[2022-05-17 05:30:25,122] {scheduler_job.py:182} INFO - Started process (PID=154) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:30:25,123] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:30:25,126] {logging_mixin.py:104} INFO - [2022-05-17 05:30:25,125] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:30:25,187] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:30:25,206] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.090 seconds
+[2022-05-17 05:30:55,465] {scheduler_job.py:182} INFO - Started process (PID=247) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:30:55,466] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:30:55,466] {logging_mixin.py:104} INFO - [2022-05-17 05:30:55,466] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:30:55,494] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:30:55,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 05:31:25,632] {scheduler_job.py:182} INFO - Started process (PID=304) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:25,632] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:25,633] {logging_mixin.py:104} INFO - [2022-05-17 05:31:25,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:25,655] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:25,668] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 05:31:43,116] {scheduler_job.py:182} INFO - Started process (PID=361) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:43,117] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:43,117] {logging_mixin.py:104} INFO - [2022-05-17 05:31:43,117] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:43,118] {logging_mixin.py:104} INFO - [2022-05-17 05:31:43,118] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/test/getAndCheckDB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/getAndCheckDB.py", line 62
+    except:
+          ^
+IndentationError: unindent does not match any outer indentation level
+[2022-05-17 05:31:43,119] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:43,131] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.016 seconds
+[2022-05-17 05:31:46,154] {scheduler_job.py:182} INFO - Started process (PID=362) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:46,156] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:46,157] {logging_mixin.py:104} INFO - [2022-05-17 05:31:46,157] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:46,206] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:46,219] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.070 seconds
+[2022-05-17 05:31:49,180] {scheduler_job.py:182} INFO - Started process (PID=365) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:49,182] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:49,184] {logging_mixin.py:104} INFO - [2022-05-17 05:31:49,183] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:49,225] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:49,239] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 05:31:54,249] {scheduler_job.py:182} INFO - Started process (PID=368) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:54,250] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:54,250] {logging_mixin.py:104} INFO - [2022-05-17 05:31:54,250] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:54,252] {logging_mixin.py:104} INFO - [2022-05-17 05:31:54,251] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/test/getAndCheckDB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/getAndCheckDB.py", line 65
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
+                                                      ^
+IndentationError: unindent does not match any outer indentation level
+[2022-05-17 05:31:54,252] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:54,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.018 seconds
+[2022-05-17 05:31:55,261] {scheduler_job.py:182} INFO - Started process (PID=369) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:55,262] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:55,262] {logging_mixin.py:104} INFO - [2022-05-17 05:31:55,262] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:55,286] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:55,302] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.042 seconds
+[2022-05-17 05:31:58,311] {scheduler_job.py:182} INFO - Started process (PID=372) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:58,315] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:58,317] {logging_mixin.py:104} INFO - [2022-05-17 05:31:58,316] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:58,322] {logging_mixin.py:104} INFO - [2022-05-17 05:31:58,320] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/test/getAndCheckDB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/getAndCheckDB.py", line 74
+    """ try:
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(EMAIL_USER, EMAIL_PASS)
+            subj = f"BOT DAOTAO PRO VJP 8212 EZ BY LYNN <> {title}"
+            body = f"{content}"
+            message  = f'Subject: {subj}\n\n{body}'
+            server.sendmail(EMAIL_USER, reciver, message)
+            server.close()
+            print ('successfully sent the mail')
+    except:
+        print ("failed to send mail")
+    
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(EMAIL_USER, EMAIL_PASS)
+            subj = f"BOT DAOTAO PRO VJP 8212 EZ BY LYNN <> {title}"
+            body = f"{content}"
+            message  = f'Subject: {subj}\n\n{body}'
+            server.sendmail(EMAIL_USER, reciver, message)
+            server.close()
+            print ('successfully sent the mail')
+            
+                                                           
+                         
+                             
+                                                
+                                                                   
+                               
+                                                   
+                                                         
+                          
+                                                
+           
+                                     
+    
+                                                       
+                         
+                             
+                                                
+                                                                   
+                               
+                                                   
+                                                         
+                          
+                                               ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2022-05-17 05:31:58,323] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:58,357] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.052 seconds
+[2022-05-17 05:31:59,894] {scheduler_job.py:182} INFO - Started process (PID=397) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:59,894] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:31:59,895] {logging_mixin.py:104} INFO - [2022-05-17 05:31:59,895] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:59,918] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:31:59,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.040 seconds
+[2022-05-17 05:32:03,113] {scheduler_job.py:182} INFO - Started process (PID=425) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:32:03,116] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:32:03,117] {logging_mixin.py:104} INFO - [2022-05-17 05:32:03,117] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:32:03,162] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:32:03,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 05:32:33,622] {scheduler_job.py:182} INFO - Started process (PID=480) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:32:33,622] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:32:33,623] {logging_mixin.py:104} INFO - [2022-05-17 05:32:33,622] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:32:33,659] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:32:33,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 05:33:04,016] {scheduler_job.py:182} INFO - Started process (PID=512) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:33:04,017] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:33:04,017] {logging_mixin.py:104} INFO - [2022-05-17 05:33:04,017] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:33:04,049] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:33:04,060] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.046 seconds
+[2022-05-17 05:33:34,594] {scheduler_job.py:182} INFO - Started process (PID=567) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:33:34,595] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:33:34,595] {logging_mixin.py:104} INFO - [2022-05-17 05:33:34,595] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:33:34,640] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:33:34,681] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.089 seconds
+[2022-05-17 05:34:05,412] {scheduler_job.py:182} INFO - Started process (PID=600) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:34:05,414] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:34:05,415] {logging_mixin.py:104} INFO - [2022-05-17 05:34:05,415] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:34:05,458] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:34:05,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.069 seconds
+[2022-05-17 05:34:36,254] {scheduler_job.py:182} INFO - Started process (PID=657) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:34:36,256] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:34:36,258] {logging_mixin.py:104} INFO - [2022-05-17 05:34:36,258] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:34:36,336] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:34:36,369] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.124 seconds
+[2022-05-17 05:35:06,726] {scheduler_job.py:182} INFO - Started process (PID=728) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:35:06,727] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:35:06,727] {logging_mixin.py:104} INFO - [2022-05-17 05:35:06,727] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:35:06,752] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:35:06,763] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 05:35:37,024] {scheduler_job.py:182} INFO - Started process (PID=785) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:35:37,026] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:35:37,027] {logging_mixin.py:104} INFO - [2022-05-17 05:35:37,027] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:35:37,072] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:35:37,083] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 05:36:08,021] {scheduler_job.py:182} INFO - Started process (PID=842) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:36:08,021] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:36:08,022] {logging_mixin.py:104} INFO - [2022-05-17 05:36:08,022] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:36:08,044] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:36:08,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 05:36:38,139] {scheduler_job.py:182} INFO - Started process (PID=899) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:36:38,141] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:36:38,142] {logging_mixin.py:104} INFO - [2022-05-17 05:36:38,142] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:36:38,188] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:36:38,200] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 05:37:08,213] {scheduler_job.py:182} INFO - Started process (PID=956) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:37:08,214] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:37:08,214] {logging_mixin.py:104} INFO - [2022-05-17 05:37:08,214] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:37:08,247] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:37:08,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.049 seconds
+[2022-05-17 05:37:38,295] {scheduler_job.py:182} INFO - Started process (PID=1013) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:37:38,308] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:37:38,309] {logging_mixin.py:104} INFO - [2022-05-17 05:37:38,309] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:37:38,361] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:37:38,372] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.083 seconds
+[2022-05-17 05:38:09,231] {scheduler_job.py:182} INFO - Started process (PID=1070) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:38:09,231] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:38:09,232] {logging_mixin.py:104} INFO - [2022-05-17 05:38:09,232] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:38:09,254] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:38:09,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 05:38:40,104] {scheduler_job.py:182} INFO - Started process (PID=1127) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:38:40,106] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:38:40,107] {logging_mixin.py:104} INFO - [2022-05-17 05:38:40,107] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:38:40,153] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:38:40,165] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 05:39:10,215] {scheduler_job.py:182} INFO - Started process (PID=1184) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:39:10,216] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:39:10,216] {logging_mixin.py:104} INFO - [2022-05-17 05:39:10,216] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:39:10,262] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:39:10,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 05:39:40,384] {scheduler_job.py:182} INFO - Started process (PID=1241) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:39:40,386] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:39:40,387] {logging_mixin.py:104} INFO - [2022-05-17 05:39:40,387] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:39:40,433] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:39:40,445] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 05:40:11,440] {scheduler_job.py:182} INFO - Started process (PID=1312) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:40:11,443] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:40:11,444] {logging_mixin.py:104} INFO - [2022-05-17 05:40:11,444] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:40:11,489] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:40:11,507] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.074 seconds
+[2022-05-17 05:40:42,447] {scheduler_job.py:182} INFO - Started process (PID=1369) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:40:42,449] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:40:42,451] {logging_mixin.py:104} INFO - [2022-05-17 05:40:42,451] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:40:42,515] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:40:42,538] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.101 seconds
+[2022-05-17 05:41:13,462] {scheduler_job.py:182} INFO - Started process (PID=1426) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:41:13,464] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:41:13,467] {logging_mixin.py:104} INFO - [2022-05-17 05:41:13,466] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:41:13,577] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:41:13,610] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.151 seconds
+[2022-05-17 05:41:43,911] {scheduler_job.py:182} INFO - Started process (PID=1483) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:41:43,913] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:41:43,914] {logging_mixin.py:104} INFO - [2022-05-17 05:41:43,914] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:41:43,959] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:41:43,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.066 seconds
+[2022-05-17 05:42:14,190] {scheduler_job.py:182} INFO - Started process (PID=1540) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:42:14,191] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:42:14,191] {logging_mixin.py:104} INFO - [2022-05-17 05:42:14,191] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:42:14,213] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:42:14,226] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 05:42:45,098] {scheduler_job.py:182} INFO - Started process (PID=1597) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:42:45,098] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:42:45,099] {logging_mixin.py:104} INFO - [2022-05-17 05:42:45,099] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:42:45,127] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:42:45,141] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.045 seconds
+[2022-05-17 05:43:15,189] {scheduler_job.py:182} INFO - Started process (PID=1654) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:43:15,191] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:43:15,192] {logging_mixin.py:104} INFO - [2022-05-17 05:43:15,192] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:43:15,239] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:43:15,251] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 05:43:46,196] {scheduler_job.py:182} INFO - Started process (PID=1711) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:43:46,198] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:43:46,200] {logging_mixin.py:104} INFO - [2022-05-17 05:43:46,199] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:43:46,246] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:43:46,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 05:44:16,874] {scheduler_job.py:182} INFO - Started process (PID=1768) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:44:16,876] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:44:16,878] {logging_mixin.py:104} INFO - [2022-05-17 05:44:16,877] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:44:16,923] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:44:16,934] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.066 seconds
+[2022-05-17 05:51:05,328] {scheduler_job.py:182} INFO - Started process (PID=21) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:05,329] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:51:05,330] {logging_mixin.py:104} INFO - [2022-05-17 05:51:05,330] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:05,526] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:05,540] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.214 seconds
+[2022-05-17 05:51:35,775] {scheduler_job.py:182} INFO - Started process (PID=152) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:35,779] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:51:35,780] {logging_mixin.py:104} INFO - [2022-05-17 05:51:35,780] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:35,832] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:35,845] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.075 seconds
+[2022-05-17 05:51:41,979] {scheduler_job.py:182} INFO - Started process (PID=209) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:41,981] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:51:41,982] {logging_mixin.py:104} INFO - [2022-05-17 05:51:41,982] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:42,021] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:42,032] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.059 seconds
+[2022-05-17 05:51:46,023] {scheduler_job.py:182} INFO - Started process (PID=212) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:46,024] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:51:46,024] {logging_mixin.py:104} INFO - [2022-05-17 05:51:46,024] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:46,063] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:51:46,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 05:52:16,615] {scheduler_job.py:182} INFO - Started process (PID=269) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:52:16,616] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:52:16,616] {logging_mixin.py:104} INFO - [2022-05-17 05:52:16,616] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:52:16,640] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:52:16,651] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 05:52:47,398] {scheduler_job.py:182} INFO - Started process (PID=326) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:52:47,399] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:52:47,400] {logging_mixin.py:104} INFO - [2022-05-17 05:52:47,400] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:52:47,441] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:52:47,454] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.059 seconds
+[2022-05-17 05:53:18,115] {scheduler_job.py:182} INFO - Started process (PID=383) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:53:18,118] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:53:18,119] {logging_mixin.py:104} INFO - [2022-05-17 05:53:18,119] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:53:18,162] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:53:18,174] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 05:53:48,937] {scheduler_job.py:182} INFO - Started process (PID=440) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:53:48,937] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:53:48,937] {logging_mixin.py:104} INFO - [2022-05-17 05:53:48,937] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:53:48,963] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:53:48,975] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.040 seconds
+[2022-05-17 05:54:19,742] {scheduler_job.py:182} INFO - Started process (PID=497) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:54:19,743] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:54:19,743] {logging_mixin.py:104} INFO - [2022-05-17 05:54:19,743] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:54:19,767] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:54:19,779] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.038 seconds
+[2022-05-17 05:54:50,337] {scheduler_job.py:182} INFO - Started process (PID=554) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:54:50,337] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:54:50,338] {logging_mixin.py:104} INFO - [2022-05-17 05:54:50,338] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:54:50,359] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:54:50,371] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.035 seconds
+[2022-05-17 05:55:21,149] {scheduler_job.py:182} INFO - Started process (PID=611) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:55:21,151] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:55:21,152] {logging_mixin.py:104} INFO - [2022-05-17 05:55:21,152] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:55:21,204] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:55:21,216] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.072 seconds
+[2022-05-17 05:55:51,866] {scheduler_job.py:182} INFO - Started process (PID=668) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:55:51,867] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:55:51,867] {logging_mixin.py:104} INFO - [2022-05-17 05:55:51,867] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:55:51,889] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:55:51,901] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 05:56:22,726] {scheduler_job.py:182} INFO - Started process (PID=725) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:56:22,728] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:56:22,729] {logging_mixin.py:104} INFO - [2022-05-17 05:56:22,729] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:56:22,776] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:56:22,788] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 05:56:52,837] {scheduler_job.py:182} INFO - Started process (PID=782) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:56:52,837] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:56:52,838] {logging_mixin.py:104} INFO - [2022-05-17 05:56:52,838] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:56:52,860] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:56:52,871] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 05:57:23,633] {scheduler_job.py:182} INFO - Started process (PID=839) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:57:23,636] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:57:23,638] {logging_mixin.py:104} INFO - [2022-05-17 05:57:23,637] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:57:23,678] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:57:23,690] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 05:57:54,571] {scheduler_job.py:182} INFO - Started process (PID=896) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:57:54,573] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:57:54,574] {logging_mixin.py:104} INFO - [2022-05-17 05:57:54,574] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:57:54,622] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:57:54,634] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 05:58:25,355] {scheduler_job.py:182} INFO - Started process (PID=953) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:58:25,357] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:58:25,358] {logging_mixin.py:104} INFO - [2022-05-17 05:58:25,358] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:58:25,404] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:58:25,415] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.066 seconds
+[2022-05-17 05:58:56,152] {scheduler_job.py:182} INFO - Started process (PID=1010) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:58:56,153] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:58:56,153] {logging_mixin.py:104} INFO - [2022-05-17 05:58:56,153] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:58:56,180] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:58:56,197] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.046 seconds
+[2022-05-17 05:59:26,758] {scheduler_job.py:182} INFO - Started process (PID=1067) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:59:26,759] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:59:26,759] {logging_mixin.py:104} INFO - [2022-05-17 05:59:26,759] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:59:26,782] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:59:26,794] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 05:59:57,537] {scheduler_job.py:182} INFO - Started process (PID=1124) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:59:57,539] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 05:59:57,540] {logging_mixin.py:104} INFO - [2022-05-17 05:59:57,540] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:59:57,585] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 05:59:57,597] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 06:00:28,365] {scheduler_job.py:182} INFO - Started process (PID=1181) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:00:28,368] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:00:28,369] {logging_mixin.py:104} INFO - [2022-05-17 06:00:28,369] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:00:28,416] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:00:28,428] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.069 seconds
+[2022-05-17 06:00:59,295] {scheduler_job.py:182} INFO - Started process (PID=1238) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:00:59,297] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:00:59,298] {logging_mixin.py:104} INFO - [2022-05-17 06:00:59,298] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:00:59,343] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:00:59,354] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 06:01:30,123] {scheduler_job.py:182} INFO - Started process (PID=1295) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:01:30,124] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:01:30,124] {logging_mixin.py:104} INFO - [2022-05-17 06:01:30,124] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:01:30,149] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:01:30,160] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 06:02:00,901] {scheduler_job.py:182} INFO - Started process (PID=1352) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:02:00,902] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:02:00,903] {logging_mixin.py:104} INFO - [2022-05-17 06:02:00,903] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:02:00,939] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:02:00,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 06:02:31,652] {scheduler_job.py:182} INFO - Started process (PID=1409) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:02:31,653] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:02:31,654] {logging_mixin.py:104} INFO - [2022-05-17 06:02:31,654] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:02:31,701] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:02:31,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 06:03:02,611] {scheduler_job.py:182} INFO - Started process (PID=1466) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:03:02,612] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:03:02,612] {logging_mixin.py:104} INFO - [2022-05-17 06:03:02,612] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:03:02,634] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:03:02,646] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 06:03:33,553] {scheduler_job.py:182} INFO - Started process (PID=1523) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:03:33,554] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:03:33,554] {logging_mixin.py:104} INFO - [2022-05-17 06:03:33,554] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:03:33,577] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:03:33,589] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 06:04:04,229] {scheduler_job.py:182} INFO - Started process (PID=1580) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:04:04,231] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:04:04,233] {logging_mixin.py:104} INFO - [2022-05-17 06:04:04,232] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:04:04,273] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:04:04,285] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.062 seconds
+[2022-05-17 06:04:35,080] {scheduler_job.py:182} INFO - Started process (PID=1637) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:04:35,081] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:04:35,082] {logging_mixin.py:104} INFO - [2022-05-17 06:04:35,082] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:04:35,115] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:04:35,126] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.052 seconds
+[2022-05-17 06:05:05,947] {scheduler_job.py:182} INFO - Started process (PID=1694) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:05:05,950] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:05:05,951] {logging_mixin.py:104} INFO - [2022-05-17 06:05:05,951] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:05:05,995] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:05:06,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 06:05:36,699] {scheduler_job.py:182} INFO - Started process (PID=1751) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:05:36,699] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:05:36,700] {logging_mixin.py:104} INFO - [2022-05-17 06:05:36,700] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:05:36,743] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:05:36,755] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.057 seconds
+[2022-05-17 06:06:07,423] {scheduler_job.py:182} INFO - Started process (PID=1808) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:06:07,424] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:06:07,424] {logging_mixin.py:104} INFO - [2022-05-17 06:06:07,424] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:06:07,448] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:06:07,456] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.034 seconds
+[2022-05-17 06:06:38,264] {scheduler_job.py:182} INFO - Started process (PID=1865) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:06:38,265] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:06:38,265] {logging_mixin.py:104} INFO - [2022-05-17 06:06:38,265] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:06:38,295] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:06:38,308] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.046 seconds
+[2022-05-17 06:07:09,204] {scheduler_job.py:182} INFO - Started process (PID=1922) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:07:09,205] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:07:09,206] {logging_mixin.py:104} INFO - [2022-05-17 06:07:09,206] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:07:09,231] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:07:09,242] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.040 seconds
+[2022-05-17 06:07:40,163] {scheduler_job.py:182} INFO - Started process (PID=1979) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:07:40,164] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:07:40,164] {logging_mixin.py:104} INFO - [2022-05-17 06:07:40,164] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:07:40,207] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:07:40,219] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.060 seconds
+[2022-05-17 06:08:10,984] {scheduler_job.py:182} INFO - Started process (PID=2036) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:08:10,986] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:08:10,987] {logging_mixin.py:104} INFO - [2022-05-17 06:08:10,987] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:08:11,035] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:08:11,047] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.069 seconds
+[2022-05-17 06:08:41,837] {scheduler_job.py:182} INFO - Started process (PID=2093) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:08:41,838] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:08:41,840] {logging_mixin.py:104} INFO - [2022-05-17 06:08:41,839] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:08:41,888] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:08:41,900] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.070 seconds
+[2022-05-17 06:09:12,578] {scheduler_job.py:182} INFO - Started process (PID=2150) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:09:12,579] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:09:12,580] {logging_mixin.py:104} INFO - [2022-05-17 06:09:12,580] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:09:12,625] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:09:12,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 06:09:43,163] {scheduler_job.py:182} INFO - Started process (PID=2207) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:09:43,164] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:09:43,164] {logging_mixin.py:104} INFO - [2022-05-17 06:09:43,164] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:09:43,196] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:09:43,207] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.046 seconds
+[2022-05-17 06:10:13,449] {scheduler_job.py:182} INFO - Started process (PID=2264) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:10:13,451] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:10:13,452] {logging_mixin.py:104} INFO - [2022-05-17 06:10:13,452] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:10:13,499] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:10:13,512] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 06:10:44,316] {scheduler_job.py:182} INFO - Started process (PID=2321) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:10:44,317] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:10:44,318] {logging_mixin.py:104} INFO - [2022-05-17 06:10:44,317] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:10:44,356] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:10:44,368] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 06:11:15,108] {scheduler_job.py:182} INFO - Started process (PID=2378) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:11:15,109] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:11:15,110] {logging_mixin.py:104} INFO - [2022-05-17 06:11:15,110] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:11:15,153] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:11:15,165] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.062 seconds
+[2022-05-17 06:11:45,898] {scheduler_job.py:182} INFO - Started process (PID=2435) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:11:45,901] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:11:45,902] {logging_mixin.py:104} INFO - [2022-05-17 06:11:45,902] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:11:45,948] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:11:45,959] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 06:12:16,672] {scheduler_job.py:182} INFO - Started process (PID=2492) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:12:16,674] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:12:16,675] {logging_mixin.py:104} INFO - [2022-05-17 06:12:16,675] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:12:16,709] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:12:16,720] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.053 seconds
+[2022-05-17 06:12:47,412] {scheduler_job.py:182} INFO - Started process (PID=2549) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:12:47,413] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:12:47,414] {logging_mixin.py:104} INFO - [2022-05-17 06:12:47,414] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:12:47,449] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:12:47,457] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.049 seconds
+[2022-05-17 06:13:17,790] {scheduler_job.py:182} INFO - Started process (PID=2606) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:13:17,791] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:13:17,791] {logging_mixin.py:104} INFO - [2022-05-17 06:13:17,791] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:13:17,831] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:13:17,841] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 06:13:48,218] {scheduler_job.py:182} INFO - Started process (PID=2663) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:13:48,229] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:13:48,229] {logging_mixin.py:104} INFO - [2022-05-17 06:13:48,229] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:13:48,253] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:13:48,263] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.047 seconds
+[2022-05-17 06:14:20,228] {scheduler_job.py:182} INFO - Started process (PID=2720) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:14:20,229] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:14:20,229] {logging_mixin.py:104} INFO - [2022-05-17 06:14:20,229] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:14:20,252] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:14:20,266] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 06:14:50,876] {scheduler_job.py:182} INFO - Started process (PID=2770) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:14:50,877] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:14:50,877] {logging_mixin.py:104} INFO - [2022-05-17 06:14:50,877] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:14:50,901] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:14:50,912] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.038 seconds
+[2022-05-17 06:15:21,121] {scheduler_job.py:182} INFO - Started process (PID=2827) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:15:21,124] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:15:21,125] {logging_mixin.py:104} INFO - [2022-05-17 06:15:21,125] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:15:21,170] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:15:21,179] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 06:15:51,814] {scheduler_job.py:182} INFO - Started process (PID=2884) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:15:51,814] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:15:51,815] {logging_mixin.py:104} INFO - [2022-05-17 06:15:51,815] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:15:51,839] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:15:51,848] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 06:16:22,493] {scheduler_job.py:182} INFO - Started process (PID=2941) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:16:22,497] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:16:22,498] {logging_mixin.py:104} INFO - [2022-05-17 06:16:22,498] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:16:22,542] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:16:22,551] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 06:16:53,339] {scheduler_job.py:182} INFO - Started process (PID=2998) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:16:53,341] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:16:53,342] {logging_mixin.py:104} INFO - [2022-05-17 06:16:53,342] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:16:53,382] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:16:53,390] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.058 seconds
+[2022-05-17 06:17:23,684] {scheduler_job.py:182} INFO - Started process (PID=3055) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:17:23,686] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:17:23,688] {logging_mixin.py:104} INFO - [2022-05-17 06:17:23,687] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:17:23,760] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:17:23,789] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.110 seconds
+[2022-05-17 06:17:54,452] {scheduler_job.py:182} INFO - Started process (PID=3108) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:17:54,452] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 06:17:54,452] {logging_mixin.py:104} INFO - [2022-05-17 06:17:54,452] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:17:54,475] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 06:17:54,484] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.034 seconds
+[2022-05-17 08:24:41,189] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:24:41,191] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:24:41,191] {logging_mixin.py:104} INFO - [2022-05-17 08:24:41,191] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:24:41,311] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:24:41,324] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.136 seconds
+[2022-05-17 08:25:11,798] {scheduler_job.py:182} INFO - Started process (PID=93) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:25:11,803] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:25:11,803] {logging_mixin.py:104} INFO - [2022-05-17 08:25:11,803] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:25:11,843] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:25:11,859] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 08:25:42,122] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:25:42,123] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:25:42,123] {logging_mixin.py:104} INFO - [2022-05-17 08:25:42,123] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:25:42,148] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:25:42,158] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 08:26:13,074] {scheduler_job.py:182} INFO - Started process (PID=267) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:26:13,075] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:26:13,076] {logging_mixin.py:104} INFO - [2022-05-17 08:26:13,075] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:26:13,106] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:26:13,120] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.048 seconds
+[2022-05-17 08:26:43,450] {scheduler_job.py:182} INFO - Started process (PID=324) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:26:43,451] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:26:43,451] {logging_mixin.py:104} INFO - [2022-05-17 08:26:43,451] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:26:43,482] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:26:43,493] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.046 seconds
+[2022-05-17 08:27:07,162] {scheduler_job.py:182} INFO - Started process (PID=392) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:07,162] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:27:07,163] {logging_mixin.py:104} INFO - [2022-05-17 08:27:07,163] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:07,188] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:07,199] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 08:27:09,168] {scheduler_job.py:182} INFO - Started process (PID=395) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:09,168] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:27:09,169] {logging_mixin.py:104} INFO - [2022-05-17 08:27:09,169] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:09,193] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:09,204] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.038 seconds
+[2022-05-17 08:27:39,841] {scheduler_job.py:182} INFO - Started process (PID=452) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:39,841] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:27:39,841] {logging_mixin.py:104} INFO - [2022-05-17 08:27:39,841] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:39,902] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:27:39,914] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.075 seconds
+[2022-05-17 08:28:10,195] {scheduler_job.py:182} INFO - Started process (PID=509) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:28:10,197] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:28:10,198] {logging_mixin.py:104} INFO - [2022-05-17 08:28:10,198] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:28:10,256] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:28:10,266] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.079 seconds
+[2022-05-17 08:28:40,447] {scheduler_job.py:182} INFO - Started process (PID=566) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:28:40,449] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:28:40,450] {logging_mixin.py:104} INFO - [2022-05-17 08:28:40,450] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:28:40,500] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:28:40,508] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 08:29:10,648] {scheduler_job.py:182} INFO - Started process (PID=678) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:29:10,649] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:29:10,649] {logging_mixin.py:104} INFO - [2022-05-17 08:29:10,649] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:29:10,675] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:29:10,684] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 08:29:41,543] {scheduler_job.py:182} INFO - Started process (PID=768) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:29:41,543] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:29:41,544] {logging_mixin.py:104} INFO - [2022-05-17 08:29:41,544] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:29:41,602] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:29:41,629] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.088 seconds
+[2022-05-17 08:30:12,104] {scheduler_job.py:182} INFO - Started process (PID=856) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:30:12,104] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:30:12,105] {logging_mixin.py:104} INFO - [2022-05-17 08:30:12,105] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:30:12,127] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:30:12,136] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.033 seconds
+[2022-05-17 08:30:42,256] {scheduler_job.py:182} INFO - Started process (PID=919) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:30:42,258] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:30:42,260] {logging_mixin.py:104} INFO - [2022-05-17 08:30:42,260] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:30:42,302] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:30:42,310] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.061 seconds
+[2022-05-17 08:31:12,492] {scheduler_job.py:182} INFO - Started process (PID=976) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:31:12,493] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:31:12,493] {logging_mixin.py:104} INFO - [2022-05-17 08:31:12,493] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:31:12,516] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:31:12,525] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.034 seconds
+[2022-05-17 08:31:42,671] {scheduler_job.py:182} INFO - Started process (PID=1033) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:31:42,673] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:31:42,674] {logging_mixin.py:104} INFO - [2022-05-17 08:31:42,674] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:31:42,702] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:31:42,712] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.045 seconds
+[2022-05-17 08:32:12,876] {scheduler_job.py:182} INFO - Started process (PID=1090) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:32:12,878] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:32:12,879] {logging_mixin.py:104} INFO - [2022-05-17 08:32:12,879] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:32:12,925] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:32:12,934] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 08:32:43,739] {scheduler_job.py:182} INFO - Started process (PID=1147) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:32:43,741] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:32:43,743] {logging_mixin.py:104} INFO - [2022-05-17 08:32:43,742] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:32:43,790] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:32:43,799] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 08:33:14,313] {scheduler_job.py:182} INFO - Started process (PID=1204) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:33:14,314] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:33:14,316] {logging_mixin.py:104} INFO - [2022-05-17 08:33:14,315] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:33:14,350] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:33:14,360] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.054 seconds
+[2022-05-17 08:33:45,379] {scheduler_job.py:182} INFO - Started process (PID=1261) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:33:45,381] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:33:45,382] {logging_mixin.py:104} INFO - [2022-05-17 08:33:45,381] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:33:45,427] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:33:45,437] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 08:34:16,209] {scheduler_job.py:182} INFO - Started process (PID=1318) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:34:16,211] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:34:16,213] {logging_mixin.py:104} INFO - [2022-05-17 08:34:16,212] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:34:16,256] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:34:16,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.062 seconds
+[2022-05-17 08:34:46,960] {scheduler_job.py:182} INFO - Started process (PID=1375) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:34:46,963] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:34:46,964] {logging_mixin.py:104} INFO - [2022-05-17 08:34:46,964] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:34:47,018] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:34:47,027] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.073 seconds
+[2022-05-17 08:35:18,008] {scheduler_job.py:182} INFO - Started process (PID=1469) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:35:18,010] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:35:18,011] {logging_mixin.py:104} INFO - [2022-05-17 08:35:18,011] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:35:18,060] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:35:18,068] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.066 seconds
+[2022-05-17 08:35:48,962] {scheduler_job.py:182} INFO - Started process (PID=1526) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:35:48,965] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:35:48,965] {logging_mixin.py:104} INFO - [2022-05-17 08:35:48,965] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:35:49,005] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:35:49,013] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.055 seconds
+[2022-05-17 08:36:19,819] {scheduler_job.py:182} INFO - Started process (PID=1583) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:36:19,821] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:36:19,822] {logging_mixin.py:104} INFO - [2022-05-17 08:36:19,822] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:36:19,869] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:36:19,878] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:36:50,723] {scheduler_job.py:182} INFO - Started process (PID=1640) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:36:50,724] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:36:50,726] {logging_mixin.py:104} INFO - [2022-05-17 08:36:50,725] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:36:50,769] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:36:50,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.061 seconds
+[2022-05-17 08:37:21,586] {scheduler_job.py:182} INFO - Started process (PID=1697) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:37:21,586] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:37:21,586] {logging_mixin.py:104} INFO - [2022-05-17 08:37:21,586] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:37:21,611] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:37:21,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 08:37:52,080] {scheduler_job.py:182} INFO - Started process (PID=1754) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:37:52,082] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:37:52,084] {logging_mixin.py:104} INFO - [2022-05-17 08:37:52,083] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:37:52,130] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:37:52,138] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 08:38:22,215] {scheduler_job.py:182} INFO - Started process (PID=1811) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:38:22,217] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:38:22,217] {logging_mixin.py:104} INFO - [2022-05-17 08:38:22,217] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:38:22,250] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:38:22,267] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.056 seconds
+[2022-05-17 08:38:52,327] {scheduler_job.py:182} INFO - Started process (PID=1868) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:38:52,339] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:38:52,339] {logging_mixin.py:104} INFO - [2022-05-17 08:38:52,339] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:38:52,364] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:38:52,372] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.046 seconds
+[2022-05-17 08:39:23,128] {scheduler_job.py:182} INFO - Started process (PID=1925) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:39:23,129] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:39:23,129] {logging_mixin.py:104} INFO - [2022-05-17 08:39:23,129] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:39:23,175] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:39:23,194] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 08:39:53,944] {scheduler_job.py:182} INFO - Started process (PID=1982) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:39:53,946] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:39:53,947] {logging_mixin.py:104} INFO - [2022-05-17 08:39:53,947] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:39:54,025] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:39:54,059] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.125 seconds
+[2022-05-17 08:40:24,124] {scheduler_job.py:182} INFO - Started process (PID=2076) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:40:24,138] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:40:24,139] {logging_mixin.py:104} INFO - [2022-05-17 08:40:24,139] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:40:24,188] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:40:24,197] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.079 seconds
+[2022-05-17 08:40:55,076] {scheduler_job.py:182} INFO - Started process (PID=2133) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:40:55,077] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:40:55,078] {logging_mixin.py:104} INFO - [2022-05-17 08:40:55,078] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:40:55,117] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:40:55,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.070 seconds
+[2022-05-17 08:41:25,507] {scheduler_job.py:182} INFO - Started process (PID=2190) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:41:25,509] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:41:25,510] {logging_mixin.py:104} INFO - [2022-05-17 08:41:25,510] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:41:25,579] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:41:25,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.086 seconds
+[2022-05-17 08:41:56,355] {scheduler_job.py:182} INFO - Started process (PID=2247) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:41:56,356] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:41:56,356] {logging_mixin.py:104} INFO - [2022-05-17 08:41:56,356] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:41:56,382] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:41:56,392] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 08:42:26,722] {scheduler_job.py:182} INFO - Started process (PID=2304) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:42:26,723] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:42:26,725] {logging_mixin.py:104} INFO - [2022-05-17 08:42:26,724] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:42:26,773] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:42:26,784] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 08:42:57,299] {scheduler_job.py:182} INFO - Started process (PID=2361) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:42:57,299] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:42:57,300] {logging_mixin.py:104} INFO - [2022-05-17 08:42:57,299] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:42:57,324] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:42:57,333] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.036 seconds
+[2022-05-17 08:43:27,370] {scheduler_job.py:182} INFO - Started process (PID=2418) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:43:27,372] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:43:27,372] {logging_mixin.py:104} INFO - [2022-05-17 08:43:27,372] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:43:27,402] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:43:27,411] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.043 seconds
+[2022-05-17 08:43:58,222] {scheduler_job.py:182} INFO - Started process (PID=2475) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:43:58,224] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:43:58,225] {logging_mixin.py:104} INFO - [2022-05-17 08:43:58,225] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:43:58,274] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:43:58,282] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.067 seconds
+[2022-05-17 08:44:28,593] {scheduler_job.py:182} INFO - Started process (PID=2532) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:44:28,595] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:44:28,596] {logging_mixin.py:104} INFO - [2022-05-17 08:44:28,596] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:44:28,641] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:44:28,651] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:44:58,989] {scheduler_job.py:182} INFO - Started process (PID=2589) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:44:58,990] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:44:58,992] {logging_mixin.py:104} INFO - [2022-05-17 08:44:58,991] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:44:59,028] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:44:59,037] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.052 seconds
+[2022-05-17 08:45:29,597] {scheduler_job.py:182} INFO - Started process (PID=2683) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:45:29,617] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:45:29,620] {logging_mixin.py:104} INFO - [2022-05-17 08:45:29,619] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:45:29,674] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:45:29,682] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.089 seconds
+[2022-05-17 08:45:59,800] {scheduler_job.py:182} INFO - Started process (PID=2740) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:45:59,802] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:45:59,802] {logging_mixin.py:104} INFO - [2022-05-17 08:45:59,802] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:45:59,844] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:45:59,856] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.060 seconds
+[2022-05-17 08:46:30,318] {scheduler_job.py:182} INFO - Started process (PID=2797) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:46:30,320] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:46:30,321] {logging_mixin.py:104} INFO - [2022-05-17 08:46:30,321] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:46:30,359] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:46:30,369] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.058 seconds
+[2022-05-17 08:47:00,941] {scheduler_job.py:182} INFO - Started process (PID=2854) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:47:00,943] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:47:00,944] {logging_mixin.py:104} INFO - [2022-05-17 08:47:00,944] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:47:00,990] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:47:01,000] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:47:31,720] {scheduler_job.py:182} INFO - Started process (PID=2911) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:47:31,722] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:47:31,723] {logging_mixin.py:104} INFO - [2022-05-17 08:47:31,723] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:47:31,772] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:47:31,781] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.066 seconds
+[2022-05-17 08:48:02,619] {scheduler_job.py:182} INFO - Started process (PID=2968) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:48:02,621] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:48:02,622] {logging_mixin.py:104} INFO - [2022-05-17 08:48:02,622] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:48:02,660] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:48:02,669] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.056 seconds
+[2022-05-17 08:48:32,986] {scheduler_job.py:182} INFO - Started process (PID=3025) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:48:32,989] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:48:32,990] {logging_mixin.py:104} INFO - [2022-05-17 08:48:32,990] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:48:33,037] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:48:33,045] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.066 seconds
+[2022-05-17 08:49:03,919] {scheduler_job.py:182} INFO - Started process (PID=3082) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:49:03,921] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:49:03,922] {logging_mixin.py:104} INFO - [2022-05-17 08:49:03,922] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:49:03,968] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:49:03,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:49:34,803] {scheduler_job.py:182} INFO - Started process (PID=3139) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:49:34,805] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:49:34,806] {logging_mixin.py:104} INFO - [2022-05-17 08:49:34,806] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:49:34,851] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:49:34,861] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:50:05,717] {scheduler_job.py:182} INFO - Started process (PID=3210) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:50:05,720] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:50:05,721] {logging_mixin.py:104} INFO - [2022-05-17 08:50:05,721] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:50:05,765] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:50:05,774] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:50:36,507] {scheduler_job.py:182} INFO - Started process (PID=3290) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:50:36,509] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:50:36,510] {logging_mixin.py:104} INFO - [2022-05-17 08:50:36,510] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:50:36,554] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:50:36,563] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.062 seconds
+[2022-05-17 08:51:07,420] {scheduler_job.py:182} INFO - Started process (PID=3347) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:51:07,422] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:51:07,423] {logging_mixin.py:104} INFO - [2022-05-17 08:51:07,423] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:51:07,469] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:51:07,478] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:51:38,366] {scheduler_job.py:182} INFO - Started process (PID=3404) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:51:38,368] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:51:38,369] {logging_mixin.py:104} INFO - [2022-05-17 08:51:38,369] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:51:38,414] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:51:38,422] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 08:52:08,454] {scheduler_job.py:182} INFO - Started process (PID=3461) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:52:08,455] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:52:08,455] {logging_mixin.py:104} INFO - [2022-05-17 08:52:08,455] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:52:08,500] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:52:08,509] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.056 seconds
+[2022-05-17 08:52:38,541] {scheduler_job.py:182} INFO - Started process (PID=3497) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:52:38,543] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:52:38,545] {logging_mixin.py:104} INFO - [2022-05-17 08:52:38,544] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:52:38,594] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:52:38,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.068 seconds
+[2022-05-17 08:53:09,464] {scheduler_job.py:182} INFO - Started process (PID=3554) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:53:09,468] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:53:09,469] {logging_mixin.py:104} INFO - [2022-05-17 08:53:09,469] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:53:09,514] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:53:09,523] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.065 seconds
+[2022-05-17 08:53:40,221] {scheduler_job.py:182} INFO - Started process (PID=3611) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:53:40,223] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:53:40,224] {logging_mixin.py:104} INFO - [2022-05-17 08:53:40,224] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:53:40,269] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:53:40,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 08:54:11,062] {scheduler_job.py:182} INFO - Started process (PID=3668) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:54:11,064] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:54:11,065] {logging_mixin.py:104} INFO - [2022-05-17 08:54:11,065] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:54:11,112] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:54:11,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.069 seconds
+[2022-05-17 08:54:41,802] {scheduler_job.py:182} INFO - Started process (PID=3725) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:54:41,803] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:54:41,804] {logging_mixin.py:104} INFO - [2022-05-17 08:54:41,803] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:54:41,834] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:54:41,848] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.047 seconds
+[2022-05-17 08:55:12,557] {scheduler_job.py:182} INFO - Started process (PID=3798) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:55:12,557] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:55:12,558] {logging_mixin.py:104} INFO - [2022-05-17 08:55:12,558] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:55:12,583] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:55:12,592] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.037 seconds
+[2022-05-17 08:55:43,493] {scheduler_job.py:182} INFO - Started process (PID=3876) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:55:43,495] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:55:43,497] {logging_mixin.py:104} INFO - [2022-05-17 08:55:43,496] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:55:43,541] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:55:43,550] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:56:14,347] {scheduler_job.py:182} INFO - Started process (PID=3933) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:56:14,349] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:56:14,350] {logging_mixin.py:104} INFO - [2022-05-17 08:56:14,350] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:56:14,396] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:56:14,405] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.064 seconds
+[2022-05-17 08:56:44,505] {scheduler_job.py:182} INFO - Started process (PID=3990) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:56:44,506] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:56:44,506] {logging_mixin.py:104} INFO - [2022-05-17 08:56:44,506] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:56:44,532] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:56:44,542] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 08:57:14,681] {scheduler_job.py:182} INFO - Started process (PID=4020) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:57:14,681] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:57:14,682] {logging_mixin.py:104} INFO - [2022-05-17 08:57:14,682] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:57:14,707] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:57:14,718] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.039 seconds
+[2022-05-17 08:57:44,838] {scheduler_job.py:182} INFO - Started process (PID=4076) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:57:44,839] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:57:44,840] {logging_mixin.py:104} INFO - [2022-05-17 08:57:44,840] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:57:44,870] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:57:44,879] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.042 seconds
+[2022-05-17 08:58:15,825] {scheduler_job.py:182} INFO - Started process (PID=4133) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:58:15,826] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:58:15,826] {logging_mixin.py:104} INFO - [2022-05-17 08:58:15,826] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:58:15,865] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:58:15,877] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.053 seconds
+[2022-05-17 08:58:46,585] {scheduler_job.py:182} INFO - Started process (PID=4190) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:58:46,606] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:58:46,607] {logging_mixin.py:104} INFO - [2022-05-17 08:58:46,607] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:58:46,803] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:58:46,812] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.229 seconds
+[2022-05-17 08:59:17,112] {scheduler_job.py:182} INFO - Started process (PID=4247) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:59:17,113] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:59:17,114] {logging_mixin.py:104} INFO - [2022-05-17 08:59:17,114] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:59:17,147] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:59:17,157] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.047 seconds
+[2022-05-17 08:59:47,265] {scheduler_job.py:182} INFO - Started process (PID=4304) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:59:47,265] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 08:59:47,266] {logging_mixin.py:104} INFO - [2022-05-17 08:59:47,266] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:59:47,293] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 08:59:47,303] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.040 seconds
+[2022-05-17 09:00:17,431] {scheduler_job.py:182} INFO - Started process (PID=4389) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:00:17,436] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 09:00:17,437] {logging_mixin.py:104} INFO - [2022-05-17 09:00:17,436] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:00:17,472] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:00:17,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.054 seconds
+[2022-05-17 09:00:47,767] {scheduler_job.py:182} INFO - Started process (PID=4455) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:00:47,778] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 09:00:47,778] {logging_mixin.py:104} INFO - [2022-05-17 09:00:47,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:00:47,805] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:00:47,815] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.050 seconds
+[2022-05-17 09:01:17,958] {scheduler_job.py:182} INFO - Started process (PID=4512) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:01:17,958] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 09:01:17,959] {logging_mixin.py:104} INFO - [2022-05-17 09:01:17,959] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:01:18,008] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:01:18,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.069 seconds
+[2022-05-17 09:01:48,980] {scheduler_job.py:182} INFO - Started process (PID=4569) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:01:48,986] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 09:01:48,987] {logging_mixin.py:104} INFO - [2022-05-17 09:01:48,987] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:01:49,029] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 09:01:49,041] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.063 seconds
+[2022-05-17 10:26:26,590] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:26:26,591] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:26:26,592] {logging_mixin.py:104} INFO - [2022-05-17 10:26:26,592] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:26:26,663] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:26:26,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.089 seconds
+[2022-05-17 10:26:56,767] {scheduler_job.py:182} INFO - Started process (PID=79) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:26:56,773] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:26:56,774] {logging_mixin.py:104} INFO - [2022-05-17 10:26:56,774] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:26:57,011] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:26:57,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.260 seconds
+[2022-05-17 10:27:27,290] {scheduler_job.py:182} INFO - Started process (PID=136) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:27:27,290] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:27:27,291] {logging_mixin.py:104} INFO - [2022-05-17 10:27:27,291] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:27:27,323] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:27:27,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.048 seconds
+[2022-05-17 10:27:58,029] {scheduler_job.py:182} INFO - Started process (PID=193) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:27:58,030] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:27:58,031] {logging_mixin.py:104} INFO - [2022-05-17 10:27:58,031] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:27:58,062] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:27:58,075] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.048 seconds
+[2022-05-17 10:28:28,605] {scheduler_job.py:182} INFO - Started process (PID=250) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:28:28,616] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:28:28,616] {logging_mixin.py:104} INFO - [2022-05-17 10:28:28,616] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:28:28,641] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:28:28,653] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.050 seconds
+[2022-05-17 10:28:59,379] {scheduler_job.py:182} INFO - Started process (PID=307) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:28:59,379] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:28:59,380] {logging_mixin.py:104} INFO - [2022-05-17 10:28:59,379] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:28:59,448] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:28:59,460] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.084 seconds
+[2022-05-17 10:29:30,025] {scheduler_job.py:182} INFO - Started process (PID=364) to work on /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:29:30,036] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getAndCheckDB.py for tasks to queue
+[2022-05-17 10:29:30,037] {logging_mixin.py:104} INFO - [2022-05-17 10:29:30,037] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:29:30,070] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getAndCheckDB.py
+[2022-05-17 10:29:30,084] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getAndCheckDB.py took 0.061 seconds

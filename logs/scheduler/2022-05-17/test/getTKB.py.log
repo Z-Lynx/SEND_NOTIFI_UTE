@@ -1,0 +1,901 @@
+[2022-05-17 05:29:54,925] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:29:54,925] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:29:54,926] {logging_mixin.py:104} INFO - [2022-05-17 05:29:54,926] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:29:55,923] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:29:55,958] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.036 seconds
+[2022-05-17 05:30:26,144] {scheduler_job.py:182} INFO - Started process (PID=163) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:30:26,145] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:30:26,145] {logging_mixin.py:104} INFO - [2022-05-17 05:30:26,145] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:30:27,429] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:30:27,447] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.309 seconds
+[2022-05-17 05:30:57,489] {scheduler_job.py:182} INFO - Started process (PID=250) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:30:57,490] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:30:57,490] {logging_mixin.py:104} INFO - [2022-05-17 05:30:57,490] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:30:58,056] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:30:58,069] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.586 seconds
+[2022-05-17 05:31:28,662] {scheduler_job.py:182} INFO - Started process (PID=307) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:31:28,664] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:31:28,666] {logging_mixin.py:104} INFO - [2022-05-17 05:31:28,665] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:31:29,094] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:31:29,106] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.449 seconds
+[2022-05-17 05:31:59,325] {scheduler_job.py:182} INFO - Started process (PID=373) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:31:59,326] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:31:59,326] {logging_mixin.py:104} INFO - [2022-05-17 05:31:59,326] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:31:59,728] {logging_mixin.py:104} INFO - [2022-05-17 05:31:59,727] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/test/getTKB.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/getTKB.py", line 10, in <module>
+    from getAndCheckDB import *
+  File "/opt/airflow/dags/test/getAndCheckDB.py", line 74
+    """ try:
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(EMAIL_USER, EMAIL_PASS)
+            subj = f"BOT DAOTAO PRO VJP 8212 EZ BY LYNN <> {title}"
+            body = f"{content}"
+            message  = f'Subject: {subj}\n\n{body}'
+            server.sendmail(EMAIL_USER, reciver, message)
+            server.close()
+            print ('successfully sent the mail')
+    except:
+        print ("failed to send mail")
+    
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(EMAIL_USER, EMAIL_PASS)
+            subj = f"BOT DAOTAO PRO VJP 8212 EZ BY LYNN <> {title}"
+            body = f"{content}"
+            message  = f'Subject: {subj}\n\n{body}'
+            server.sendmail(EMAIL_USER, reciver, message)
+            server.close()
+            print ('successfully sent the mail')
+            
+                                                           
+                         
+                             
+                                                
+                                                                   
+                               
+                                                   
+                                                         
+                          
+                                                
+           
+                                     
+    
+                                                       
+                         
+                             
+                                                
+                                                                   
+                               
+                                                   
+                                                         
+                          
+                                               ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2022-05-17 05:31:59,729] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:31:59,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.420 seconds
+[2022-05-17 05:32:30,293] {scheduler_job.py:182} INFO - Started process (PID=429) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:32:30,295] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:32:30,295] {logging_mixin.py:104} INFO - [2022-05-17 05:32:30,295] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:32:30,819] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:32:30,835] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.548 seconds
+[2022-05-17 05:33:00,941] {scheduler_job.py:182} INFO - Started process (PID=486) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:33:00,968] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:33:00,970] {logging_mixin.py:104} INFO - [2022-05-17 05:33:00,970] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:33:03,722] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:33:03,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 2.805 seconds
+[2022-05-17 05:33:34,007] {scheduler_job.py:182} INFO - Started process (PID=543) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:33:34,009] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:33:34,010] {logging_mixin.py:104} INFO - [2022-05-17 05:33:34,010] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:33:34,516] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:33:34,526] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.526 seconds
+[2022-05-17 05:34:05,418] {scheduler_job.py:182} INFO - Started process (PID=601) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:34:05,420] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:34:05,421] {logging_mixin.py:104} INFO - [2022-05-17 05:34:05,421] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:34:06,403] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:34:06,438] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.026 seconds
+[2022-05-17 05:34:37,267] {scheduler_job.py:182} INFO - Started process (PID=660) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:34:37,269] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:34:37,270] {logging_mixin.py:104} INFO - [2022-05-17 05:34:37,270] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:34:37,780] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:34:37,792] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.532 seconds
+[2022-05-17 05:35:08,733] {scheduler_job.py:182} INFO - Started process (PID=731) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:35:08,734] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:35:08,734] {logging_mixin.py:104} INFO - [2022-05-17 05:35:08,734] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:35:09,133] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:35:09,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.416 seconds
+[2022-05-17 05:35:40,055] {scheduler_job.py:182} INFO - Started process (PID=788) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:35:40,057] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:35:40,058] {logging_mixin.py:104} INFO - [2022-05-17 05:35:40,058] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:35:40,560] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:35:40,575] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.529 seconds
+[2022-05-17 05:36:11,039] {scheduler_job.py:182} INFO - Started process (PID=845) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:36:11,040] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:36:11,041] {logging_mixin.py:104} INFO - [2022-05-17 05:36:11,040] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:36:11,429] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:36:11,443] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.405 seconds
+[2022-05-17 05:36:42,175] {scheduler_job.py:182} INFO - Started process (PID=902) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:36:42,176] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:36:42,177] {logging_mixin.py:104} INFO - [2022-05-17 05:36:42,177] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:36:42,605] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:36:42,619] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.449 seconds
+[2022-05-17 05:37:13,261] {scheduler_job.py:182} INFO - Started process (PID=959) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:37:13,262] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:37:13,263] {logging_mixin.py:104} INFO - [2022-05-17 05:37:13,263] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:37:13,664] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:37:13,678] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.422 seconds
+[2022-05-17 05:37:44,316] {scheduler_job.py:182} INFO - Started process (PID=1016) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:37:44,316] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:37:44,316] {logging_mixin.py:104} INFO - [2022-05-17 05:37:44,316] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:37:44,786] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:37:44,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.486 seconds
+[2022-05-17 05:38:15,284] {scheduler_job.py:182} INFO - Started process (PID=1073) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:38:15,286] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:38:15,287] {logging_mixin.py:104} INFO - [2022-05-17 05:38:15,287] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:38:15,703] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:38:15,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.444 seconds
+[2022-05-17 05:38:46,151] {scheduler_job.py:182} INFO - Started process (PID=1130) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:38:46,153] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:38:46,155] {logging_mixin.py:104} INFO - [2022-05-17 05:38:46,154] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:38:46,585] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:38:46,597] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.452 seconds
+[2022-05-17 05:39:17,255] {scheduler_job.py:182} INFO - Started process (PID=1187) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:39:17,258] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:39:17,259] {logging_mixin.py:104} INFO - [2022-05-17 05:39:17,259] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:39:17,806] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:39:17,822] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.574 seconds
+[2022-05-17 05:39:48,427] {scheduler_job.py:182} INFO - Started process (PID=1244) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:39:48,427] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:39:48,428] {logging_mixin.py:104} INFO - [2022-05-17 05:39:48,428] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:39:48,834] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:39:48,846] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.421 seconds
+[2022-05-17 05:40:19,480] {scheduler_job.py:182} INFO - Started process (PID=1315) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:40:19,482] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:40:19,483] {logging_mixin.py:104} INFO - [2022-05-17 05:40:19,483] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:40:19,977] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:40:19,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.516 seconds
+[2022-05-17 05:40:50,491] {scheduler_job.py:182} INFO - Started process (PID=1372) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:40:50,492] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:40:50,493] {logging_mixin.py:104} INFO - [2022-05-17 05:40:50,493] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:40:51,008] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:40:51,022] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.536 seconds
+[2022-05-17 05:41:21,509] {scheduler_job.py:182} INFO - Started process (PID=1429) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:41:21,511] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:41:21,513] {logging_mixin.py:104} INFO - [2022-05-17 05:41:21,512] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:41:21,943] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:41:21,958] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.456 seconds
+[2022-05-17 05:41:52,017] {scheduler_job.py:182} INFO - Started process (PID=1486) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:41:52,019] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:41:52,020] {logging_mixin.py:104} INFO - [2022-05-17 05:41:52,020] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:41:52,402] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:41:52,413] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.402 seconds
+[2022-05-17 05:42:23,259] {scheduler_job.py:182} INFO - Started process (PID=1543) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:42:23,260] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:42:23,262] {logging_mixin.py:104} INFO - [2022-05-17 05:42:23,261] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:42:23,678] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:42:23,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.439 seconds
+[2022-05-17 05:42:54,167] {scheduler_job.py:182} INFO - Started process (PID=1600) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:42:54,169] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:42:54,170] {logging_mixin.py:104} INFO - [2022-05-17 05:42:54,169] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:42:54,753] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:42:54,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.605 seconds
+[2022-05-17 05:43:25,249] {scheduler_job.py:182} INFO - Started process (PID=1657) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:43:25,250] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:43:25,251] {logging_mixin.py:104} INFO - [2022-05-17 05:43:25,250] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:43:25,763] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:43:25,778] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.533 seconds
+[2022-05-17 05:43:56,315] {scheduler_job.py:182} INFO - Started process (PID=1714) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:43:56,318] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:43:56,320] {logging_mixin.py:104} INFO - [2022-05-17 05:43:56,319] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:43:56,819] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:43:56,843] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.534 seconds
+[2022-05-17 05:51:05,327] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:51:05,327] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:51:05,328] {logging_mixin.py:104} INFO - [2022-05-17 05:51:05,328] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:51:06,835] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:51:06,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.529 seconds
+[2022-05-17 05:51:37,793] {scheduler_job.py:182} INFO - Started process (PID=155) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:51:37,795] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:51:37,795] {logging_mixin.py:104} INFO - [2022-05-17 05:51:37,795] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:51:38,228] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:51:38,241] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.452 seconds
+[2022-05-17 05:52:09,173] {scheduler_job.py:182} INFO - Started process (PID=215) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:52:09,175] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:52:09,176] {logging_mixin.py:104} INFO - [2022-05-17 05:52:09,176] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:52:09,994] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:52:10,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.839 seconds
+[2022-05-17 05:52:40,753] {scheduler_job.py:182} INFO - Started process (PID=272) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:52:40,755] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:52:40,756] {logging_mixin.py:104} INFO - [2022-05-17 05:52:40,756] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:52:41,206] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:52:41,220] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.473 seconds
+[2022-05-17 05:53:11,521] {scheduler_job.py:182} INFO - Started process (PID=329) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:53:11,522] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:53:11,522] {logging_mixin.py:104} INFO - [2022-05-17 05:53:11,522] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:53:11,911] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:53:11,923] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.404 seconds
+[2022-05-17 05:53:42,267] {scheduler_job.py:182} INFO - Started process (PID=386) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:53:42,269] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:53:42,270] {logging_mixin.py:104} INFO - [2022-05-17 05:53:42,270] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:53:42,678] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:53:42,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.431 seconds
+[2022-05-17 05:54:13,083] {scheduler_job.py:182} INFO - Started process (PID=443) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:54:13,085] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:54:13,086] {logging_mixin.py:104} INFO - [2022-05-17 05:54:13,086] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:54:13,502] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:54:13,514] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.438 seconds
+[2022-05-17 05:54:43,871] {scheduler_job.py:182} INFO - Started process (PID=500) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:54:43,871] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:54:43,872] {logging_mixin.py:104} INFO - [2022-05-17 05:54:43,872] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:54:44,297] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:54:44,311] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.442 seconds
+[2022-05-17 05:55:14,487] {scheduler_job.py:182} INFO - Started process (PID=557) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:55:14,490] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:55:14,491] {logging_mixin.py:104} INFO - [2022-05-17 05:55:14,491] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:55:14,906] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:55:14,920] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.439 seconds
+[2022-05-17 05:55:45,270] {scheduler_job.py:182} INFO - Started process (PID=614) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:55:45,270] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:55:45,271] {logging_mixin.py:104} INFO - [2022-05-17 05:55:45,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:55:45,673] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:55:45,686] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.418 seconds
+[2022-05-17 05:56:16,068] {scheduler_job.py:182} INFO - Started process (PID=671) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:56:16,069] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:56:16,069] {logging_mixin.py:104} INFO - [2022-05-17 05:56:16,069] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:56:16,457] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:56:16,468] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.402 seconds
+[2022-05-17 05:56:46,867] {scheduler_job.py:182} INFO - Started process (PID=728) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:56:46,869] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:56:46,871] {logging_mixin.py:104} INFO - [2022-05-17 05:56:46,870] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:56:47,293] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:56:47,304] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.443 seconds
+[2022-05-17 05:57:17,975] {scheduler_job.py:182} INFO - Started process (PID=785) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:57:17,979] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:57:17,980] {logging_mixin.py:104} INFO - [2022-05-17 05:57:17,980] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:57:18,409] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:57:18,420] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.452 seconds
+[2022-05-17 05:57:48,768] {scheduler_job.py:182} INFO - Started process (PID=842) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:57:48,770] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:57:48,771] {logging_mixin.py:104} INFO - [2022-05-17 05:57:48,771] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:57:49,187] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:57:49,203] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.441 seconds
+[2022-05-17 05:58:19,722] {scheduler_job.py:182} INFO - Started process (PID=899) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:58:19,723] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:58:19,725] {logging_mixin.py:104} INFO - [2022-05-17 05:58:19,724] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:58:20,135] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:58:20,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.432 seconds
+[2022-05-17 05:58:50,508] {scheduler_job.py:182} INFO - Started process (PID=956) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:58:50,510] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:58:50,511] {logging_mixin.py:104} INFO - [2022-05-17 05:58:50,511] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:58:50,925] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:58:50,937] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.435 seconds
+[2022-05-17 05:59:21,312] {scheduler_job.py:182} INFO - Started process (PID=1013) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:59:21,314] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:59:21,316] {logging_mixin.py:104} INFO - [2022-05-17 05:59:21,315] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:59:21,725] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:59:21,739] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.433 seconds
+[2022-05-17 05:59:51,902] {scheduler_job.py:182} INFO - Started process (PID=1070) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:59:51,903] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 05:59:51,903] {logging_mixin.py:104} INFO - [2022-05-17 05:59:51,903] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:59:52,301] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 05:59:52,315] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.415 seconds
+[2022-05-17 06:00:22,676] {scheduler_job.py:182} INFO - Started process (PID=1127) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:00:22,677] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:00:22,677] {logging_mixin.py:104} INFO - [2022-05-17 06:00:22,677] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:00:23,065] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:00:23,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.400 seconds
+[2022-05-17 06:00:53,508] {scheduler_job.py:182} INFO - Started process (PID=1184) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:00:53,510] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:00:53,511] {logging_mixin.py:104} INFO - [2022-05-17 06:00:53,511] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:00:53,954] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:00:53,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.468 seconds
+[2022-05-17 06:01:24,469] {scheduler_job.py:182} INFO - Started process (PID=1241) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:01:24,470] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:01:24,470] {logging_mixin.py:104} INFO - [2022-05-17 06:01:24,470] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:01:24,869] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:01:24,882] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.415 seconds
+[2022-05-17 06:01:55,268] {scheduler_job.py:182} INFO - Started process (PID=1298) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:01:55,270] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:01:55,271] {logging_mixin.py:104} INFO - [2022-05-17 06:01:55,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:01:55,679] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:01:55,691] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.430 seconds
+[2022-05-17 06:02:26,040] {scheduler_job.py:182} INFO - Started process (PID=1355) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:02:26,041] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:02:26,041] {logging_mixin.py:104} INFO - [2022-05-17 06:02:26,041] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:02:26,435] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:02:26,448] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.410 seconds
+[2022-05-17 06:02:56,797] {scheduler_job.py:182} INFO - Started process (PID=1412) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:02:56,799] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:02:56,800] {logging_mixin.py:104} INFO - [2022-05-17 06:02:56,800] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:02:57,241] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:02:57,250] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.460 seconds
+[2022-05-17 06:03:27,744] {scheduler_job.py:182} INFO - Started process (PID=1469) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:03:27,746] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:03:27,747] {logging_mixin.py:104} INFO - [2022-05-17 06:03:27,747] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:03:28,212] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:03:28,224] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.487 seconds
+[2022-05-17 06:03:58,704] {scheduler_job.py:182} INFO - Started process (PID=1526) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:03:58,706] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:03:58,708] {logging_mixin.py:104} INFO - [2022-05-17 06:03:58,707] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:03:59,116] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:03:59,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.427 seconds
+[2022-05-17 06:04:29,366] {scheduler_job.py:182} INFO - Started process (PID=1583) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:04:29,368] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:04:29,369] {logging_mixin.py:104} INFO - [2022-05-17 06:04:29,369] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:04:29,788] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:04:29,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.441 seconds
+[2022-05-17 06:05:00,209] {scheduler_job.py:182} INFO - Started process (PID=1640) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:05:00,211] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:05:00,212] {logging_mixin.py:104} INFO - [2022-05-17 06:05:00,212] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:05:00,620] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:05:00,632] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.430 seconds
+[2022-05-17 06:05:31,091] {scheduler_job.py:182} INFO - Started process (PID=1697) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:05:31,091] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:05:31,091] {logging_mixin.py:104} INFO - [2022-05-17 06:05:31,091] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:05:31,488] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:05:31,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.411 seconds
+[2022-05-17 06:06:01,833] {scheduler_job.py:182} INFO - Started process (PID=1754) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:06:01,833] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:06:01,834] {logging_mixin.py:104} INFO - [2022-05-17 06:06:01,834] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:06:02,261] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:06:02,273] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.442 seconds
+[2022-05-17 06:06:32,558] {scheduler_job.py:182} INFO - Started process (PID=1811) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:06:32,559] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:06:32,559] {logging_mixin.py:104} INFO - [2022-05-17 06:06:32,559] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:06:32,947] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:06:32,958] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.402 seconds
+[2022-05-17 06:07:03,405] {scheduler_job.py:182} INFO - Started process (PID=1868) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:07:03,405] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:07:03,406] {logging_mixin.py:104} INFO - [2022-05-17 06:07:03,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:07:03,801] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:07:03,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.412 seconds
+[2022-05-17 06:07:34,361] {scheduler_job.py:182} INFO - Started process (PID=1925) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:07:34,362] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:07:34,362] {logging_mixin.py:104} INFO - [2022-05-17 06:07:34,362] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:07:34,744] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:07:34,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.399 seconds
+[2022-05-17 06:08:05,320] {scheduler_job.py:182} INFO - Started process (PID=1982) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:08:05,322] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:08:05,324] {logging_mixin.py:104} INFO - [2022-05-17 06:08:05,323] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:08:05,733] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:08:05,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.433 seconds
+[2022-05-17 06:08:36,127] {scheduler_job.py:182} INFO - Started process (PID=2039) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:08:36,128] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:08:36,128] {logging_mixin.py:104} INFO - [2022-05-17 06:08:36,128] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:08:36,534] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:08:36,546] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.421 seconds
+[2022-05-17 06:09:06,955] {scheduler_job.py:182} INFO - Started process (PID=2096) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:09:06,955] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:09:06,955] {logging_mixin.py:104} INFO - [2022-05-17 06:09:06,955] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:09:07,367] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:09:07,379] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.426 seconds
+[2022-05-17 06:09:37,716] {scheduler_job.py:182} INFO - Started process (PID=2153) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:09:37,716] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:09:37,717] {logging_mixin.py:104} INFO - [2022-05-17 06:09:37,717] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:09:38,122] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:09:38,133] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.419 seconds
+[2022-05-17 06:10:08,303] {scheduler_job.py:182} INFO - Started process (PID=2210) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:10:08,304] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:10:08,304] {logging_mixin.py:104} INFO - [2022-05-17 06:10:08,304] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:10:08,776] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:10:08,790] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.490 seconds
+[2022-05-17 06:10:39,605] {scheduler_job.py:182} INFO - Started process (PID=2267) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:10:39,607] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:10:39,608] {logging_mixin.py:104} INFO - [2022-05-17 06:10:39,608] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:10:40,024] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:10:40,040] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.442 seconds
+[2022-05-17 06:11:10,465] {scheduler_job.py:182} INFO - Started process (PID=2324) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:11:10,465] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:11:10,466] {logging_mixin.py:104} INFO - [2022-05-17 06:11:10,466] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:11:10,882] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:11:10,895] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.432 seconds
+[2022-05-17 06:11:41,257] {scheduler_job.py:182} INFO - Started process (PID=2381) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:11:41,260] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:11:41,261] {logging_mixin.py:104} INFO - [2022-05-17 06:11:41,261] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:11:41,675] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:11:41,687] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.436 seconds
+[2022-05-17 06:12:12,041] {scheduler_job.py:182} INFO - Started process (PID=2438) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:12:12,043] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:12:12,044] {logging_mixin.py:104} INFO - [2022-05-17 06:12:12,044] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:12:12,461] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:12:12,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.440 seconds
+[2022-05-17 06:12:42,798] {scheduler_job.py:182} INFO - Started process (PID=2495) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:12:42,799] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:12:42,799] {logging_mixin.py:104} INFO - [2022-05-17 06:12:42,799] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:12:43,202] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:12:43,211] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.415 seconds
+[2022-05-17 06:13:13,542] {scheduler_job.py:182} INFO - Started process (PID=2552) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:13:13,543] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:13:13,544] {logging_mixin.py:104} INFO - [2022-05-17 06:13:13,544] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:13:14,107] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:13:14,126] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.588 seconds
+[2022-05-17 06:13:44,918] {scheduler_job.py:182} INFO - Started process (PID=2609) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:13:44,919] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:13:44,919] {logging_mixin.py:104} INFO - [2022-05-17 06:13:44,919] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:13:45,359] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:13:45,370] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.454 seconds
+[2022-05-17 06:14:16,335] {scheduler_job.py:182} INFO - Started process (PID=2666) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:14:16,347] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:14:16,347] {logging_mixin.py:104} INFO - [2022-05-17 06:14:16,347] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:14:16,989] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:14:17,018] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.687 seconds
+[2022-05-17 06:14:47,393] {scheduler_job.py:182} INFO - Started process (PID=2723) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:14:47,397] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:14:47,399] {logging_mixin.py:104} INFO - [2022-05-17 06:14:47,399] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:14:48,106] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:14:48,115] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.729 seconds
+[2022-05-17 06:15:18,671] {scheduler_job.py:182} INFO - Started process (PID=2780) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:15:18,672] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:15:18,672] {logging_mixin.py:104} INFO - [2022-05-17 06:15:18,672] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:15:19,039] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:15:19,048] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.379 seconds
+[2022-05-17 06:15:49,494] {scheduler_job.py:182} INFO - Started process (PID=2837) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:15:49,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:15:49,497] {logging_mixin.py:104} INFO - [2022-05-17 06:15:49,497] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:15:49,925] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:15:49,933] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.445 seconds
+[2022-05-17 06:16:20,241] {scheduler_job.py:182} INFO - Started process (PID=2894) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:16:20,243] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:16:20,244] {logging_mixin.py:104} INFO - [2022-05-17 06:16:20,244] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:16:20,659] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:16:20,668] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.432 seconds
+[2022-05-17 06:16:50,981] {scheduler_job.py:182} INFO - Started process (PID=2951) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:16:50,984] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:16:50,985] {logging_mixin.py:104} INFO - [2022-05-17 06:16:50,985] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:16:51,391] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:16:51,401] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.426 seconds
+[2022-05-17 06:17:21,821] {scheduler_job.py:182} INFO - Started process (PID=3008) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:17:21,821] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:17:21,822] {logging_mixin.py:104} INFO - [2022-05-17 06:17:21,822] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:17:22,327] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:17:22,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.517 seconds
+[2022-05-17 06:17:53,330] {scheduler_job.py:182} INFO - Started process (PID=3065) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:17:53,330] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 06:17:53,331] {logging_mixin.py:104} INFO - [2022-05-17 06:17:53,331] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:17:53,682] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 06:17:53,691] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.363 seconds
+[2022-05-17 08:24:41,193] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:24:41,195] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:24:41,195] {logging_mixin.py:104} INFO - [2022-05-17 08:24:41,195] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:24:42,665] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:24:42,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.484 seconds
+[2022-05-17 08:25:12,808] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:25:12,809] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:25:12,810] {logging_mixin.py:104} INFO - [2022-05-17 08:25:12,810] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:25:13,201] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:25:13,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.404 seconds
+[2022-05-17 08:25:44,147] {scheduler_job.py:182} INFO - Started process (PID=213) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:25:44,149] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:25:44,150] {logging_mixin.py:104} INFO - [2022-05-17 08:25:44,150] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:25:44,601] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:25:44,609] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.468 seconds
+[2022-05-17 08:26:15,083] {scheduler_job.py:182} INFO - Started process (PID=270) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:26:15,084] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:26:15,085] {logging_mixin.py:104} INFO - [2022-05-17 08:26:15,085] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:26:15,567] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:26:15,576] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.495 seconds
+[2022-05-17 08:26:46,477] {scheduler_job.py:182} INFO - Started process (PID=327) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:26:46,480] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:26:46,481] {logging_mixin.py:104} INFO - [2022-05-17 08:26:46,481] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:26:46,904] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:26:46,913] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.442 seconds
+[2022-05-17 08:27:00,117] {scheduler_job.py:182} INFO - Started process (PID=381) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:27:00,118] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:27:00,118] {logging_mixin.py:104} INFO - [2022-05-17 08:27:00,118] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:27:00,501] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:27:00,510] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.395 seconds
+[2022-05-17 08:27:30,786] {scheduler_job.py:182} INFO - Started process (PID=441) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:27:30,788] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:27:30,790] {logging_mixin.py:104} INFO - [2022-05-17 08:27:30,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:27:31,159] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:27:31,167] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.388 seconds
+[2022-05-17 08:28:01,515] {scheduler_job.py:182} INFO - Started process (PID=498) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:01,517] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:01,518] {logging_mixin.py:104} INFO - [2022-05-17 08:28:01,518] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:02,099] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:02,136] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.626 seconds
+[2022-05-17 08:28:33,024] {scheduler_job.py:182} INFO - Started process (PID=555) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:33,025] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:33,025] {logging_mixin.py:104} INFO - [2022-05-17 08:28:33,025] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:33,395] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:33,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.381 seconds
+[2022-05-17 08:28:41,443] {scheduler_job.py:182} INFO - Started process (PID=569) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:41,443] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:41,444] {logging_mixin.py:104} INFO - [2022-05-17 08:28:41,444] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:41,869] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:41,878] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.436 seconds
+[2022-05-17 08:28:47,547] {scheduler_job.py:182} INFO - Started process (PID=580) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:47,548] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:47,548] {logging_mixin.py:104} INFO - [2022-05-17 08:28:47,548] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:47,971] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:47,982] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.436 seconds
+[2022-05-17 08:28:50,280] {scheduler_job.py:182} INFO - Started process (PID=608) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:50,281] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:50,282] {logging_mixin.py:104} INFO - [2022-05-17 08:28:50,282] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:50,810] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:50,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.546 seconds
+[2022-05-17 08:28:52,088] {scheduler_job.py:182} INFO - Started process (PID=645) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:52,089] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:52,090] {logging_mixin.py:104} INFO - [2022-05-17 08:28:52,089] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:52,516] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:52,524] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.438 seconds
+[2022-05-17 08:28:55,101] {scheduler_job.py:182} INFO - Started process (PID=656) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:55,102] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:28:55,102] {logging_mixin.py:104} INFO - [2022-05-17 08:28:55,102] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:55,568] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:28:55,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.480 seconds
+[2022-05-17 08:29:06,629] {scheduler_job.py:182} INFO - Started process (PID=667) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:06,632] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:29:06,633] {logging_mixin.py:104} INFO - [2022-05-17 08:29:06,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:07,352] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:07,367] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.745 seconds
+[2022-05-17 08:29:11,657] {scheduler_job.py:182} INFO - Started process (PID=681) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:11,658] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:29:11,658] {logging_mixin.py:104} INFO - [2022-05-17 08:29:11,658] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:12,103] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:12,114] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.459 seconds
+[2022-05-17 08:29:13,128] {scheduler_job.py:182} INFO - Started process (PID=692) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:13,129] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:29:13,129] {logging_mixin.py:104} INFO - [2022-05-17 08:29:13,129] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:13,579] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:13,588] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.462 seconds
+[2022-05-17 08:29:15,137] {scheduler_job.py:182} INFO - Started process (PID=703) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:15,138] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:29:15,138] {logging_mixin.py:104} INFO - [2022-05-17 08:29:15,138] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:15,596] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:15,607] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.472 seconds
+[2022-05-17 08:29:17,621] {scheduler_job.py:182} INFO - Started process (PID=714) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:17,621] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:29:17,622] {logging_mixin.py:104} INFO - [2022-05-17 08:29:17,622] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:18,052] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:18,063] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.444 seconds
+[2022-05-17 08:29:48,594] {scheduler_job.py:182} INFO - Started process (PID=771) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:48,597] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:29:48,598] {logging_mixin.py:104} INFO - [2022-05-17 08:29:48,598] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:49,293] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:29:49,302] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.715 seconds
+[2022-05-17 08:30:20,162] {scheduler_job.py:182} INFO - Started process (PID=865) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:30:20,164] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:30:20,165] {logging_mixin.py:104} INFO - [2022-05-17 08:30:20,165] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:30:20,575] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:30:20,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.430 seconds
+[2022-05-17 08:30:51,371] {scheduler_job.py:182} INFO - Started process (PID=925) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:30:51,374] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:30:51,376] {logging_mixin.py:104} INFO - [2022-05-17 08:30:51,376] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:30:51,741] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:30:51,749] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.384 seconds
+[2022-05-17 08:31:22,708] {scheduler_job.py:182} INFO - Started process (PID=984) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:31:22,710] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:31:22,711] {logging_mixin.py:104} INFO - [2022-05-17 08:31:22,711] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:31:23,080] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:31:23,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.385 seconds
+[2022-05-17 08:31:53,922] {scheduler_job.py:182} INFO - Started process (PID=1041) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:31:53,922] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:31:53,923] {logging_mixin.py:104} INFO - [2022-05-17 08:31:53,923] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:31:54,337] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:31:54,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.427 seconds
+[2022-05-17 08:32:25,148] {scheduler_job.py:182} INFO - Started process (PID=1098) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:32:25,149] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:32:25,149] {logging_mixin.py:104} INFO - [2022-05-17 08:32:25,149] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:32:25,550] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:32:25,559] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.416 seconds
+[2022-05-17 08:32:55,994] {scheduler_job.py:182} INFO - Started process (PID=1155) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:32:55,995] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:32:55,996] {logging_mixin.py:104} INFO - [2022-05-17 08:32:55,996] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:32:56,404] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:32:56,414] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.424 seconds
+[2022-05-17 08:33:26,553] {scheduler_job.py:182} INFO - Started process (PID=1212) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:33:26,555] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:33:26,555] {logging_mixin.py:104} INFO - [2022-05-17 08:33:26,555] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:33:26,976] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:33:26,985] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.436 seconds
+[2022-05-17 08:33:57,741] {scheduler_job.py:182} INFO - Started process (PID=1269) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:33:57,745] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:33:57,746] {logging_mixin.py:104} INFO - [2022-05-17 08:33:57,746] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:33:58,166] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:33:58,180] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.445 seconds
+[2022-05-17 08:34:28,418] {scheduler_job.py:182} INFO - Started process (PID=1326) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:34:28,419] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:34:28,419] {logging_mixin.py:104} INFO - [2022-05-17 08:34:28,419] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:34:28,818] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:34:28,827] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.411 seconds
+[2022-05-17 08:34:59,234] {scheduler_job.py:182} INFO - Started process (PID=1383) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:34:59,236] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:34:59,237] {logging_mixin.py:104} INFO - [2022-05-17 08:34:59,237] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:34:59,671] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:34:59,680] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.452 seconds
+[2022-05-17 08:35:30,286] {scheduler_job.py:182} INFO - Started process (PID=1477) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:35:30,288] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:35:30,290] {logging_mixin.py:104} INFO - [2022-05-17 08:35:30,289] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:35:30,703] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:35:30,711] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.431 seconds
+[2022-05-17 08:36:01,164] {scheduler_job.py:182} INFO - Started process (PID=1534) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:36:01,168] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:36:01,170] {logging_mixin.py:104} INFO - [2022-05-17 08:36:01,169] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:36:01,598] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:36:01,607] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.450 seconds
+[2022-05-17 08:36:32,082] {scheduler_job.py:182} INFO - Started process (PID=1591) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:36:32,084] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:36:32,085] {logging_mixin.py:104} INFO - [2022-05-17 08:36:32,085] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:36:32,507] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:36:32,517] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.441 seconds
+[2022-05-17 08:37:02,913] {scheduler_job.py:182} INFO - Started process (PID=1648) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:37:02,915] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:37:02,916] {logging_mixin.py:104} INFO - [2022-05-17 08:37:02,916] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:37:03,354] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:37:03,363] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.457 seconds
+[2022-05-17 08:37:33,887] {scheduler_job.py:182} INFO - Started process (PID=1705) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:37:33,889] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:37:33,891] {logging_mixin.py:104} INFO - [2022-05-17 08:37:33,890] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:37:34,324] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:37:34,332] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.451 seconds
+[2022-05-17 08:38:05,288] {scheduler_job.py:182} INFO - Started process (PID=1762) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:38:05,289] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:38:05,290] {logging_mixin.py:104} INFO - [2022-05-17 08:38:05,290] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:38:05,676] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:38:05,685] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.402 seconds
+[2022-05-17 08:38:36,406] {scheduler_job.py:182} INFO - Started process (PID=1819) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:38:36,407] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:38:36,408] {logging_mixin.py:104} INFO - [2022-05-17 08:38:36,408] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:38:37,143] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:38:37,168] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.769 seconds
+[2022-05-17 08:39:07,546] {scheduler_job.py:182} INFO - Started process (PID=1876) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:39:07,546] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:39:07,547] {logging_mixin.py:104} INFO - [2022-05-17 08:39:07,547] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:39:07,920] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:39:07,929] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.385 seconds
+[2022-05-17 08:39:38,332] {scheduler_job.py:182} INFO - Started process (PID=1933) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:39:38,334] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:39:38,335] {logging_mixin.py:104} INFO - [2022-05-17 08:39:38,335] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:39:38,733] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:39:38,742] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.416 seconds
+[2022-05-17 08:40:09,230] {scheduler_job.py:182} INFO - Started process (PID=2006) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:40:09,230] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:40:09,231] {logging_mixin.py:104} INFO - [2022-05-17 08:40:09,231] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:40:09,707] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:40:09,742] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.514 seconds
+[2022-05-17 08:40:40,480] {scheduler_job.py:182} INFO - Started process (PID=2084) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:40:40,481] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:40:40,482] {logging_mixin.py:104} INFO - [2022-05-17 08:40:40,482] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:40:40,898] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:40:40,907] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.429 seconds
+[2022-05-17 08:41:11,398] {scheduler_job.py:182} INFO - Started process (PID=2141) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:41:11,399] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:41:11,399] {logging_mixin.py:104} INFO - [2022-05-17 08:41:11,399] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:41:12,016] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:41:12,030] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.633 seconds
+[2022-05-17 08:41:42,776] {scheduler_job.py:182} INFO - Started process (PID=2198) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:41:42,778] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:41:42,779] {logging_mixin.py:104} INFO - [2022-05-17 08:41:42,779] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:41:43,248] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:41:43,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.489 seconds
+[2022-05-17 08:42:13,573] {scheduler_job.py:182} INFO - Started process (PID=2255) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:42:13,575] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:42:13,577] {logging_mixin.py:104} INFO - [2022-05-17 08:42:13,577] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:42:14,445] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:42:14,471] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.906 seconds
+[2022-05-17 08:42:45,006] {scheduler_job.py:182} INFO - Started process (PID=2312) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:42:45,008] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:42:45,009] {logging_mixin.py:104} INFO - [2022-05-17 08:42:45,009] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:42:45,798] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:42:45,807] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.808 seconds
+[2022-05-17 08:43:16,585] {scheduler_job.py:182} INFO - Started process (PID=2369) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:43:16,586] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:43:16,586] {logging_mixin.py:104} INFO - [2022-05-17 08:43:16,586] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:43:17,258] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:43:17,267] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.685 seconds
+[2022-05-17 08:43:47,687] {scheduler_job.py:182} INFO - Started process (PID=2426) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:43:47,690] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:43:47,691] {logging_mixin.py:104} INFO - [2022-05-17 08:43:47,691] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:43:48,670] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:43:48,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.013 seconds
+[2022-05-17 08:44:19,536] {scheduler_job.py:182} INFO - Started process (PID=2483) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:44:19,537] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:44:19,537] {logging_mixin.py:104} INFO - [2022-05-17 08:44:19,537] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:44:19,995] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:44:20,004] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.470 seconds
+[2022-05-17 08:44:50,966] {scheduler_job.py:182} INFO - Started process (PID=2540) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:44:50,967] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:44:50,969] {logging_mixin.py:104} INFO - [2022-05-17 08:44:50,969] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:44:51,535] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:44:51,547] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.585 seconds
+[2022-05-17 08:45:22,410] {scheduler_job.py:182} INFO - Started process (PID=2634) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:45:22,416] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:45:22,419] {logging_mixin.py:104} INFO - [2022-05-17 08:45:22,418] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:45:23,490] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:45:23,499] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.095 seconds
+[2022-05-17 08:45:54,106] {scheduler_job.py:182} INFO - Started process (PID=2691) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:45:54,106] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:45:54,107] {logging_mixin.py:104} INFO - [2022-05-17 08:45:54,107] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:45:54,525] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:45:54,534] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.430 seconds
+[2022-05-17 08:46:25,106] {scheduler_job.py:182} INFO - Started process (PID=2748) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:46:25,107] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:46:25,108] {logging_mixin.py:104} INFO - [2022-05-17 08:46:25,108] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:46:25,703] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:46:25,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.620 seconds
+[2022-05-17 08:46:56,655] {scheduler_job.py:182} INFO - Started process (PID=2805) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:46:56,657] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:46:56,658] {logging_mixin.py:104} INFO - [2022-05-17 08:46:56,658] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:46:57,076] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:46:57,085] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.436 seconds
+[2022-05-17 08:47:27,220] {scheduler_job.py:182} INFO - Started process (PID=2862) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:47:27,222] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:47:27,223] {logging_mixin.py:104} INFO - [2022-05-17 08:47:27,223] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:47:27,645] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:47:27,654] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.440 seconds
+[2022-05-17 08:47:58,073] {scheduler_job.py:182} INFO - Started process (PID=2919) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:47:58,075] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:47:58,077] {logging_mixin.py:104} INFO - [2022-05-17 08:47:58,076] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:47:58,510] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:47:58,520] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.454 seconds
+[2022-05-17 08:48:28,896] {scheduler_job.py:182} INFO - Started process (PID=2976) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:48:28,899] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:48:28,900] {logging_mixin.py:104} INFO - [2022-05-17 08:48:28,900] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:48:29,316] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:48:29,325] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.435 seconds
+[2022-05-17 08:49:00,321] {scheduler_job.py:182} INFO - Started process (PID=3033) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:49:00,324] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:49:00,325] {logging_mixin.py:104} INFO - [2022-05-17 08:49:00,325] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:49:00,719] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:49:00,731] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.416 seconds
+[2022-05-17 08:49:31,260] {scheduler_job.py:182} INFO - Started process (PID=3090) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:49:31,262] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:49:31,263] {logging_mixin.py:104} INFO - [2022-05-17 08:49:31,263] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:49:31,687] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:49:31,695] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.442 seconds
+[2022-05-17 08:50:02,107] {scheduler_job.py:182} INFO - Started process (PID=3161) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:50:02,110] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:50:02,112] {logging_mixin.py:104} INFO - [2022-05-17 08:50:02,111] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:50:02,510] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:50:02,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.419 seconds
+[2022-05-17 08:50:33,024] {scheduler_job.py:182} INFO - Started process (PID=3241) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:50:33,024] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:50:33,025] {logging_mixin.py:104} INFO - [2022-05-17 08:50:33,025] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:50:33,386] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:50:33,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.372 seconds
+[2022-05-17 08:51:03,866] {scheduler_job.py:182} INFO - Started process (PID=3298) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:51:03,869] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:51:03,870] {logging_mixin.py:104} INFO - [2022-05-17 08:51:03,870] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:51:04,289] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:51:04,300] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.441 seconds
+[2022-05-17 08:51:34,774] {scheduler_job.py:182} INFO - Started process (PID=3355) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:51:34,774] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:51:34,774] {logging_mixin.py:104} INFO - [2022-05-17 08:51:34,774] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:51:35,169] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:51:35,179] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.407 seconds
+[2022-05-17 08:52:05,697] {scheduler_job.py:182} INFO - Started process (PID=3412) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:52:05,699] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:52:05,701] {logging_mixin.py:104} INFO - [2022-05-17 08:52:05,700] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:52:06,135] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:52:06,145] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.454 seconds
+[2022-05-17 08:52:36,807] {scheduler_job.py:182} INFO - Started process (PID=3469) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:52:36,810] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:52:36,811] {logging_mixin.py:104} INFO - [2022-05-17 08:52:36,811] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:52:37,192] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:52:37,201] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.401 seconds
+[2022-05-17 08:53:07,695] {scheduler_job.py:182} INFO - Started process (PID=3526) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:53:07,698] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:53:07,700] {logging_mixin.py:104} INFO - [2022-05-17 08:53:07,699] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:53:08,122] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:53:08,133] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.444 seconds
+[2022-05-17 08:53:38,509] {scheduler_job.py:182} INFO - Started process (PID=3583) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:53:38,510] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:53:38,510] {logging_mixin.py:104} INFO - [2022-05-17 08:53:38,510] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:53:38,917] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:53:38,927] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.423 seconds
+[2022-05-17 08:54:09,324] {scheduler_job.py:182} INFO - Started process (PID=3640) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:54:09,327] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:54:09,328] {logging_mixin.py:104} INFO - [2022-05-17 08:54:09,328] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:54:09,744] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:54:09,753] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.435 seconds
+[2022-05-17 08:54:40,130] {scheduler_job.py:182} INFO - Started process (PID=3697) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:54:40,132] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:54:40,134] {logging_mixin.py:104} INFO - [2022-05-17 08:54:40,133] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:54:40,560] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:54:40,571] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.448 seconds
+[2022-05-17 08:55:10,770] {scheduler_job.py:182} INFO - Started process (PID=3768) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:55:10,772] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:55:10,773] {logging_mixin.py:104} INFO - [2022-05-17 08:55:10,773] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:55:11,228] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:55:11,238] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.475 seconds
+[2022-05-17 08:55:41,745] {scheduler_job.py:182} INFO - Started process (PID=3848) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:55:41,748] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:55:41,749] {logging_mixin.py:104} INFO - [2022-05-17 08:55:41,749] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:55:42,143] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:55:42,153] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.414 seconds
+[2022-05-17 08:56:12,596] {scheduler_job.py:182} INFO - Started process (PID=3905) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:56:12,597] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:56:12,597] {logging_mixin.py:104} INFO - [2022-05-17 08:56:12,597] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:56:13,006] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:56:13,015] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.424 seconds
+[2022-05-17 08:56:43,541] {scheduler_job.py:182} INFO - Started process (PID=3962) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:56:43,542] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:56:43,542] {logging_mixin.py:104} INFO - [2022-05-17 08:56:43,542] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:56:44,027] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:56:44,038] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.498 seconds
+[2022-05-17 08:57:14,681] {scheduler_job.py:182} INFO - Started process (PID=4019) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:57:14,681] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:57:14,682] {logging_mixin.py:104} INFO - [2022-05-17 08:57:14,682] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:57:15,241] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:57:15,251] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.572 seconds
+[2022-05-17 08:57:45,844] {scheduler_job.py:182} INFO - Started process (PID=4079) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:57:45,855] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:57:45,856] {logging_mixin.py:104} INFO - [2022-05-17 08:57:45,856] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:57:46,357] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:57:46,371] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.529 seconds
+[2022-05-17 08:58:16,830] {scheduler_job.py:182} INFO - Started process (PID=4136) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:58:16,831] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:58:16,831] {logging_mixin.py:104} INFO - [2022-05-17 08:58:16,831] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:58:17,380] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:58:17,391] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.563 seconds
+[2022-05-17 08:58:47,584] {scheduler_job.py:182} INFO - Started process (PID=4193) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:58:47,596] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:58:47,596] {logging_mixin.py:104} INFO - [2022-05-17 08:58:47,596] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:58:49,203] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:58:49,215] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.633 seconds
+[2022-05-17 08:59:20,123] {scheduler_job.py:182} INFO - Started process (PID=4250) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:59:20,123] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:59:20,124] {logging_mixin.py:104} INFO - [2022-05-17 08:59:20,124] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:59:20,685] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:59:20,698] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.578 seconds
+[2022-05-17 08:59:51,278] {scheduler_job.py:182} INFO - Started process (PID=4307) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:59:51,279] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 08:59:51,279] {logging_mixin.py:104} INFO - [2022-05-17 08:59:51,279] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:59:51,837] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 08:59:51,850] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.574 seconds
+[2022-05-17 09:00:22,448] {scheduler_job.py:182} INFO - Started process (PID=4401) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:00:22,449] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 09:00:22,449] {logging_mixin.py:104} INFO - [2022-05-17 09:00:22,449] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:00:23,010] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:00:23,024] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.579 seconds
+[2022-05-17 09:00:53,788] {scheduler_job.py:182} INFO - Started process (PID=4458) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:00:53,789] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 09:00:53,790] {logging_mixin.py:104} INFO - [2022-05-17 09:00:53,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:00:54,388] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:00:54,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.618 seconds
+[2022-05-17 09:01:24,985] {scheduler_job.py:182} INFO - Started process (PID=4515) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:01:24,991] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 09:01:24,992] {logging_mixin.py:104} INFO - [2022-05-17 09:01:24,992] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:01:25,999] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:01:26,013] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.031 seconds
+[2022-05-17 09:01:56,066] {scheduler_job.py:182} INFO - Started process (PID=4572) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 09:01:56,067] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 09:01:56,067] {logging_mixin.py:104} INFO - [2022-05-17 09:01:56,067] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:26:26,586] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:26:26,590] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 10:26:26,591] {logging_mixin.py:104} INFO - [2022-05-17 10:26:26,591] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:26:27,441] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:26:27,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.889 seconds
+[2022-05-17 10:26:57,777] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:26:57,779] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 10:26:57,779] {logging_mixin.py:104} INFO - [2022-05-17 10:26:57,779] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:27:01,611] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:27:01,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 3.856 seconds
+[2022-05-17 10:27:32,313] {scheduler_job.py:182} INFO - Started process (PID=139) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:27:32,314] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 10:27:32,314] {logging_mixin.py:104} INFO - [2022-05-17 10:27:32,314] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:27:33,330] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:27:33,352] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 1.041 seconds
+[2022-05-17 10:28:04,054] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:28:04,075] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 10:28:04,076] {logging_mixin.py:104} INFO - [2022-05-17 10:28:04,076] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:28:05,027] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:28:05,041] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.991 seconds
+[2022-05-17 10:28:35,628] {scheduler_job.py:182} INFO - Started process (PID=253) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:28:35,629] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 10:28:35,630] {logging_mixin.py:104} INFO - [2022-05-17 10:28:35,629] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:28:36,194] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:28:36,207] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.581 seconds
+[2022-05-17 10:29:06,405] {scheduler_job.py:182} INFO - Started process (PID=310) to work on /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:29:06,405] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/getTKB.py for tasks to queue
+[2022-05-17 10:29:06,406] {logging_mixin.py:104} INFO - [2022-05-17 10:29:06,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:29:07,023] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/getTKB.py
+[2022-05-17 10:29:07,040] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/getTKB.py took 0.637 seconds

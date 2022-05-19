@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('src', path='/fonts/icomoon/style.css')}}">
+
+  <link rel="stylesheet" href="{{ url_for('src', path='/css/owl.carousel.min.css')}}">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{{ url_for('src', path='/css/bootstrap.min.css')}}">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="{{ url_for('src', path='/css/style.css')}}">
+
+  <title>DAOTAO</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('src', path='tb/fonts/icomoon/style.css')}}">
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="{{ url_for('src', path='tb/css/bootstrap.min.css')}}">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="{{ url_for('src', path='tb/css/style.css')}}">
+</head>
+
+<body>
+
+
+  <div class="content">
+    <div class="container">
+      <div class="row align-items-stretch no-gutters contact-wrap">
+        <div class="col-md-12">
+          <div class="form h-100">
+            <h3>MÃ SINH VIÊN</h3>
+            <form class="mb-5" action="/index" method="post" id="contactForm" name="contactForm">
+              <div class="row">
+                <div class="col-md-6 form-group mb-3">
+                  <label for="" class="col-form-label">Name *</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="submit" value="Lấy Thời Khóa biểu" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('src', path='tb/js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{ url_for('src', path='tb/js/popper.min.js')}}"></script>
+  <script src="{{ url_for('src', path='tb/js/bootstrap.min.js')}}"></script>
+  <script src="{{ url_for('src', path='tb/js/jquery.validate.min.js')}}"></script>
+  <script src="{{ url_for('src', path='tb/js/main.js')}}"></script>
+
+  {% if notifi %}
+        <script>alert("Đăng Ký Thành Công Dữ liệu")</script>
+  {% endif %}
+
+  {%if datas %}
+  <div class="content">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="form h-100">
+          <form class="mb-5" action="/checkbox" method="post" id="contactForm" name="contactForm">
+
+            <div class="content">
+              <div class="container">
+                {% if name != "" %}
+                <h2 class="mb-5" name="id" >Xin chào : {{name}}</h2>
+                <input type="checkbox" name="id" value="{{id}}" style="visibility: hidden;"  checked>
+                {% endif %}
+                <h2 class="mb-5">Thời khóa biểu : </h2>
+                <div class="table-responsive custom-table-responsive">
+                  <table class="table custom-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">
+                          <label class="control control--checkbox">
+                            <input type="checkbox" class="js-check-all" />
+                            <div class="control__indicator"></div>
+                          </label>
+                        </th>
+                        <th scope="col">Mã Học Phần</th>
+                        <th scope="col">Tên Học Phần</th>
+                        <th scope="col">Thứ</th>
+                        <th scope="col">Từ Tiết</th>
+                        <th scope="col">Đến Tiết</th>
+                        <th scope="col">Giáo Viên Dạy</th>
+                        <th scope="col">Phòng</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {% for data in datas %}
+                      <tr scope="row">
+                        <th scope="row">
+                          <label class="control control--checkbox">
+                            <input type="checkbox" name="val" value="{{data[0]}},{{data[1]}}"/>
+                            <div class="control__indicator"></div>
+                          </label>
+                        </th>
+                        <td>{{data[0]}}</td>
+                        <td>{{data[1]}}</td>
+                        <td>{{data[2]}}</td>
+                        <td>{{data[3]}}</td>
+                        <td>{{data[4]}}</td>
+                        <td>{{data[5]}}</td>
+                        <td>{{data[6]}}</td>
+                      </tr>
+                      <tr class="spacer">
+                        <td colspan="100"></td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 form-group">
+                <input type="submit" value="Lấy Thời Khóa biểu" class="btn btn-primary rounded-0 py-2 px-4">
+                <span class="submitting"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <script src="{{ url_for('src', path='js/jquery-3.3.1.min.js')}}"></script>
+  <script src="{{ url_for('src', path='js/popper.min.js')}}"></script>
+  <script src="{{ url_for('src', path='js/bootstrap.min.js')}}"></script>
+  <script src="{{ url_for('src', path='js/main.js')}}"></script>
+</body>
+
+</html>

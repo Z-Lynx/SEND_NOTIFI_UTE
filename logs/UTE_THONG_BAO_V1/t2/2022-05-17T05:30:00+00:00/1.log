@@ -1,0 +1,52 @@
+[2022-05-17 05:35:02,861] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-17T05:30:00+00:00 [queued]>
+[2022-05-17 05:35:02,867] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-17T05:30:00+00:00 [queued]>
+[2022-05-17 05:35:02,867] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 05:35:02,867] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-17 05:35:02,867] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 05:35:02,874] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): t2> on 2022-05-17T05:30:00+00:00
+[2022-05-17 05:35:02,877] {standard_task_runner.py:52} INFO - Started process 727 to run task
+[2022-05-17 05:35:02,879] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'UTE_THONG_BAO_V1', 't2', '2022-05-17T05:30:00+00:00', '--job-id', '144', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmpc_c94jpn', '--error-file', '/tmp/tmpv8_72d2i']
+[2022-05-17 05:35:02,879] {standard_task_runner.py:77} INFO - Job 144: Subtask t2
+[2022-05-17 05:35:02,910] {logging_mixin.py:104} INFO - Running <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-17T05:30:00+00:00 [running]> on host 65d21844f899
+[2022-05-17 05:35:02,943] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=UTE_THONG_BAO_V1
+AIRFLOW_CTX_DAG_ID=UTE_THONG_BAO_V1
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-17T05:30:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-17T05:30:00+00:00
+[2022-05-17 05:35:02,951] {logging_mixin.py:104} INFO - 2050531200310 221CDPM02
+[2022-05-17 05:35:05,087] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/test/test.py", line 13, in sendMail
+    autoSendMail()
+  File "/opt/airflow/dags/test/getTKB.py", line 40, in autoSendMail
+    df.apply(sendEmail,axis=1)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 7768, in apply
+    return op.get_result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/apply.py", line 185, in get_result
+    return self.apply_standard()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/apply.py", line 276, in apply_standard
+    results, res_index = self.apply_series_generator()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/apply.py", line 290, in apply_series_generator
+    results[i] = self.f(v)
+  File "/opt/airflow/dags/test/getTKB.py", line 35, in sendEmail
+    send_mail(str(data[0])+"@sv.ute.udn.vn",title,content)
+  File "/opt/airflow/dags/test/getAndCheckDB.py", line 72, in send_mail
+    server.sendmail(EMAIL_USER, reciver, message)
+  File "/usr/local/lib/python3.8/smtplib.py", line 873, in sendmail
+    msg = _fix_eols(msg).encode('ascii')
+UnicodeEncodeError: 'ascii' codec can't encode character '\xf4' in position 49: ordinal not in range(128)
+[2022-05-17 05:35:05,098] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=UTE_THONG_BAO_V1, task_id=t2, execution_date=20220517T053000, start_date=20220517T053502, end_date=20220517T053505
+[2022-05-17 05:35:05,177] {local_task_job.py:151} INFO - Task exited with return code 1

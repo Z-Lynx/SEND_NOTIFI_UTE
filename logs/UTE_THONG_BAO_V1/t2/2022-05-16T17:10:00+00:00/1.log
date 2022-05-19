@@ -1,0 +1,25 @@
+[2022-05-16 17:15:03,289] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-16T17:10:00+00:00 [queued]>
+[2022-05-16 17:15:03,294] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-16T17:10:00+00:00 [queued]>
+[2022-05-16 17:15:03,294] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 17:15:03,294] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-16 17:15:03,294] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 17:15:03,303] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): t2> on 2022-05-16T17:10:00+00:00
+[2022-05-16 17:15:03,305] {standard_task_runner.py:52} INFO - Started process 17973 to run task
+[2022-05-16 17:15:03,308] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'UTE_THONG_BAO_V1', 't2', '2022-05-16T17:10:00+00:00', '--job-id', '105', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmpq7sv25v8', '--error-file', '/tmp/tmp89ftndbw']
+[2022-05-16 17:15:03,308] {standard_task_runner.py:77} INFO - Job 105: Subtask t2
+[2022-05-16 17:15:03,335] {logging_mixin.py:104} INFO - Running <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-16T17:10:00+00:00 [running]> on host 65d21844f899
+[2022-05-16 17:15:03,367] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=UTE_THONG_BAO_V1
+AIRFLOW_CTX_DAG_ID=UTE_THONG_BAO_V1
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-16T17:10:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-16T17:10:00+00:00
+[2022-05-16 17:15:03,375] {logging_mixin.py:104} INFO - 2050531200310 221CDPM02
+[2022-05-16 17:15:03,376] {logging_mixin.py:104} INFO - failed to send mail
+[2022-05-16 17:15:03,377] {logging_mixin.py:104} INFO - [+] DONE SEND MAIL !!
+[2022-05-16 17:15:03,377] {python.py:151} INFO - Done. Returned value was: None
+[2022-05-16 17:15:03,383] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=UTE_THONG_BAO_V1, task_id=t2, execution_date=20220516T171000, start_date=20220516T171503, end_date=20220516T171503
+[2022-05-16 17:15:03,402] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-05-16 17:15:03,439] {local_task_job.py:151} INFO - Task exited with return code 0

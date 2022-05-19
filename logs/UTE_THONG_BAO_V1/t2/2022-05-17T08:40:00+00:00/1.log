@@ -1,0 +1,51 @@
+[2022-05-17 08:45:02,652] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-17T08:40:00+00:00 [queued]>
+[2022-05-17 08:45:02,656] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-17T08:40:00+00:00 [queued]>
+[2022-05-17 08:45:02,656] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 08:45:02,656] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-17 08:45:02,656] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-17 08:45:02,665] {taskinstance.py:1107} INFO - Executing <Task(PythonOperator): t2> on 2022-05-17T08:40:00+00:00
+[2022-05-17 08:45:02,671] {standard_task_runner.py:52} INFO - Started process 2605 to run task
+[2022-05-17 08:45:02,679] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'UTE_THONG_BAO_V1', 't2', '2022-05-17T08:40:00+00:00', '--job-id', '162', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmpkl9ifp49', '--error-file', '/tmp/tmpuobuywm6']
+[2022-05-17 08:45:02,680] {standard_task_runner.py:77} INFO - Job 162: Subtask t2
+[2022-05-17 08:45:02,746] {logging_mixin.py:104} INFO - Running <TaskInstance: UTE_THONG_BAO_V1.t2 2022-05-17T08:40:00+00:00 [running]> on host 0b42bd968922
+[2022-05-17 08:45:02,783] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=UTE_THONG_BAO_V1
+AIRFLOW_CTX_DAG_ID=UTE_THONG_BAO_V1
+AIRFLOW_CTX_TASK_ID=t2
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-17T08:40:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-17T08:40:00+00:00
+[2022-05-17 08:45:02,789] {logging_mixin.py:104} INFO - 2050531200310 221CDPM02 Chuyên đề phần mềm
+[2022-05-17 08:45:05,733] {logging_mixin.py:104} INFO - [+] Successfully sent the mail
+[2022-05-17 08:45:05,733] {logging_mixin.py:104} INFO - 
+
+[!] Done Send Mail :2050531200310
+[2022-05-17 08:45:05,733] {logging_mixin.py:104} INFO - 2050531200360 221LTDT02 Lý thuyết đồ thị
+[2022-05-17 08:45:05,734] {logging_mixin.py:104} INFO - 2050531200360 221CDPM02 Chuyên đề phần mềm
+[2022-05-17 08:45:08,830] {logging_mixin.py:104} INFO - [+] Successfully sent the mail
+[2022-05-17 08:45:08,830] {logging_mixin.py:104} INFO - 
+
+[!] Done Send Mail :2050531200360
+[2022-05-17 08:45:08,831] {logging_mixin.py:104} INFO - 2050531200310 221TTNT01 Trí tuệ nhân tạo
+[2022-05-17 08:45:12,271] {logging_mixin.py:104} INFO - [+] Successfully sent the mail
+[2022-05-17 08:45:12,272] {logging_mixin.py:104} INFO - 
+
+[!] Done Send Mail :2050531200310
+[2022-05-17 08:45:12,272] {logging_mixin.py:104} INFO - 2050531200310 221GDTC423 Giáo dục thể chất IV
+[2022-05-17 08:45:12,273] {logging_mixin.py:104} INFO - 2050531200310 221OOAD02 Phân tích thiết kế hướng đối tượng
+[2022-05-17 08:45:12,274] {logging_mixin.py:104} INFO - 2050531200310 221KTCT03 Kinh tế chính trị
+[2022-05-17 08:45:12,275] {logging_mixin.py:104} INFO - 2050531200310 221LTJNC01 Lập trình Java nâng cao
+[2022-05-17 08:45:12,276] {logging_mixin.py:104} INFO - 2050531200310 221TLTJNC06 TH Lập trình Java nâng cao
+[2022-05-17 08:45:12,276] {logging_mixin.py:104} INFO - 2050531200310 221LTTQ01 Lập trình trực quan
+[2022-05-17 08:45:12,277] {logging_mixin.py:104} INFO - 2050531200310 221NNCNC03 Ngoại ngữ chuyên ngành CNTT
+[2022-05-17 08:45:12,278] {logging_mixin.py:104} INFO - 2050531200310 221TLTTQ03 TH Lập trình trực quan
+[2022-05-17 08:45:12,278] {logging_mixin.py:104} INFO - 2050531200310 221DHPC03 Đồ họa máy tính
+[2022-05-17 08:45:12,279] {logging_mixin.py:104} INFO - 2050531200310 221TDHMT01 TH Đồ họa máy tính
+[2022-05-17 08:45:12,281] {logging_mixin.py:104} INFO - 
+
+[+] DONE SEND MAIL !!
+[2022-05-17 08:45:12,281] {python.py:151} INFO - Done. Returned value was: None
+[2022-05-17 08:45:12,286] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=UTE_THONG_BAO_V1, task_id=t2, execution_date=20220517T084000, start_date=20220517T084502, end_date=20220517T084512
+[2022-05-17 08:45:12,305] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2022-05-17 08:45:12,340] {local_task_job.py:151} INFO - Task exited with return code 0

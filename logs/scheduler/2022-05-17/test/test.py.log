@@ -1,0 +1,1171 @@
+[2022-05-17 05:29:55,035] {scheduler_job.py:182} INFO - Started process (PID=27) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:29:55,036] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:29:55,036] {logging_mixin.py:104} INFO - [2022-05-17 05:29:55,036] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:29:55,909] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:29:55,945] {logging_mixin.py:104} INFO - [2022-05-17 05:29:55,944] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:29:55,977] {logging_mixin.py:104} INFO - [2022-05-17 05:29:55,977] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:20:00+00:00
+[2022-05-17 05:29:55,987] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.955 seconds
+[2022-05-17 05:30:26,149] {scheduler_job.py:182} INFO - Started process (PID=164) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:30:26,150] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:30:26,151] {logging_mixin.py:104} INFO - [2022-05-17 05:30:26,150] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:30:27,430] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:30:27,452] {logging_mixin.py:104} INFO - [2022-05-17 05:30:27,451] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:30:27,473] {logging_mixin.py:104} INFO - [2022-05-17 05:30:27,473] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:30:27,483] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.337 seconds
+[2022-05-17 05:30:57,540] {scheduler_job.py:182} INFO - Started process (PID=251) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:30:57,541] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:30:57,541] {logging_mixin.py:104} INFO - [2022-05-17 05:30:57,541] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:30:58,057] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:30:58,073] {logging_mixin.py:104} INFO - [2022-05-17 05:30:58,073] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:30:58,097] {logging_mixin.py:104} INFO - [2022-05-17 05:30:58,097] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:30:58,109] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.572 seconds
+[2022-05-17 05:31:28,669] {scheduler_job.py:182} INFO - Started process (PID=308) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:31:28,671] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:31:28,672] {logging_mixin.py:104} INFO - [2022-05-17 05:31:28,672] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:31:29,123] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:31:29,142] {logging_mixin.py:104} INFO - [2022-05-17 05:31:29,142] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:31:29,154] {logging_mixin.py:104} INFO - [2022-05-17 05:31:29,154] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:31:29,163] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.500 seconds
+[2022-05-17 05:31:59,327] {scheduler_job.py:182} INFO - Started process (PID=374) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:31:59,328] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:31:59,329] {logging_mixin.py:104} INFO - [2022-05-17 05:31:59,329] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:31:59,711] {logging_mixin.py:104} INFO - [2022-05-17 05:31:59,710] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/test/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test/test.py", line 11, in <module>
+    from getTKB import autoSendMail
+  File "/opt/airflow/dags/test/getTKB.py", line 10, in <module>
+    from getAndCheckDB import *
+  File "/opt/airflow/dags/test/getAndCheckDB.py", line 74
+    """ try:
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(EMAIL_USER, EMAIL_PASS)
+            subj = f"BOT DAOTAO PRO VJP 8212 EZ BY LYNN <> {title}"
+            body = f"{content}"
+            message  = f'Subject: {subj}\n\n{body}'
+            server.sendmail(EMAIL_USER, reciver, message)
+            server.close()
+            print ('successfully sent the mail')
+    except:
+        print ("failed to send mail")
+    
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(EMAIL_USER, EMAIL_PASS)
+            subj = f"BOT DAOTAO PRO VJP 8212 EZ BY LYNN <> {title}"
+            body = f"{content}"
+            message  = f'Subject: {subj}\n\n{body}'
+            server.sendmail(EMAIL_USER, reciver, message)
+            server.close()
+            print ('successfully sent the mail')
+            
+                                                           
+                         
+                             
+                                                
+                                                                   
+                               
+                                                   
+                                                         
+                          
+                                                
+           
+                                     
+    
+                                                       
+                         
+                             
+                                                
+                                                                   
+                               
+                                                   
+                                                         
+                          
+                                               ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2022-05-17 05:31:59,711] {scheduler_job.py:645} WARNING - No viable dags retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:31:59,724] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.398 seconds
+[2022-05-17 05:32:30,297] {scheduler_job.py:182} INFO - Started process (PID=430) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:32:30,298] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:32:30,299] {logging_mixin.py:104} INFO - [2022-05-17 05:32:30,299] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:32:30,825] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:32:30,854] {logging_mixin.py:104} INFO - [2022-05-17 05:32:30,854] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:32:30,868] {logging_mixin.py:104} INFO - [2022-05-17 05:32:30,868] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:32:30,885] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.591 seconds
+[2022-05-17 05:33:01,054] {scheduler_job.py:182} INFO - Started process (PID=487) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:33:01,055] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:33:01,055] {logging_mixin.py:104} INFO - [2022-05-17 05:33:01,055] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:33:03,728] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:33:03,745] {logging_mixin.py:104} INFO - [2022-05-17 05:33:03,745] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:33:03,760] {logging_mixin.py:104} INFO - [2022-05-17 05:33:03,760] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:33:03,852] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 2.800 seconds
+[2022-05-17 05:33:34,013] {scheduler_job.py:182} INFO - Started process (PID=544) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:33:34,015] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:33:34,016] {logging_mixin.py:104} INFO - [2022-05-17 05:33:34,016] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:33:34,521] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:33:34,543] {logging_mixin.py:104} INFO - [2022-05-17 05:33:34,543] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:33:34,562] {logging_mixin.py:104} INFO - [2022-05-17 05:33:34,561] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:33:34,572] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.565 seconds
+[2022-05-17 05:34:05,502] {scheduler_job.py:182} INFO - Started process (PID=604) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:34:05,506] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:34:05,507] {logging_mixin.py:104} INFO - [2022-05-17 05:34:05,507] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:34:06,377] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:34:06,428] {logging_mixin.py:104} INFO - [2022-05-17 05:34:06,427] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:34:06,456] {logging_mixin.py:104} INFO - [2022-05-17 05:34:06,456] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:34:06,487] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.989 seconds
+[2022-05-17 05:34:37,278] {scheduler_job.py:182} INFO - Started process (PID=661) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:34:37,279] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:34:37,281] {logging_mixin.py:104} INFO - [2022-05-17 05:34:37,281] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:34:37,800] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:34:37,818] {logging_mixin.py:104} INFO - [2022-05-17 05:34:37,817] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:34:37,832] {logging_mixin.py:104} INFO - [2022-05-17 05:34:37,832] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:30:00+00:00
+[2022-05-17 05:34:37,840] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.569 seconds
+[2022-05-17 05:35:08,735] {scheduler_job.py:182} INFO - Started process (PID=732) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:35:08,736] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:35:08,736] {logging_mixin.py:104} INFO - [2022-05-17 05:35:08,736] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:35:09,157] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:35:09,177] {logging_mixin.py:104} INFO - [2022-05-17 05:35:09,176] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:35:09,189] {logging_mixin.py:104} INFO - [2022-05-17 05:35:09,189] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:35:09,198] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.464 seconds
+[2022-05-17 05:35:40,062] {scheduler_job.py:182} INFO - Started process (PID=789) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:35:40,065] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:35:40,066] {logging_mixin.py:104} INFO - [2022-05-17 05:35:40,066] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:35:40,565] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:35:40,581] {logging_mixin.py:104} INFO - [2022-05-17 05:35:40,581] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:35:40,593] {logging_mixin.py:104} INFO - [2022-05-17 05:35:40,593] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:35:40,602] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.546 seconds
+[2022-05-17 05:36:11,042] {scheduler_job.py:182} INFO - Started process (PID=846) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:36:11,043] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:36:11,043] {logging_mixin.py:104} INFO - [2022-05-17 05:36:11,043] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:36:11,470] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:36:11,487] {logging_mixin.py:104} INFO - [2022-05-17 05:36:11,486] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:36:11,498] {logging_mixin.py:104} INFO - [2022-05-17 05:36:11,498] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:36:11,506] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.466 seconds
+[2022-05-17 05:36:42,179] {scheduler_job.py:182} INFO - Started process (PID=903) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:36:42,181] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:36:42,182] {logging_mixin.py:104} INFO - [2022-05-17 05:36:42,182] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:36:42,626] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:36:42,643] {logging_mixin.py:104} INFO - [2022-05-17 05:36:42,642] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:36:42,655] {logging_mixin.py:104} INFO - [2022-05-17 05:36:42,655] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:36:42,663] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.488 seconds
+[2022-05-17 05:37:13,264] {scheduler_job.py:182} INFO - Started process (PID=960) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:37:13,264] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:37:13,264] {logging_mixin.py:104} INFO - [2022-05-17 05:37:13,264] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:37:13,700] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:37:13,726] {logging_mixin.py:104} INFO - [2022-05-17 05:37:13,725] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:37:13,739] {logging_mixin.py:104} INFO - [2022-05-17 05:37:13,739] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:37:13,748] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.486 seconds
+[2022-05-17 05:37:44,318] {scheduler_job.py:182} INFO - Started process (PID=1017) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:37:44,318] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:37:44,318] {logging_mixin.py:104} INFO - [2022-05-17 05:37:44,318] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:37:44,792] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:37:44,815] {logging_mixin.py:104} INFO - [2022-05-17 05:37:44,813] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:37:44,840] {logging_mixin.py:104} INFO - [2022-05-17 05:37:44,840] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:37:44,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.536 seconds
+[2022-05-17 05:38:15,291] {scheduler_job.py:182} INFO - Started process (PID=1074) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:38:15,293] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:38:15,294] {logging_mixin.py:104} INFO - [2022-05-17 05:38:15,294] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:38:15,726] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:38:15,745] {logging_mixin.py:104} INFO - [2022-05-17 05:38:15,744] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:38:15,759] {logging_mixin.py:104} INFO - [2022-05-17 05:38:15,759] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:38:15,766] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.481 seconds
+[2022-05-17 05:38:46,158] {scheduler_job.py:182} INFO - Started process (PID=1131) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:38:46,160] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:38:46,161] {logging_mixin.py:104} INFO - [2022-05-17 05:38:46,161] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:38:46,600] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:38:46,617] {logging_mixin.py:104} INFO - [2022-05-17 05:38:46,616] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:38:46,629] {logging_mixin.py:104} INFO - [2022-05-17 05:38:46,629] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:38:46,647] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.495 seconds
+[2022-05-17 05:39:17,263] {scheduler_job.py:182} INFO - Started process (PID=1188) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:39:17,268] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:39:17,270] {logging_mixin.py:104} INFO - [2022-05-17 05:39:17,269] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:39:17,783] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:39:17,799] {logging_mixin.py:104} INFO - [2022-05-17 05:39:17,799] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:39:17,813] {logging_mixin.py:104} INFO - [2022-05-17 05:39:17,813] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:39:17,823] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.567 seconds
+[2022-05-17 05:39:48,429] {scheduler_job.py:182} INFO - Started process (PID=1245) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:39:48,430] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:39:48,430] {logging_mixin.py:104} INFO - [2022-05-17 05:39:48,430] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:39:48,837] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:39:48,853] {logging_mixin.py:104} INFO - [2022-05-17 05:39:48,852] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:39:48,866] {logging_mixin.py:104} INFO - [2022-05-17 05:39:48,866] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:35:00+00:00
+[2022-05-17 05:39:48,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.458 seconds
+[2022-05-17 05:40:19,487] {scheduler_job.py:182} INFO - Started process (PID=1316) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:40:19,489] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:40:19,490] {logging_mixin.py:104} INFO - [2022-05-17 05:40:19,490] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:40:19,984] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:40:20,012] {logging_mixin.py:104} INFO - [2022-05-17 05:40:20,012] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:40:20,027] {logging_mixin.py:104} INFO - [2022-05-17 05:40:20,027] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:40:20,036] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.555 seconds
+[2022-05-17 05:40:50,493] {scheduler_job.py:182} INFO - Started process (PID=1373) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:40:50,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:40:50,497] {logging_mixin.py:104} INFO - [2022-05-17 05:40:50,497] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:40:51,055] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:40:51,072] {logging_mixin.py:104} INFO - [2022-05-17 05:40:51,071] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:40:51,086] {logging_mixin.py:104} INFO - [2022-05-17 05:40:51,086] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:40:51,106] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.615 seconds
+[2022-05-17 05:41:21,518] {scheduler_job.py:182} INFO - Started process (PID=1430) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:41:21,520] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:41:21,522] {logging_mixin.py:104} INFO - [2022-05-17 05:41:21,521] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:41:21,951] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:41:21,968] {logging_mixin.py:104} INFO - [2022-05-17 05:41:21,968] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:41:21,981] {logging_mixin.py:104} INFO - [2022-05-17 05:41:21,981] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:41:21,999] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.488 seconds
+[2022-05-17 05:41:52,434] {scheduler_job.py:182} INFO - Started process (PID=1497) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:41:52,434] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:41:52,435] {logging_mixin.py:104} INFO - [2022-05-17 05:41:52,435] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:41:52,848] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:41:52,863] {logging_mixin.py:104} INFO - [2022-05-17 05:41:52,863] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:41:52,877] {logging_mixin.py:104} INFO - [2022-05-17 05:41:52,876] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:41:52,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.455 seconds
+[2022-05-17 05:42:23,265] {scheduler_job.py:182} INFO - Started process (PID=1544) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:42:23,267] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:42:23,268] {logging_mixin.py:104} INFO - [2022-05-17 05:42:23,268] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:42:23,695] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:42:23,714] {logging_mixin.py:104} INFO - [2022-05-17 05:42:23,713] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:42:23,727] {logging_mixin.py:104} INFO - [2022-05-17 05:42:23,727] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:42:23,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.487 seconds
+[2022-05-17 05:42:54,173] {scheduler_job.py:182} INFO - Started process (PID=1601) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:42:54,174] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:42:54,175] {logging_mixin.py:104} INFO - [2022-05-17 05:42:54,175] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:42:54,767] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:42:54,785] {logging_mixin.py:104} INFO - [2022-05-17 05:42:54,785] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:42:54,800] {logging_mixin.py:104} INFO - [2022-05-17 05:42:54,800] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:42:54,809] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.641 seconds
+[2022-05-17 05:43:25,252] {scheduler_job.py:182} INFO - Started process (PID=1658) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:43:25,253] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:43:25,254] {logging_mixin.py:104} INFO - [2022-05-17 05:43:25,253] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:43:25,769] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:43:25,787] {logging_mixin.py:104} INFO - [2022-05-17 05:43:25,786] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:43:25,801] {logging_mixin.py:104} INFO - [2022-05-17 05:43:25,801] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:43:25,811] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.563 seconds
+[2022-05-17 05:43:56,321] {scheduler_job.py:182} INFO - Started process (PID=1715) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:43:56,324] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:43:56,326] {logging_mixin.py:104} INFO - [2022-05-17 05:43:56,325] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:43:56,844] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:43:56,881] {logging_mixin.py:104} INFO - [2022-05-17 05:43:56,879] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:43:56,918] {logging_mixin.py:104} INFO - [2022-05-17 05:43:56,918] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:40:00+00:00
+[2022-05-17 05:43:56,937] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.622 seconds
+[2022-05-17 05:51:05,570] {scheduler_job.py:182} INFO - Started process (PID=34) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:51:05,571] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:51:05,571] {logging_mixin.py:104} INFO - [2022-05-17 05:51:05,571] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:51:06,837] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:51:06,858] {logging_mixin.py:104} INFO - [2022-05-17 05:51:06,857] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:51:06,876] {logging_mixin.py:104} INFO - [2022-05-17 05:51:06,876] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:45:00+00:00
+[2022-05-17 05:51:06,887] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.319 seconds
+[2022-05-17 05:51:37,797] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:51:37,799] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:51:37,800] {logging_mixin.py:104} INFO - [2022-05-17 05:51:37,799] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:51:38,235] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:51:38,259] {logging_mixin.py:104} INFO - [2022-05-17 05:51:38,258] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:51:38,271] {logging_mixin.py:104} INFO - [2022-05-17 05:51:38,271] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:51:38,279] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.486 seconds
+[2022-05-17 05:52:09,179] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:52:09,181] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:52:09,182] {logging_mixin.py:104} INFO - [2022-05-17 05:52:09,182] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:52:10,010] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:52:10,027] {logging_mixin.py:104} INFO - [2022-05-17 05:52:10,026] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:52:10,041] {logging_mixin.py:104} INFO - [2022-05-17 05:52:10,041] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:52:10,051] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.878 seconds
+[2022-05-17 05:52:40,759] {scheduler_job.py:182} INFO - Started process (PID=273) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:52:40,761] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:52:40,762] {logging_mixin.py:104} INFO - [2022-05-17 05:52:40,762] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:52:41,212] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:52:41,227] {logging_mixin.py:104} INFO - [2022-05-17 05:52:41,227] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:52:41,239] {logging_mixin.py:104} INFO - [2022-05-17 05:52:41,239] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:52:41,259] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.506 seconds
+[2022-05-17 05:53:11,524] {scheduler_job.py:182} INFO - Started process (PID=330) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:53:11,525] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:53:11,525] {logging_mixin.py:104} INFO - [2022-05-17 05:53:11,525] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:53:11,928] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:53:11,945] {logging_mixin.py:104} INFO - [2022-05-17 05:53:11,944] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:53:11,958] {logging_mixin.py:104} INFO - [2022-05-17 05:53:11,958] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:53:11,966] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.443 seconds
+[2022-05-17 05:53:42,273] {scheduler_job.py:182} INFO - Started process (PID=387) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:53:42,275] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:53:42,276] {logging_mixin.py:104} INFO - [2022-05-17 05:53:42,276] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:53:42,694] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:53:42,712] {logging_mixin.py:104} INFO - [2022-05-17 05:53:42,711] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:53:42,726] {logging_mixin.py:104} INFO - [2022-05-17 05:53:42,726] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:53:42,744] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.477 seconds
+[2022-05-17 05:54:13,089] {scheduler_job.py:182} INFO - Started process (PID=444) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:54:13,091] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:54:13,092] {logging_mixin.py:104} INFO - [2022-05-17 05:54:13,092] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:54:13,529] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:54:13,547] {logging_mixin.py:104} INFO - [2022-05-17 05:54:13,547] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:54:13,559] {logging_mixin.py:104} INFO - [2022-05-17 05:54:13,559] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:54:13,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.495 seconds
+[2022-05-17 05:54:43,873] {scheduler_job.py:182} INFO - Started process (PID=501) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:54:43,873] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:54:43,873] {logging_mixin.py:104} INFO - [2022-05-17 05:54:43,873] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:54:44,267] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:54:44,285] {logging_mixin.py:104} INFO - [2022-05-17 05:54:44,285] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:54:44,298] {logging_mixin.py:104} INFO - [2022-05-17 05:54:44,298] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:54:44,308] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.437 seconds
+[2022-05-17 05:55:14,494] {scheduler_job.py:182} INFO - Started process (PID=558) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:55:14,496] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:55:14,497] {logging_mixin.py:104} INFO - [2022-05-17 05:55:14,497] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:55:14,913] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:55:14,937] {logging_mixin.py:104} INFO - [2022-05-17 05:55:14,937] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:55:14,954] {logging_mixin.py:104} INFO - [2022-05-17 05:55:14,954] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:55:14,974] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.486 seconds
+[2022-05-17 05:55:45,272] {scheduler_job.py:182} INFO - Started process (PID=615) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:55:45,273] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:55:45,273] {logging_mixin.py:104} INFO - [2022-05-17 05:55:45,273] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:55:45,699] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:55:45,716] {logging_mixin.py:104} INFO - [2022-05-17 05:55:45,716] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:55:45,729] {logging_mixin.py:104} INFO - [2022-05-17 05:55:45,729] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:55:45,737] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.467 seconds
+[2022-05-17 05:56:16,070] {scheduler_job.py:182} INFO - Started process (PID=672) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:56:16,070] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:56:16,071] {logging_mixin.py:104} INFO - [2022-05-17 05:56:16,070] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:56:16,449] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:56:16,466] {logging_mixin.py:104} INFO - [2022-05-17 05:56:16,465] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:56:16,480] {logging_mixin.py:104} INFO - [2022-05-17 05:56:16,480] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:56:16,488] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.420 seconds
+[2022-05-17 05:56:46,873] {scheduler_job.py:182} INFO - Started process (PID=729) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:56:46,875] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:56:46,876] {logging_mixin.py:104} INFO - [2022-05-17 05:56:46,876] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:56:47,306] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:56:47,323] {logging_mixin.py:104} INFO - [2022-05-17 05:56:47,323] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:56:47,339] {logging_mixin.py:104} INFO - [2022-05-17 05:56:47,339] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:56:47,357] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.489 seconds
+[2022-05-17 05:57:17,981] {scheduler_job.py:182} INFO - Started process (PID=786) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:57:17,984] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:57:17,985] {logging_mixin.py:104} INFO - [2022-05-17 05:57:17,985] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:57:18,420] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:57:18,441] {logging_mixin.py:104} INFO - [2022-05-17 05:57:18,441] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:57:18,455] {logging_mixin.py:104} INFO - [2022-05-17 05:57:18,455] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:57:18,463] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.488 seconds
+[2022-05-17 05:57:48,775] {scheduler_job.py:182} INFO - Started process (PID=843) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:57:48,777] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:57:48,778] {logging_mixin.py:104} INFO - [2022-05-17 05:57:48,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:57:49,214] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:57:49,232] {logging_mixin.py:104} INFO - [2022-05-17 05:57:49,231] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:57:49,247] {logging_mixin.py:104} INFO - [2022-05-17 05:57:49,246] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:57:49,254] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.485 seconds
+[2022-05-17 05:58:19,728] {scheduler_job.py:182} INFO - Started process (PID=900) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:58:19,730] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:58:19,731] {logging_mixin.py:104} INFO - [2022-05-17 05:58:19,731] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:58:20,149] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:58:20,166] {logging_mixin.py:104} INFO - [2022-05-17 05:58:20,166] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:58:20,183] {logging_mixin.py:104} INFO - [2022-05-17 05:58:20,183] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:58:20,205] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.483 seconds
+[2022-05-17 05:58:50,514] {scheduler_job.py:182} INFO - Started process (PID=957) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:58:50,516] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:58:50,517] {logging_mixin.py:104} INFO - [2022-05-17 05:58:50,517] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:58:50,937] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:58:50,954] {logging_mixin.py:104} INFO - [2022-05-17 05:58:50,953] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:58:50,967] {logging_mixin.py:104} INFO - [2022-05-17 05:58:50,967] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:58:50,976] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.468 seconds
+[2022-05-17 05:59:21,319] {scheduler_job.py:182} INFO - Started process (PID=1014) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:59:21,321] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:59:21,322] {logging_mixin.py:104} INFO - [2022-05-17 05:59:21,322] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:59:21,743] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:59:21,762] {logging_mixin.py:104} INFO - [2022-05-17 05:59:21,762] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:59:21,779] {logging_mixin.py:104} INFO - [2022-05-17 05:59:21,779] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:59:21,787] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.475 seconds
+[2022-05-17 05:59:51,904] {scheduler_job.py:182} INFO - Started process (PID=1071) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 05:59:51,904] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 05:59:51,905] {logging_mixin.py:104} INFO - [2022-05-17 05:59:51,905] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 05:59:52,283] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 05:59:52,300] {logging_mixin.py:104} INFO - [2022-05-17 05:59:52,300] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 05:59:52,316] {logging_mixin.py:104} INFO - [2022-05-17 05:59:52,316] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:50:00+00:00
+[2022-05-17 05:59:52,333] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.431 seconds
+[2022-05-17 06:00:22,678] {scheduler_job.py:182} INFO - Started process (PID=1128) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:00:22,678] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:00:22,679] {logging_mixin.py:104} INFO - [2022-05-17 06:00:22,679] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:00:23,069] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:00:23,084] {logging_mixin.py:104} INFO - [2022-05-17 06:00:23,084] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:00:23,098] {logging_mixin.py:104} INFO - [2022-05-17 06:00:23,098] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:00:23,106] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.430 seconds
+[2022-05-17 06:00:53,514] {scheduler_job.py:182} INFO - Started process (PID=1185) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:00:53,516] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:00:53,517] {logging_mixin.py:104} INFO - [2022-05-17 06:00:53,517] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:00:53,974] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:00:53,990] {logging_mixin.py:104} INFO - [2022-05-17 06:00:53,990] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:00:54,005] {logging_mixin.py:104} INFO - [2022-05-17 06:00:54,005] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:00:54,012] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.504 seconds
+[2022-05-17 06:01:24,471] {scheduler_job.py:182} INFO - Started process (PID=1242) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:01:24,472] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:01:24,472] {logging_mixin.py:104} INFO - [2022-05-17 06:01:24,472] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:01:24,902] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:01:24,919] {logging_mixin.py:104} INFO - [2022-05-17 06:01:24,919] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:01:24,933] {logging_mixin.py:104} INFO - [2022-05-17 06:01:24,933] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:01:24,951] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.482 seconds
+[2022-05-17 06:01:55,273] {scheduler_job.py:182} INFO - Started process (PID=1299) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:01:55,275] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:01:55,276] {logging_mixin.py:104} INFO - [2022-05-17 06:01:55,276] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:01:55,696] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:01:55,714] {logging_mixin.py:104} INFO - [2022-05-17 06:01:55,714] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:01:55,730] {logging_mixin.py:104} INFO - [2022-05-17 06:01:55,730] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:01:55,748] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.480 seconds
+[2022-05-17 06:02:26,042] {scheduler_job.py:182} INFO - Started process (PID=1356) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:02:26,043] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:02:26,043] {logging_mixin.py:104} INFO - [2022-05-17 06:02:26,043] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:02:26,449] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:02:26,466] {logging_mixin.py:104} INFO - [2022-05-17 06:02:26,466] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:02:26,482] {logging_mixin.py:104} INFO - [2022-05-17 06:02:26,481] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:02:26,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.459 seconds
+[2022-05-17 06:02:56,802] {scheduler_job.py:182} INFO - Started process (PID=1413) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:02:56,804] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:02:56,805] {logging_mixin.py:104} INFO - [2022-05-17 06:02:56,805] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:02:57,262] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:02:57,279] {logging_mixin.py:104} INFO - [2022-05-17 06:02:57,278] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:02:57,294] {logging_mixin.py:104} INFO - [2022-05-17 06:02:57,294] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:02:57,303] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.506 seconds
+[2022-05-17 06:03:27,750] {scheduler_job.py:182} INFO - Started process (PID=1470) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:03:27,752] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:03:27,753] {logging_mixin.py:104} INFO - [2022-05-17 06:03:27,753] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:03:28,217] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:03:28,246] {logging_mixin.py:104} INFO - [2022-05-17 06:03:28,246] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:03:28,261] {logging_mixin.py:104} INFO - [2022-05-17 06:03:28,261] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:03:28,268] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.523 seconds
+[2022-05-17 06:03:58,710] {scheduler_job.py:182} INFO - Started process (PID=1527) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:03:58,712] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:03:58,713] {logging_mixin.py:104} INFO - [2022-05-17 06:03:58,713] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:03:59,125] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:03:59,142] {logging_mixin.py:104} INFO - [2022-05-17 06:03:59,142] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:03:59,157] {logging_mixin.py:104} INFO - [2022-05-17 06:03:59,157] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:03:59,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.467 seconds
+[2022-05-17 06:04:29,372] {scheduler_job.py:182} INFO - Started process (PID=1584) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:04:29,374] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:04:29,375] {logging_mixin.py:104} INFO - [2022-05-17 06:04:29,375] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:04:29,800] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:04:29,817] {logging_mixin.py:104} INFO - [2022-05-17 06:04:29,817] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:04:29,832] {logging_mixin.py:104} INFO - [2022-05-17 06:04:29,832] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T05:55:00+00:00
+[2022-05-17 06:04:29,850] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.484 seconds
+[2022-05-17 06:05:00,215] {scheduler_job.py:182} INFO - Started process (PID=1641) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:05:00,217] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:05:00,218] {logging_mixin.py:104} INFO - [2022-05-17 06:05:00,218] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:05:00,628] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:05:00,645] {logging_mixin.py:104} INFO - [2022-05-17 06:05:00,645] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:05:00,659] {logging_mixin.py:104} INFO - [2022-05-17 06:05:00,659] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:05:00,677] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.468 seconds
+[2022-05-17 06:05:31,092] {scheduler_job.py:182} INFO - Started process (PID=1698) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:05:31,093] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:05:31,093] {logging_mixin.py:104} INFO - [2022-05-17 06:05:31,093] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:05:31,482] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:05:31,498] {logging_mixin.py:104} INFO - [2022-05-17 06:05:31,498] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:05:31,512] {logging_mixin.py:104} INFO - [2022-05-17 06:05:31,512] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:05:31,520] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.429 seconds
+[2022-05-17 06:06:01,835] {scheduler_job.py:182} INFO - Started process (PID=1755) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:06:01,835] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:06:01,835] {logging_mixin.py:104} INFO - [2022-05-17 06:06:01,835] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:06:02,266] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:06:02,292] {logging_mixin.py:104} INFO - [2022-05-17 06:06:02,291] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:06:02,306] {logging_mixin.py:104} INFO - [2022-05-17 06:06:02,306] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:06:02,339] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.506 seconds
+[2022-05-17 06:06:32,560] {scheduler_job.py:182} INFO - Started process (PID=1812) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:06:32,561] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:06:32,561] {logging_mixin.py:104} INFO - [2022-05-17 06:06:32,561] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:06:32,930] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:06:32,947] {logging_mixin.py:104} INFO - [2022-05-17 06:06:32,946] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:06:32,959] {logging_mixin.py:104} INFO - [2022-05-17 06:06:32,959] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:06:32,977] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.419 seconds
+[2022-05-17 06:07:03,407] {scheduler_job.py:182} INFO - Started process (PID=1869) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:07:03,408] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:07:03,408] {logging_mixin.py:104} INFO - [2022-05-17 06:07:03,408] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:07:03,795] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:07:03,811] {logging_mixin.py:104} INFO - [2022-05-17 06:07:03,811] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:07:03,824] {logging_mixin.py:104} INFO - [2022-05-17 06:07:03,824] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:07:03,832] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.427 seconds
+[2022-05-17 06:07:34,363] {scheduler_job.py:182} INFO - Started process (PID=1926) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:07:34,364] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:07:34,364] {logging_mixin.py:104} INFO - [2022-05-17 06:07:34,364] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:07:34,763] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:07:34,781] {logging_mixin.py:104} INFO - [2022-05-17 06:07:34,781] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:07:34,796] {logging_mixin.py:104} INFO - [2022-05-17 06:07:34,795] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:07:34,813] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.452 seconds
+[2022-05-17 06:08:05,327] {scheduler_job.py:182} INFO - Started process (PID=1983) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:08:05,329] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:08:05,330] {logging_mixin.py:104} INFO - [2022-05-17 06:08:05,330] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:08:05,753] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:08:05,769] {logging_mixin.py:104} INFO - [2022-05-17 06:08:05,769] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:08:05,785] {logging_mixin.py:104} INFO - [2022-05-17 06:08:05,785] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:08:05,793] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.472 seconds
+[2022-05-17 06:08:36,129] {scheduler_job.py:182} INFO - Started process (PID=2040) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:08:36,129] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:08:36,130] {logging_mixin.py:104} INFO - [2022-05-17 06:08:36,129] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:08:36,539] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:08:36,555] {logging_mixin.py:104} INFO - [2022-05-17 06:08:36,555] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:08:36,569] {logging_mixin.py:104} INFO - [2022-05-17 06:08:36,569] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:08:36,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.451 seconds
+[2022-05-17 06:09:06,957] {scheduler_job.py:182} INFO - Started process (PID=2097) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:09:06,957] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:09:06,957] {logging_mixin.py:104} INFO - [2022-05-17 06:09:06,957] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:09:07,375] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:09:07,391] {logging_mixin.py:104} INFO - [2022-05-17 06:09:07,390] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:09:07,404] {logging_mixin.py:104} INFO - [2022-05-17 06:09:07,404] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:09:07,422] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.467 seconds
+[2022-05-17 06:09:37,718] {scheduler_job.py:182} INFO - Started process (PID=2154) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:09:37,719] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:09:37,719] {logging_mixin.py:104} INFO - [2022-05-17 06:09:37,719] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:09:38,121] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:09:38,137] {logging_mixin.py:104} INFO - [2022-05-17 06:09:38,136] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:09:38,153] {logging_mixin.py:104} INFO - [2022-05-17 06:09:38,153] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:00:00+00:00
+[2022-05-17 06:09:38,173] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.457 seconds
+[2022-05-17 06:10:08,305] {scheduler_job.py:182} INFO - Started process (PID=2211) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:10:08,306] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:10:08,307] {logging_mixin.py:104} INFO - [2022-05-17 06:10:08,306] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:10:08,784] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:10:08,801] {logging_mixin.py:104} INFO - [2022-05-17 06:10:08,801] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:10:08,817] {logging_mixin.py:104} INFO - [2022-05-17 06:10:08,817] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:10:08,843] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.540 seconds
+[2022-05-17 06:10:39,611] {scheduler_job.py:182} INFO - Started process (PID=2268) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:10:39,613] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:10:39,614] {logging_mixin.py:104} INFO - [2022-05-17 06:10:39,614] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:10:40,038] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:10:40,055] {logging_mixin.py:104} INFO - [2022-05-17 06:10:40,055] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:10:40,069] {logging_mixin.py:104} INFO - [2022-05-17 06:10:40,069] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:10:40,088] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.483 seconds
+[2022-05-17 06:11:10,466] {scheduler_job.py:182} INFO - Started process (PID=2325) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:11:10,466] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:11:10,466] {logging_mixin.py:104} INFO - [2022-05-17 06:11:10,466] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:11:10,900] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:11:10,918] {logging_mixin.py:104} INFO - [2022-05-17 06:11:10,918] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:11:10,932] {logging_mixin.py:104} INFO - [2022-05-17 06:11:10,932] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:11:10,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.475 seconds
+[2022-05-17 06:11:41,263] {scheduler_job.py:182} INFO - Started process (PID=2382) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:11:41,266] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:11:41,267] {logging_mixin.py:104} INFO - [2022-05-17 06:11:41,267] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:11:41,690] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:11:41,708] {logging_mixin.py:104} INFO - [2022-05-17 06:11:41,708] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:11:41,723] {logging_mixin.py:104} INFO - [2022-05-17 06:11:41,723] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:11:41,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.484 seconds
+[2022-05-17 06:12:12,047] {scheduler_job.py:182} INFO - Started process (PID=2439) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:12:12,049] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:12:12,050] {logging_mixin.py:104} INFO - [2022-05-17 06:12:12,050] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:12:12,475] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:12:12,494] {logging_mixin.py:104} INFO - [2022-05-17 06:12:12,493] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:12:12,507] {logging_mixin.py:104} INFO - [2022-05-17 06:12:12,507] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:12:12,525] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.484 seconds
+[2022-05-17 06:12:42,801] {scheduler_job.py:182} INFO - Started process (PID=2496) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:12:42,802] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:12:42,802] {logging_mixin.py:104} INFO - [2022-05-17 06:12:42,802] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:12:43,209] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:12:43,223] {logging_mixin.py:104} INFO - [2022-05-17 06:12:43,222] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:12:43,233] {logging_mixin.py:104} INFO - [2022-05-17 06:12:43,233] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:12:43,239] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.440 seconds
+[2022-05-17 06:13:13,547] {scheduler_job.py:182} INFO - Started process (PID=2553) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:13:13,547] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:13:13,548] {logging_mixin.py:104} INFO - [2022-05-17 06:13:13,548] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:13:14,113] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:13:14,131] {logging_mixin.py:104} INFO - [2022-05-17 06:13:14,131] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:13:14,144] {logging_mixin.py:104} INFO - [2022-05-17 06:13:14,144] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:13:14,153] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.609 seconds
+[2022-05-17 06:13:44,921] {scheduler_job.py:182} INFO - Started process (PID=2610) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:13:44,929] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:13:44,930] {logging_mixin.py:104} INFO - [2022-05-17 06:13:44,930] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:13:45,372] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:13:45,387] {logging_mixin.py:104} INFO - [2022-05-17 06:13:45,386] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:13:45,397] {logging_mixin.py:104} INFO - [2022-05-17 06:13:45,397] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:13:45,404] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.485 seconds
+[2022-05-17 06:14:16,342] {scheduler_job.py:182} INFO - Started process (PID=2667) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:14:16,343] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:14:16,344] {logging_mixin.py:104} INFO - [2022-05-17 06:14:16,344] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:14:17,002] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:14:17,026] {logging_mixin.py:104} INFO - [2022-05-17 06:14:17,026] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:14:17,038] {logging_mixin.py:104} INFO - [2022-05-17 06:14:17,037] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:14:17,044] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.706 seconds
+[2022-05-17 06:14:47,402] {scheduler_job.py:182} INFO - Started process (PID=2724) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:14:47,405] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:14:47,406] {logging_mixin.py:104} INFO - [2022-05-17 06:14:47,406] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:14:48,117] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:14:48,129] {logging_mixin.py:104} INFO - [2022-05-17 06:14:48,129] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:14:48,140] {logging_mixin.py:104} INFO - [2022-05-17 06:14:48,140] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:05:00+00:00
+[2022-05-17 06:14:48,145] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.751 seconds
+[2022-05-17 06:15:18,673] {scheduler_job.py:182} INFO - Started process (PID=2781) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:15:18,674] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:15:18,674] {logging_mixin.py:104} INFO - [2022-05-17 06:15:18,674] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:15:19,093] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:15:19,104] {logging_mixin.py:104} INFO - [2022-05-17 06:15:19,104] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:15:19,116] {logging_mixin.py:104} INFO - [2022-05-17 06:15:19,116] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:10:00+00:00
+[2022-05-17 06:15:19,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.450 seconds
+[2022-05-17 06:15:49,501] {scheduler_job.py:182} INFO - Started process (PID=2838) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:15:49,502] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:15:49,504] {logging_mixin.py:104} INFO - [2022-05-17 06:15:49,503] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:15:49,923] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:15:49,936] {logging_mixin.py:104} INFO - [2022-05-17 06:15:49,935] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:15:49,947] {logging_mixin.py:104} INFO - [2022-05-17 06:15:49,947] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:10:00+00:00
+[2022-05-17 06:15:49,953] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.458 seconds
+[2022-05-17 06:16:20,247] {scheduler_job.py:182} INFO - Started process (PID=2895) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:16:20,249] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:16:20,251] {logging_mixin.py:104} INFO - [2022-05-17 06:16:20,250] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:16:20,663] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:16:20,676] {logging_mixin.py:104} INFO - [2022-05-17 06:16:20,675] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:16:20,687] {logging_mixin.py:104} INFO - [2022-05-17 06:16:20,687] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:10:00+00:00
+[2022-05-17 06:16:20,704] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.462 seconds
+[2022-05-17 06:16:50,988] {scheduler_job.py:182} INFO - Started process (PID=2952) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:16:50,991] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:16:50,992] {logging_mixin.py:104} INFO - [2022-05-17 06:16:50,991] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:16:51,402] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:16:51,417] {logging_mixin.py:104} INFO - [2022-05-17 06:16:51,416] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:16:51,426] {logging_mixin.py:104} INFO - [2022-05-17 06:16:51,426] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:10:00+00:00
+[2022-05-17 06:16:51,443] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.460 seconds
+[2022-05-17 06:17:21,823] {scheduler_job.py:182} INFO - Started process (PID=3009) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:17:21,823] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:17:21,824] {logging_mixin.py:104} INFO - [2022-05-17 06:17:21,824] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:17:22,360] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:17:22,373] {logging_mixin.py:104} INFO - [2022-05-17 06:17:22,373] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:17:22,383] {logging_mixin.py:104} INFO - [2022-05-17 06:17:22,382] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:10:00+00:00
+[2022-05-17 06:17:22,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.574 seconds
+[2022-05-17 06:17:53,334] {scheduler_job.py:182} INFO - Started process (PID=3066) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 06:17:53,335] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 06:17:53,335] {logging_mixin.py:104} INFO - [2022-05-17 06:17:53,335] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 06:17:53,711] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 06:17:53,724] {logging_mixin.py:104} INFO - [2022-05-17 06:17:53,723] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 06:17:53,736] {logging_mixin.py:104} INFO - [2022-05-17 06:17:53,736] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T06:10:00+00:00
+[2022-05-17 06:17:53,750] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.418 seconds
+[2022-05-17 08:24:41,369] {scheduler_job.py:182} INFO - Started process (PID=33) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:24:41,371] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:24:41,373] {logging_mixin.py:104} INFO - [2022-05-17 08:24:41,373] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:24:42,678] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:24:42,695] {logging_mixin.py:104} INFO - [2022-05-17 08:24:42,695] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:24:42,708] {logging_mixin.py:104} INFO - [2022-05-17 08:24:42,708] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:15:00+00:00
+[2022-05-17 08:24:42,716] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.351 seconds
+[2022-05-17 08:25:12,812] {scheduler_job.py:182} INFO - Started process (PID=97) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:25:12,813] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:25:12,814] {logging_mixin.py:104} INFO - [2022-05-17 08:25:12,814] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:25:13,234] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:25:13,248] {logging_mixin.py:104} INFO - [2022-05-17 08:25:13,247] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:25:13,259] {logging_mixin.py:104} INFO - [2022-05-17 08:25:13,259] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:20:00+00:00
+[2022-05-17 08:25:13,265] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.455 seconds
+[2022-05-17 08:25:44,154] {scheduler_job.py:182} INFO - Started process (PID=214) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:25:44,156] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:25:44,158] {logging_mixin.py:104} INFO - [2022-05-17 08:25:44,157] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:25:44,606] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:25:44,619] {logging_mixin.py:104} INFO - [2022-05-17 08:25:44,619] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:25:44,628] {logging_mixin.py:104} INFO - [2022-05-17 08:25:44,628] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:25:44,644] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.496 seconds
+[2022-05-17 08:26:15,087] {scheduler_job.py:182} INFO - Started process (PID=271) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:26:15,088] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:26:15,089] {logging_mixin.py:104} INFO - [2022-05-17 08:26:15,088] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:26:15,572] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:26:15,587] {logging_mixin.py:104} INFO - [2022-05-17 08:26:15,586] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:26:15,596] {logging_mixin.py:104} INFO - [2022-05-17 08:26:15,596] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:26:15,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.518 seconds
+[2022-05-17 08:26:46,484] {scheduler_job.py:182} INFO - Started process (PID=328) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:26:46,487] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:26:46,488] {logging_mixin.py:104} INFO - [2022-05-17 08:26:46,488] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:26:46,909] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:26:46,922] {logging_mixin.py:104} INFO - [2022-05-17 08:26:46,922] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:26:46,933] {logging_mixin.py:104} INFO - [2022-05-17 08:26:46,933] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:26:46,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.461 seconds
+[2022-05-17 08:27:17,230] {scheduler_job.py:182} INFO - Started process (PID=398) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:27:17,231] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:27:17,231] {logging_mixin.py:104} INFO - [2022-05-17 08:27:17,231] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:27:17,660] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:27:17,672] {logging_mixin.py:104} INFO - [2022-05-17 08:27:17,672] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:27:17,681] {logging_mixin.py:104} INFO - [2022-05-17 08:27:17,681] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:27:17,687] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.462 seconds
+[2022-05-17 08:27:47,883] {scheduler_job.py:182} INFO - Started process (PID=455) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:27:47,884] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:27:47,885] {logging_mixin.py:104} INFO - [2022-05-17 08:27:47,885] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:27:48,304] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:27:48,315] {logging_mixin.py:104} INFO - [2022-05-17 08:27:48,315] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:27:48,323] {logging_mixin.py:104} INFO - [2022-05-17 08:27:48,323] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:27:48,328] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.449 seconds
+[2022-05-17 08:28:18,402] {scheduler_job.py:182} INFO - Started process (PID=517) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:28:18,402] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:28:18,403] {logging_mixin.py:104} INFO - [2022-05-17 08:28:18,403] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:28:18,769] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:28:18,781] {logging_mixin.py:104} INFO - [2022-05-17 08:28:18,781] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:28:18,789] {logging_mixin.py:104} INFO - [2022-05-17 08:28:18,789] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:28:18,798] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.398 seconds
+[2022-05-17 08:28:48,923] {scheduler_job.py:182} INFO - Started process (PID=591) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:28:48,925] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:28:48,927] {logging_mixin.py:104} INFO - [2022-05-17 08:28:48,926] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:28:49,350] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:28:49,361] {logging_mixin.py:104} INFO - [2022-05-17 08:28:49,361] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:28:49,369] {logging_mixin.py:104} INFO - [2022-05-17 08:28:49,369] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:28:49,374] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.457 seconds
+[2022-05-17 08:29:20,315] {scheduler_job.py:182} INFO - Started process (PID=730) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:29:20,316] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:29:20,316] {logging_mixin.py:104} INFO - [2022-05-17 08:29:20,316] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:29:20,809] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:29:20,825] {logging_mixin.py:104} INFO - [2022-05-17 08:29:20,825] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:29:20,837] {logging_mixin.py:104} INFO - [2022-05-17 08:29:20,837] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:29:20,855] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.542 seconds
+[2022-05-17 08:29:51,486] {scheduler_job.py:182} INFO - Started process (PID=787) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:29:51,487] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:29:51,488] {logging_mixin.py:104} INFO - [2022-05-17 08:29:51,488] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:29:52,145] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:29:52,157] {logging_mixin.py:104} INFO - [2022-05-17 08:29:52,157] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:29:52,165] {logging_mixin.py:104} INFO - [2022-05-17 08:29:52,165] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:25:00+00:00
+[2022-05-17 08:29:52,171] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.687 seconds
+[2022-05-17 08:30:22,473] {scheduler_job.py:182} INFO - Started process (PID=881) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:30:22,475] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:30:22,476] {logging_mixin.py:104} INFO - [2022-05-17 08:30:22,476] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:30:22,910] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:30:22,923] {logging_mixin.py:104} INFO - [2022-05-17 08:30:22,923] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:30:22,932] {logging_mixin.py:104} INFO - [2022-05-17 08:30:22,932] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:30:22,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.471 seconds
+[2022-05-17 08:30:52,989] {scheduler_job.py:182} INFO - Started process (PID=939) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:30:52,990] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:30:52,991] {logging_mixin.py:104} INFO - [2022-05-17 08:30:52,991] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:30:53,373] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:30:53,386] {logging_mixin.py:104} INFO - [2022-05-17 08:30:53,386] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:30:53,395] {logging_mixin.py:104} INFO - [2022-05-17 08:30:53,395] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:30:53,401] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.413 seconds
+[2022-05-17 08:31:23,414] {scheduler_job.py:182} INFO - Started process (PID=999) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:31:23,415] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:31:23,415] {logging_mixin.py:104} INFO - [2022-05-17 08:31:23,415] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:31:23,825] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:31:23,855] {logging_mixin.py:104} INFO - [2022-05-17 08:31:23,855] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:31:23,873] {logging_mixin.py:104} INFO - [2022-05-17 08:31:23,873] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:31:23,879] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.466 seconds
+[2022-05-17 08:31:53,925] {scheduler_job.py:182} INFO - Started process (PID=1042) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:31:53,925] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:31:53,926] {logging_mixin.py:104} INFO - [2022-05-17 08:31:53,926] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:31:54,305] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:31:54,318] {logging_mixin.py:104} INFO - [2022-05-17 08:31:54,317] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:31:54,326] {logging_mixin.py:104} INFO - [2022-05-17 08:31:54,326] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:31:54,333] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.411 seconds
+[2022-05-17 08:32:25,150] {scheduler_job.py:182} INFO - Started process (PID=1099) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:32:25,151] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:32:25,151] {logging_mixin.py:104} INFO - [2022-05-17 08:32:25,151] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:32:25,559] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:32:25,572] {logging_mixin.py:104} INFO - [2022-05-17 08:32:25,571] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:32:25,581] {logging_mixin.py:104} INFO - [2022-05-17 08:32:25,581] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:32:25,600] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.451 seconds
+[2022-05-17 08:32:55,998] {scheduler_job.py:182} INFO - Started process (PID=1156) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:32:55,999] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:32:55,999] {logging_mixin.py:104} INFO - [2022-05-17 08:32:55,999] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:32:56,420] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:32:56,432] {logging_mixin.py:104} INFO - [2022-05-17 08:32:56,432] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:32:56,441] {logging_mixin.py:104} INFO - [2022-05-17 08:32:56,441] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:32:56,457] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.462 seconds
+[2022-05-17 08:33:26,556] {scheduler_job.py:182} INFO - Started process (PID=1213) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:33:26,557] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:33:26,558] {logging_mixin.py:104} INFO - [2022-05-17 08:33:26,558] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:33:26,981] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:33:26,994] {logging_mixin.py:104} INFO - [2022-05-17 08:33:26,994] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:33:27,004] {logging_mixin.py:104} INFO - [2022-05-17 08:33:27,004] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:33:27,021] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.468 seconds
+[2022-05-17 08:33:57,749] {scheduler_job.py:182} INFO - Started process (PID=1270) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:33:57,752] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:33:57,753] {logging_mixin.py:104} INFO - [2022-05-17 08:33:57,753] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:33:58,183] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:33:58,200] {logging_mixin.py:104} INFO - [2022-05-17 08:33:58,199] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:33:58,209] {logging_mixin.py:104} INFO - [2022-05-17 08:33:58,208] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:33:58,225] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.483 seconds
+[2022-05-17 08:34:28,421] {scheduler_job.py:182} INFO - Started process (PID=1327) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:34:28,421] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:34:28,422] {logging_mixin.py:104} INFO - [2022-05-17 08:34:28,422] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:34:28,837] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:34:28,849] {logging_mixin.py:104} INFO - [2022-05-17 08:34:28,849] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:34:28,860] {logging_mixin.py:104} INFO - [2022-05-17 08:34:28,860] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:34:28,867] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.448 seconds
+[2022-05-17 08:34:59,242] {scheduler_job.py:182} INFO - Started process (PID=1384) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:34:59,244] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:34:59,245] {logging_mixin.py:104} INFO - [2022-05-17 08:34:59,245] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:34:59,682] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:34:59,695] {logging_mixin.py:104} INFO - [2022-05-17 08:34:59,695] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:34:59,704] {logging_mixin.py:104} INFO - [2022-05-17 08:34:59,704] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:30:00+00:00
+[2022-05-17 08:34:59,721] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.486 seconds
+[2022-05-17 08:35:30,294] {scheduler_job.py:182} INFO - Started process (PID=1478) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:35:30,296] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:35:30,297] {logging_mixin.py:104} INFO - [2022-05-17 08:35:30,297] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:35:30,722] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:35:30,733] {logging_mixin.py:104} INFO - [2022-05-17 08:35:30,733] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:35:30,742] {logging_mixin.py:104} INFO - [2022-05-17 08:35:30,742] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:35:30,759] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.471 seconds
+[2022-05-17 08:36:01,174] {scheduler_job.py:182} INFO - Started process (PID=1535) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:36:01,178] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:36:01,180] {logging_mixin.py:104} INFO - [2022-05-17 08:36:01,180] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:36:01,622] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:36:01,634] {logging_mixin.py:104} INFO - [2022-05-17 08:36:01,634] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:36:01,643] {logging_mixin.py:104} INFO - [2022-05-17 08:36:01,643] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:36:01,659] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.493 seconds
+[2022-05-17 08:36:32,089] {scheduler_job.py:182} INFO - Started process (PID=1592) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:36:32,091] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:36:32,092] {logging_mixin.py:104} INFO - [2022-05-17 08:36:32,092] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:36:32,521] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:36:32,535] {logging_mixin.py:104} INFO - [2022-05-17 08:36:32,534] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:36:32,543] {logging_mixin.py:104} INFO - [2022-05-17 08:36:32,543] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:36:32,549] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.466 seconds
+[2022-05-17 08:37:02,920] {scheduler_job.py:182} INFO - Started process (PID=1649) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:37:02,922] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:37:02,924] {logging_mixin.py:104} INFO - [2022-05-17 08:37:02,923] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:37:03,361] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:37:03,374] {logging_mixin.py:104} INFO - [2022-05-17 08:37:03,373] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:37:03,382] {logging_mixin.py:104} INFO - [2022-05-17 08:37:03,382] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:37:03,399] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.485 seconds
+[2022-05-17 08:37:33,894] {scheduler_job.py:182} INFO - Started process (PID=1706) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:37:33,896] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:37:33,897] {logging_mixin.py:104} INFO - [2022-05-17 08:37:33,897] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:37:34,297] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:37:34,309] {logging_mixin.py:104} INFO - [2022-05-17 08:37:34,309] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:37:34,317] {logging_mixin.py:104} INFO - [2022-05-17 08:37:34,317] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:37:34,351] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.462 seconds
+[2022-05-17 08:38:05,293] {scheduler_job.py:182} INFO - Started process (PID=1763) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:38:05,295] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:38:05,295] {logging_mixin.py:104} INFO - [2022-05-17 08:38:05,295] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:38:05,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:38:05,735] {logging_mixin.py:104} INFO - [2022-05-17 08:38:05,735] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:38:05,744] {logging_mixin.py:104} INFO - [2022-05-17 08:38:05,743] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:38:05,760] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.471 seconds
+[2022-05-17 08:38:36,415] {scheduler_job.py:182} INFO - Started process (PID=1820) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:38:36,415] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:38:36,416] {logging_mixin.py:104} INFO - [2022-05-17 08:38:36,416] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:38:37,156] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:38:37,190] {logging_mixin.py:104} INFO - [2022-05-17 08:38:37,190] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:38:37,204] {logging_mixin.py:104} INFO - [2022-05-17 08:38:37,204] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:38:37,217] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.806 seconds
+[2022-05-17 08:39:07,549] {scheduler_job.py:182} INFO - Started process (PID=1877) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:39:07,550] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:39:07,550] {logging_mixin.py:104} INFO - [2022-05-17 08:39:07,550] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:39:07,953] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:39:07,967] {logging_mixin.py:104} INFO - [2022-05-17 08:39:07,967] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:39:07,980] {logging_mixin.py:104} INFO - [2022-05-17 08:39:07,979] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:39:07,986] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.439 seconds
+[2022-05-17 08:39:38,340] {scheduler_job.py:182} INFO - Started process (PID=1934) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:39:38,342] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:39:38,343] {logging_mixin.py:104} INFO - [2022-05-17 08:39:38,343] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:39:38,765] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:39:38,779] {logging_mixin.py:104} INFO - [2022-05-17 08:39:38,778] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:39:38,787] {logging_mixin.py:104} INFO - [2022-05-17 08:39:38,787] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:35:00+00:00
+[2022-05-17 08:39:38,793] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.459 seconds
+[2022-05-17 08:40:09,233] {scheduler_job.py:182} INFO - Started process (PID=2007) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:40:09,233] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:40:09,233] {logging_mixin.py:104} INFO - [2022-05-17 08:40:09,233] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:40:09,769] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:40:09,812] {logging_mixin.py:104} INFO - [2022-05-17 08:40:09,811] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:40:09,840] {logging_mixin.py:104} INFO - [2022-05-17 08:40:09,840] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:40:09,861] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.629 seconds
+[2022-05-17 08:40:40,483] {scheduler_job.py:182} INFO - Started process (PID=2085) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:40:40,485] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:40:40,485] {logging_mixin.py:104} INFO - [2022-05-17 08:40:40,485] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:40:40,903] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:40:40,917] {logging_mixin.py:104} INFO - [2022-05-17 08:40:40,917] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:40:40,926] {logging_mixin.py:104} INFO - [2022-05-17 08:40:40,926] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:40:40,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.451 seconds
+[2022-05-17 08:41:11,401] {scheduler_job.py:182} INFO - Started process (PID=2142) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:41:11,402] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:41:11,402] {logging_mixin.py:104} INFO - [2022-05-17 08:41:11,402] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:41:12,021] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:41:12,038] {logging_mixin.py:104} INFO - [2022-05-17 08:41:12,038] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:41:12,049] {logging_mixin.py:104} INFO - [2022-05-17 08:41:12,049] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:41:12,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.656 seconds
+[2022-05-17 08:41:42,782] {scheduler_job.py:182} INFO - Started process (PID=2199) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:41:42,783] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:41:42,784] {logging_mixin.py:104} INFO - [2022-05-17 08:41:42,784] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:41:43,266] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:41:43,279] {logging_mixin.py:104} INFO - [2022-05-17 08:41:43,278] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:41:43,287] {logging_mixin.py:104} INFO - [2022-05-17 08:41:43,287] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:41:43,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.517 seconds
+[2022-05-17 08:42:13,582] {scheduler_job.py:182} INFO - Started process (PID=2256) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:42:13,583] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:42:13,585] {logging_mixin.py:104} INFO - [2022-05-17 08:42:13,585] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:42:14,539] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:42:14,570] {logging_mixin.py:104} INFO - [2022-05-17 08:42:14,570] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:42:14,592] {logging_mixin.py:104} INFO - [2022-05-17 08:42:14,591] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:42:14,614] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.037 seconds
+[2022-05-17 08:42:45,018] {scheduler_job.py:182} INFO - Started process (PID=2313) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:42:45,019] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:42:45,022] {logging_mixin.py:104} INFO - [2022-05-17 08:42:45,021] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:42:45,814] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:42:45,827] {logging_mixin.py:104} INFO - [2022-05-17 08:42:45,826] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:42:45,835] {logging_mixin.py:104} INFO - [2022-05-17 08:42:45,835] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:42:45,841] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.827 seconds
+[2022-05-17 08:43:16,588] {scheduler_job.py:182} INFO - Started process (PID=2370) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:43:16,589] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:43:16,589] {logging_mixin.py:104} INFO - [2022-05-17 08:43:16,589] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:43:17,266] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:43:17,280] {logging_mixin.py:104} INFO - [2022-05-17 08:43:17,279] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:43:17,294] {logging_mixin.py:104} INFO - [2022-05-17 08:43:17,294] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:43:17,303] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.718 seconds
+[2022-05-17 08:43:47,697] {scheduler_job.py:182} INFO - Started process (PID=2427) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:43:47,700] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:43:47,701] {logging_mixin.py:104} INFO - [2022-05-17 08:43:47,701] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:43:48,659] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:43:48,690] {logging_mixin.py:104} INFO - [2022-05-17 08:43:48,690] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:43:48,715] {logging_mixin.py:104} INFO - [2022-05-17 08:43:48,715] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:43:48,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.048 seconds
+[2022-05-17 08:44:19,539] {scheduler_job.py:182} INFO - Started process (PID=2484) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:44:19,539] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:44:19,539] {logging_mixin.py:104} INFO - [2022-05-17 08:44:19,539] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:44:20,031] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:44:20,044] {logging_mixin.py:104} INFO - [2022-05-17 08:44:20,043] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:44:20,052] {logging_mixin.py:104} INFO - [2022-05-17 08:44:20,052] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:44:20,058] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.521 seconds
+[2022-05-17 08:44:50,973] {scheduler_job.py:182} INFO - Started process (PID=2541) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:44:50,976] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:44:50,976] {logging_mixin.py:104} INFO - [2022-05-17 08:44:50,976] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:44:51,546] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:44:51,563] {logging_mixin.py:104} INFO - [2022-05-17 08:44:51,563] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:44:51,573] {logging_mixin.py:104} INFO - [2022-05-17 08:44:51,573] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:40:00+00:00
+[2022-05-17 08:44:51,579] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.611 seconds
+[2022-05-17 08:45:22,424] {scheduler_job.py:182} INFO - Started process (PID=2635) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:45:22,428] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:45:22,430] {logging_mixin.py:104} INFO - [2022-05-17 08:45:22,429] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:45:23,501] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:45:23,515] {logging_mixin.py:104} INFO - [2022-05-17 08:45:23,515] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:45:23,526] {logging_mixin.py:104} INFO - [2022-05-17 08:45:23,526] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:45:23,531] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.116 seconds
+[2022-05-17 08:45:54,109] {scheduler_job.py:182} INFO - Started process (PID=2692) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:45:54,109] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:45:54,109] {logging_mixin.py:104} INFO - [2022-05-17 08:45:54,109] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:45:54,527] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:45:54,541] {logging_mixin.py:104} INFO - [2022-05-17 08:45:54,541] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:45:54,558] {logging_mixin.py:104} INFO - [2022-05-17 08:45:54,557] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:45:54,580] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.473 seconds
+[2022-05-17 08:46:25,111] {scheduler_job.py:182} INFO - Started process (PID=2749) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:46:25,112] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:46:25,112] {logging_mixin.py:104} INFO - [2022-05-17 08:46:25,112] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:46:25,711] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:46:25,733] {logging_mixin.py:104} INFO - [2022-05-17 08:46:25,733] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:46:25,752] {logging_mixin.py:104} INFO - [2022-05-17 08:46:25,752] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:46:25,764] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.655 seconds
+[2022-05-17 08:46:56,662] {scheduler_job.py:182} INFO - Started process (PID=2806) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:46:56,663] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:46:56,665] {logging_mixin.py:104} INFO - [2022-05-17 08:46:56,664] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:46:57,088] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:46:57,101] {logging_mixin.py:104} INFO - [2022-05-17 08:46:57,101] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:46:57,110] {logging_mixin.py:104} INFO - [2022-05-17 08:46:57,110] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:46:57,127] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.471 seconds
+[2022-05-17 08:47:27,227] {scheduler_job.py:182} INFO - Started process (PID=2863) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:47:27,229] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:47:27,230] {logging_mixin.py:104} INFO - [2022-05-17 08:47:27,230] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:47:27,657] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:47:27,670] {logging_mixin.py:104} INFO - [2022-05-17 08:47:27,670] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:47:27,678] {logging_mixin.py:104} INFO - [2022-05-17 08:47:27,678] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:47:27,695] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.474 seconds
+[2022-05-17 08:47:58,080] {scheduler_job.py:182} INFO - Started process (PID=2920) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:47:58,082] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:47:58,083] {logging_mixin.py:104} INFO - [2022-05-17 08:47:58,083] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:47:58,548] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:47:58,559] {logging_mixin.py:104} INFO - [2022-05-17 08:47:58,559] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:47:58,568] {logging_mixin.py:104} INFO - [2022-05-17 08:47:58,568] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:47:58,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.499 seconds
+[2022-05-17 08:48:28,903] {scheduler_job.py:182} INFO - Started process (PID=2977) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:48:28,906] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:48:28,907] {logging_mixin.py:104} INFO - [2022-05-17 08:48:28,907] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:48:29,326] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:48:29,339] {logging_mixin.py:104} INFO - [2022-05-17 08:48:29,339] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:48:29,349] {logging_mixin.py:104} INFO - [2022-05-17 08:48:29,349] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:48:29,496] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.599 seconds
+[2022-05-17 08:49:00,329] {scheduler_job.py:182} INFO - Started process (PID=3034) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:49:00,331] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:49:00,332] {logging_mixin.py:104} INFO - [2022-05-17 08:49:00,331] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:49:00,776] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:49:00,788] {logging_mixin.py:104} INFO - [2022-05-17 08:49:00,788] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:49:00,797] {logging_mixin.py:104} INFO - [2022-05-17 08:49:00,797] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:49:00,803] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.480 seconds
+[2022-05-17 08:49:31,267] {scheduler_job.py:182} INFO - Started process (PID=3091) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:49:31,269] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:49:31,270] {logging_mixin.py:104} INFO - [2022-05-17 08:49:31,270] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:49:31,693] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:49:31,705] {logging_mixin.py:104} INFO - [2022-05-17 08:49:31,705] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:49:31,715] {logging_mixin.py:104} INFO - [2022-05-17 08:49:31,715] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:45:00+00:00
+[2022-05-17 08:49:31,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.471 seconds
+[2022-05-17 08:50:02,114] {scheduler_job.py:182} INFO - Started process (PID=3162) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:50:02,118] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:50:02,120] {logging_mixin.py:104} INFO - [2022-05-17 08:50:02,119] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:50:02,534] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:50:02,548] {logging_mixin.py:104} INFO - [2022-05-17 08:50:02,548] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:50:02,558] {logging_mixin.py:104} INFO - [2022-05-17 08:50:02,558] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:50:02,575] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.467 seconds
+[2022-05-17 08:50:33,026] {scheduler_job.py:182} INFO - Started process (PID=3242) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:50:33,026] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:50:33,026] {logging_mixin.py:104} INFO - [2022-05-17 08:50:33,026] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:50:33,432] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:50:33,445] {logging_mixin.py:104} INFO - [2022-05-17 08:50:33,445] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:50:33,453] {logging_mixin.py:104} INFO - [2022-05-17 08:50:33,453] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:50:33,469] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.445 seconds
+[2022-05-17 08:51:03,873] {scheduler_job.py:182} INFO - Started process (PID=3299) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:51:03,875] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:51:03,877] {logging_mixin.py:104} INFO - [2022-05-17 08:51:03,877] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:51:04,297] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:51:04,311] {logging_mixin.py:104} INFO - [2022-05-17 08:51:04,311] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:51:04,320] {logging_mixin.py:104} INFO - [2022-05-17 08:51:04,319] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:51:04,336] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.470 seconds
+[2022-05-17 08:51:34,776] {scheduler_job.py:182} INFO - Started process (PID=3356) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:51:34,777] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:51:34,777] {logging_mixin.py:104} INFO - [2022-05-17 08:51:34,777] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:51:35,194] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:51:35,206] {logging_mixin.py:104} INFO - [2022-05-17 08:51:35,206] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:51:35,215] {logging_mixin.py:104} INFO - [2022-05-17 08:51:35,215] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:51:35,231] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.457 seconds
+[2022-05-17 08:52:05,706] {scheduler_job.py:182} INFO - Started process (PID=3413) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:52:05,708] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:52:05,709] {logging_mixin.py:104} INFO - [2022-05-17 08:52:05,709] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:52:06,147] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:52:06,161] {logging_mixin.py:104} INFO - [2022-05-17 08:52:06,160] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:52:06,169] {logging_mixin.py:104} INFO - [2022-05-17 08:52:06,169] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:52:06,186] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.487 seconds
+[2022-05-17 08:52:36,815] {scheduler_job.py:182} INFO - Started process (PID=3470) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:52:36,816] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:52:36,817] {logging_mixin.py:104} INFO - [2022-05-17 08:52:36,817] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:52:37,251] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:52:37,263] {logging_mixin.py:104} INFO - [2022-05-17 08:52:37,263] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:52:37,271] {logging_mixin.py:104} INFO - [2022-05-17 08:52:37,271] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:52:37,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.468 seconds
+[2022-05-17 08:53:07,702] {scheduler_job.py:182} INFO - Started process (PID=3527) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:53:07,704] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:53:07,705] {logging_mixin.py:104} INFO - [2022-05-17 08:53:07,705] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:53:08,136] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:53:08,149] {logging_mixin.py:104} INFO - [2022-05-17 08:53:08,149] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:53:08,158] {logging_mixin.py:104} INFO - [2022-05-17 08:53:08,158] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:53:08,175] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.479 seconds
+[2022-05-17 08:53:38,512] {scheduler_job.py:182} INFO - Started process (PID=3584) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:53:38,513] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:53:38,514] {logging_mixin.py:104} INFO - [2022-05-17 08:53:38,514] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:53:38,931] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:53:38,944] {logging_mixin.py:104} INFO - [2022-05-17 08:53:38,944] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:53:38,953] {logging_mixin.py:104} INFO - [2022-05-17 08:53:38,953] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:53:38,969] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.460 seconds
+[2022-05-17 08:54:09,332] {scheduler_job.py:182} INFO - Started process (PID=3641) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:54:09,333] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:54:09,334] {logging_mixin.py:104} INFO - [2022-05-17 08:54:09,334] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:54:09,750] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:54:09,763] {logging_mixin.py:104} INFO - [2022-05-17 08:54:09,763] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:54:09,772] {logging_mixin.py:104} INFO - [2022-05-17 08:54:09,772] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:54:09,778] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.453 seconds
+[2022-05-17 08:54:40,138] {scheduler_job.py:182} INFO - Started process (PID=3698) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:54:40,139] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:54:40,140] {logging_mixin.py:104} INFO - [2022-05-17 08:54:40,140] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:54:40,576] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:54:40,588] {logging_mixin.py:104} INFO - [2022-05-17 08:54:40,588] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:54:40,597] {logging_mixin.py:104} INFO - [2022-05-17 08:54:40,597] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:50:00+00:00
+[2022-05-17 08:54:40,603] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.471 seconds
+[2022-05-17 08:55:10,777] {scheduler_job.py:182} INFO - Started process (PID=3769) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:55:10,780] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:55:10,781] {logging_mixin.py:104} INFO - [2022-05-17 08:55:10,781] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:55:11,231] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:55:11,244] {logging_mixin.py:104} INFO - [2022-05-17 08:55:11,244] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:55:11,254] {logging_mixin.py:104} INFO - [2022-05-17 08:55:11,253] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:55:11,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.490 seconds
+[2022-05-17 08:55:41,752] {scheduler_job.py:182} INFO - Started process (PID=3849) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:55:41,754] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:55:41,755] {logging_mixin.py:104} INFO - [2022-05-17 08:55:41,755] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:55:42,180] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:55:42,192] {logging_mixin.py:104} INFO - [2022-05-17 08:55:42,191] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:55:42,200] {logging_mixin.py:104} INFO - [2022-05-17 08:55:42,200] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:55:42,206] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.459 seconds
+[2022-05-17 08:56:12,601] {scheduler_job.py:182} INFO - Started process (PID=3906) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:56:12,602] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:56:12,602] {logging_mixin.py:104} INFO - [2022-05-17 08:56:12,602] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:56:13,012] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:56:13,024] {logging_mixin.py:104} INFO - [2022-05-17 08:56:13,024] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:56:13,033] {logging_mixin.py:104} INFO - [2022-05-17 08:56:13,033] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:56:13,050] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.453 seconds
+[2022-05-17 08:56:43,544] {scheduler_job.py:182} INFO - Started process (PID=3963) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:56:43,545] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:56:43,546] {logging_mixin.py:104} INFO - [2022-05-17 08:56:43,546] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:56:44,075] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:56:44,090] {logging_mixin.py:104} INFO - [2022-05-17 08:56:44,090] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:56:44,103] {logging_mixin.py:104} INFO - [2022-05-17 08:56:44,103] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:56:44,110] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.568 seconds
+[2022-05-17 08:57:14,728] {scheduler_job.py:182} INFO - Started process (PID=4023) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:57:14,728] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:57:14,729] {logging_mixin.py:104} INFO - [2022-05-17 08:57:14,729] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:57:15,250] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:57:15,265] {logging_mixin.py:104} INFO - [2022-05-17 08:57:15,264] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:57:15,276] {logging_mixin.py:104} INFO - [2022-05-17 08:57:15,275] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:57:15,282] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.556 seconds
+[2022-05-17 08:57:45,847] {scheduler_job.py:182} INFO - Started process (PID=4080) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:57:45,855] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:57:45,856] {logging_mixin.py:104} INFO - [2022-05-17 08:57:45,856] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:57:46,403] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:57:46,418] {logging_mixin.py:104} INFO - [2022-05-17 08:57:46,417] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:57:46,428] {logging_mixin.py:104} INFO - [2022-05-17 08:57:46,428] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:57:46,435] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.589 seconds
+[2022-05-17 08:58:16,833] {scheduler_job.py:182} INFO - Started process (PID=4137) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:58:16,834] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:58:16,835] {logging_mixin.py:104} INFO - [2022-05-17 08:58:16,834] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:58:17,358] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:58:17,379] {logging_mixin.py:104} INFO - [2022-05-17 08:58:17,379] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:58:17,391] {logging_mixin.py:104} INFO - [2022-05-17 08:58:17,391] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:58:17,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.566 seconds
+[2022-05-17 08:58:47,587] {scheduler_job.py:182} INFO - Started process (PID=4194) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:58:47,597] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:58:47,597] {logging_mixin.py:104} INFO - [2022-05-17 08:58:47,597] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:58:49,208] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:58:49,223] {logging_mixin.py:104} INFO - [2022-05-17 08:58:49,223] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:58:49,259] {logging_mixin.py:104} INFO - [2022-05-17 08:58:49,259] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:58:49,292] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.706 seconds
+[2022-05-17 08:59:20,126] {scheduler_job.py:182} INFO - Started process (PID=4251) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:59:20,127] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:59:20,128] {logging_mixin.py:104} INFO - [2022-05-17 08:59:20,127] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:59:20,692] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:59:20,708] {logging_mixin.py:104} INFO - [2022-05-17 08:59:20,708] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:59:20,721] {logging_mixin.py:104} INFO - [2022-05-17 08:59:20,720] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:59:20,727] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.603 seconds
+[2022-05-17 08:59:51,278] {scheduler_job.py:182} INFO - Started process (PID=4308) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 08:59:51,279] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 08:59:51,279] {logging_mixin.py:104} INFO - [2022-05-17 08:59:51,279] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 08:59:51,852] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 08:59:51,874] {logging_mixin.py:104} INFO - [2022-05-17 08:59:51,873] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 08:59:51,887] {logging_mixin.py:104} INFO - [2022-05-17 08:59:51,887] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T08:55:00+00:00
+[2022-05-17 08:59:51,894] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.618 seconds
+[2022-05-17 09:00:22,450] {scheduler_job.py:182} INFO - Started process (PID=4402) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 09:00:22,452] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 09:00:22,452] {logging_mixin.py:104} INFO - [2022-05-17 09:00:22,452] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 09:00:23,031] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 09:00:23,050] {logging_mixin.py:104} INFO - [2022-05-17 09:00:23,049] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 09:00:23,063] {logging_mixin.py:104} INFO - [2022-05-17 09:00:23,062] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T09:00:00+00:00
+[2022-05-17 09:00:23,070] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.622 seconds
+[2022-05-17 09:00:53,791] {scheduler_job.py:182} INFO - Started process (PID=4459) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 09:00:53,792] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 09:00:53,792] {logging_mixin.py:104} INFO - [2022-05-17 09:00:53,792] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 09:00:54,394] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 09:00:54,411] {logging_mixin.py:104} INFO - [2022-05-17 09:00:54,411] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 09:00:54,425] {logging_mixin.py:104} INFO - [2022-05-17 09:00:54,425] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T09:00:00+00:00
+[2022-05-17 09:00:54,432] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.643 seconds
+[2022-05-17 09:01:24,989] {scheduler_job.py:182} INFO - Started process (PID=4516) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 09:01:24,991] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 09:01:24,991] {logging_mixin.py:104} INFO - [2022-05-17 09:01:24,991] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 09:01:26,005] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 09:01:26,025] {logging_mixin.py:104} INFO - [2022-05-17 09:01:26,025] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 09:01:26,037] {logging_mixin.py:104} INFO - [2022-05-17 09:01:26,037] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T09:00:00+00:00
+[2022-05-17 09:01:26,064] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.077 seconds
+[2022-05-17 10:26:26,690] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 10:26:26,693] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 10:26:26,693] {logging_mixin.py:104} INFO - [2022-05-17 10:26:26,693] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 10:26:27,437] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 10:26:27,481] {logging_mixin.py:104} INFO - [2022-05-17 10:26:27,478] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 10:26:27,520] {logging_mixin.py:104} INFO - [2022-05-17 10:26:27,520] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T10:20:00+00:00
+[2022-05-17 10:26:27,572] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.884 seconds
+[2022-05-17 10:26:57,779] {scheduler_job.py:182} INFO - Started process (PID=83) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 10:26:57,803] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 10:26:57,804] {logging_mixin.py:104} INFO - [2022-05-17 10:26:57,804] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 10:27:01,704] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 10:27:01,727] {logging_mixin.py:104} INFO - [2022-05-17 10:27:01,727] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 10:27:01,745] {logging_mixin.py:104} INFO - [2022-05-17 10:27:01,745] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T10:20:00+00:00
+[2022-05-17 10:27:01,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 4.029 seconds
+[2022-05-17 10:27:32,318] {scheduler_job.py:182} INFO - Started process (PID=140) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 10:27:32,319] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 10:27:32,319] {logging_mixin.py:104} INFO - [2022-05-17 10:27:32,319] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 10:27:33,339] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 10:27:33,366] {logging_mixin.py:104} INFO - [2022-05-17 10:27:33,365] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 10:27:33,384] {logging_mixin.py:104} INFO - [2022-05-17 10:27:33,384] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T10:20:00+00:00
+[2022-05-17 10:27:33,447] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.132 seconds
+[2022-05-17 10:28:04,058] {scheduler_job.py:182} INFO - Started process (PID=197) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 10:28:04,075] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 10:28:04,076] {logging_mixin.py:104} INFO - [2022-05-17 10:28:04,076] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 10:28:05,041] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 10:28:05,077] {logging_mixin.py:104} INFO - [2022-05-17 10:28:05,077] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 10:28:05,093] {logging_mixin.py:104} INFO - [2022-05-17 10:28:05,093] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T10:20:00+00:00
+[2022-05-17 10:28:05,126] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 1.071 seconds
+[2022-05-17 10:28:35,632] {scheduler_job.py:182} INFO - Started process (PID=254) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 10:28:35,633] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 10:28:35,634] {logging_mixin.py:104} INFO - [2022-05-17 10:28:35,634] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 10:28:36,154] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 10:28:36,174] {logging_mixin.py:104} INFO - [2022-05-17 10:28:36,174] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 10:28:36,192] {logging_mixin.py:104} INFO - [2022-05-17 10:28:36,192] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T10:20:00+00:00
+[2022-05-17 10:28:36,200] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.570 seconds
+[2022-05-17 10:29:06,408] {scheduler_job.py:182} INFO - Started process (PID=311) to work on /opt/airflow/dags/test/test.py
+[2022-05-17 10:29:06,408] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/test.py for tasks to queue
+[2022-05-17 10:29:06,409] {logging_mixin.py:104} INFO - [2022-05-17 10:29:06,409] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/test.py
+[2022-05-17 10:29:07,006] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['UTE_THONG_BAO_V1']) retrieved from /opt/airflow/dags/test/test.py
+[2022-05-17 10:29:07,029] {logging_mixin.py:104} INFO - [2022-05-17 10:29:07,028] {dag.py:1833} INFO - Sync 1 DAGs
+[2022-05-17 10:29:07,045] {logging_mixin.py:104} INFO - [2022-05-17 10:29:07,045] {dag.py:2306} INFO - Setting next_dagrun for UTE_THONG_BAO_V1 to 2022-05-17T10:20:00+00:00
+[2022-05-17 10:29:07,055] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/test/test.py took 0.649 seconds

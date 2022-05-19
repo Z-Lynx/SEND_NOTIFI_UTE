@@ -1,0 +1,41 @@
+[2022-05-16 10:03:19,668] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: a4.schedule_bgg_crawler 2022-05-16T09:55:00+00:00 [queued]>
+[2022-05-16 10:03:19,685] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: a4.schedule_bgg_crawler 2022-05-16T09:55:00+00:00 [queued]>
+[2022-05-16 10:03:19,685] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 10:03:19,685] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-16 10:03:19,685] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 10:03:19,695] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): schedule_bgg_crawler> on 2022-05-16T09:55:00+00:00
+[2022-05-16 10:03:19,698] {standard_task_runner.py:52} INFO - Started process 50 to run task
+[2022-05-16 10:03:19,708] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'a4', 'schedule_bgg_crawler', '2022-05-16T09:55:00+00:00', '--job-id', '50', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmp9wo2x4ec', '--error-file', '/tmp/tmp4jpkd0ns']
+[2022-05-16 10:03:19,708] {standard_task_runner.py:77} INFO - Job 50: Subtask schedule_bgg_crawler
+[2022-05-16 10:03:19,751] {logging_mixin.py:104} INFO - Running <TaskInstance: a4.schedule_bgg_crawler 2022-05-16T09:55:00+00:00 [running]> on host 18ce7979051b
+[2022-05-16 10:03:19,790] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=a4
+AIRFLOW_CTX_TASK_ID=schedule_bgg_crawler
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-16T09:55:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-16T09:55:00+00:00
+[2022-05-16 10:03:19,790] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-16 10:03:19,791] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'cd /opt/***/dags && scrapy crawl thongbao && echo "xong t1"']
+[2022-05-16 10:03:19,798] {subprocess.py:75} INFO - Output:
+[2022-05-16 10:03:21,015] {subprocess.py:79} INFO - Scrapy 2.6.1 - no active project
+[2022-05-16 10:03:21,016] {subprocess.py:79} INFO - 
+[2022-05-16 10:03:21,016] {subprocess.py:79} INFO - Unknown command: crawl
+[2022-05-16 10:03:21,016] {subprocess.py:79} INFO - 
+[2022-05-16 10:03:21,016] {subprocess.py:79} INFO - Use "scrapy" to see available commands
+[2022-05-16 10:03:21,159] {subprocess.py:83} INFO - Command exited with return code 2
+[2022-05-16 10:03:21,166] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 180, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2022-05-16 10:03:21,167] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=a4, task_id=schedule_bgg_crawler, execution_date=20220516T095500, start_date=20220516T100319, end_date=20220516T100321
+[2022-05-16 10:03:21,201] {local_task_job.py:151} INFO - Task exited with return code 1

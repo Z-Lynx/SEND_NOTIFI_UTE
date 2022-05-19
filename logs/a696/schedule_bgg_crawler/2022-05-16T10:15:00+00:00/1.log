@@ -1,0 +1,145 @@
+[2022-05-16 10:21:21,713] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: a696.schedule_bgg_crawler 2022-05-16T10:15:00+00:00 [queued]>
+[2022-05-16 10:21:21,717] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: a696.schedule_bgg_crawler 2022-05-16T10:15:00+00:00 [queued]>
+[2022-05-16 10:21:21,717] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 10:21:21,717] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-16 10:21:21,717] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 10:21:21,726] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): schedule_bgg_crawler> on 2022-05-16T10:15:00+00:00
+[2022-05-16 10:21:21,729] {standard_task_runner.py:52} INFO - Started process 120 to run task
+[2022-05-16 10:21:21,733] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'a696', 'schedule_bgg_crawler', '2022-05-16T10:15:00+00:00', '--job-id', '59', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmpzu59tz0t', '--error-file', '/tmp/tmp3tk4jywa']
+[2022-05-16 10:21:21,734] {standard_task_runner.py:77} INFO - Job 59: Subtask schedule_bgg_crawler
+[2022-05-16 10:21:21,762] {logging_mixin.py:104} INFO - Running <TaskInstance: a696.schedule_bgg_crawler 2022-05-16T10:15:00+00:00 [running]> on host c05ccf3e0e90
+[2022-05-16 10:21:21,797] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=a696
+AIRFLOW_CTX_TASK_ID=schedule_bgg_crawler
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-16T10:15:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-16T10:15:00+00:00
+[2022-05-16 10:21:21,797] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-16 10:21:21,797] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'cd /opt/***/dags/test && scrapy crawl thongbao && echo "xong t1"']
+[2022-05-16 10:21:21,801] {subprocess.py:75} INFO - Output:
+[2022-05-16 10:21:22,835] {subprocess.py:79} INFO - 2022-05-16 10:21:22 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: thongbao)
+[2022-05-16 10:21:22,836] {subprocess.py:79} INFO - 2022-05-16 10:21:22 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.4.0, Python 3.8.12 (default, Dec 21 2021, 11:15:53) - [GCC 8.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1k  25 Mar 2021), cryptography 3.4.7, Platform Linux-5.13.0-39-generic-x86_64-with-glibc2.2.5
+[2022-05-16 10:21:22,839] {subprocess.py:79} INFO - 2022-05-16 10:21:22 [scrapy.crawler] INFO: Overridden settings:
+[2022-05-16 10:21:22,839] {subprocess.py:79} INFO - {'BOT_NAME': 'thongbao',
+[2022-05-16 10:21:22,839] {subprocess.py:79} INFO -  'FEED_EXPORT_ENCODING': 'utf-8',
+[2022-05-16 10:21:22,839] {subprocess.py:79} INFO -  'NEWSPIDER_MODULE': 'thongbao.spiders',
+[2022-05-16 10:21:22,839] {subprocess.py:79} INFO -  'SPIDER_MODULES': ['thongbao.spiders']}
+[2022-05-16 10:21:22,842] {subprocess.py:79} INFO - 2022-05-16 10:21:22 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+[2022-05-16 10:21:22,856] {subprocess.py:79} INFO - 2022-05-16 10:21:22 [scrapy.extensions.telnet] INFO: Telnet Password: 8a282ca84b49e767
+[2022-05-16 10:21:22,890] {subprocess.py:79} INFO - 2022-05-16 10:21:22 [scrapy.middleware] INFO: Enabled extensions:
+[2022-05-16 10:21:22,891] {subprocess.py:79} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2022-05-16 10:21:22,891] {subprocess.py:79} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2022-05-16 10:21:22,891] {subprocess.py:79} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2022-05-16 10:21:22,891] {subprocess.py:79} INFO -  'scrapy.extensions.logstats.LogStats']
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO - 2022-05-16 10:21:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO - ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'thongbao.middlewares.ThongbaoDownloaderMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2022-05-16 10:21:23,050] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2022-05-16 10:21:23,051] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2022-05-16 10:21:23,051] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2022-05-16 10:21:23,051] {subprocess.py:79} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2022-05-16 10:21:23,058] {subprocess.py:79} INFO - 2022-05-16 10:21:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2022-05-16 10:21:23,059] {subprocess.py:79} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2022-05-16 10:21:23,059] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+[2022-05-16 10:21:23,060] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2022-05-16 10:21:23,060] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2022-05-16 10:21:23,060] {subprocess.py:79} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2022-05-16 10:21:23,196] {subprocess.py:79} INFO - Unhandled error in Deferred:
+[2022-05-16 10:21:23,196] {subprocess.py:79} INFO - 2022-05-16 10:21:23 [twisted] CRITICAL: Unhandled error in Deferred:
+[2022-05-16 10:21:23,203] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO - Traceback (most recent call last):
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/crawler.py", line 206, in crawl
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO -     return self._crawl(crawler, *args, **kwargs)
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/crawler.py", line 210, in _crawl
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO -     d = crawler.crawl(*args, **kwargs)
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 1905, in unwindGenerator
+[2022-05-16 10:21:23,204] {subprocess.py:79} INFO -     return _cancellableInlineCallbacks(gen)
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 1815, in _cancellableInlineCallbacks
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -     _inlineCallbacks(None, gen, status)
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO - --- <exception caught here> ---
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 1660, in _inlineCallbacks
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -     result = current_context.run(gen.send, result)
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/crawler.py", line 102, in crawl
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -     self.engine = self._create_engine()
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/crawler.py", line 116, in _create_engine
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -     return ExecutionEngine(self, lambda _: self.stop())
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/core/engine.py", line 84, in __init__
+[2022-05-16 10:21:23,205] {subprocess.py:79} INFO -     self.scraper = Scraper(crawler)
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/core/scraper.py", line 75, in __init__
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -     self.itemproc = itemproc_cls.from_crawler(crawler)
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/middleware.py", line 59, in from_crawler
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -     return cls.from_settings(crawler.settings, crawler)
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/middleware.py", line 40, in from_settings
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -     mwcls = load_object(clspath)
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/utils/misc.py", line 61, in load_object
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -     mod = import_module(module)
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-05-16 10:21:23,206] {subprocess.py:79} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-05-16 10:21:23,207] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO -   File "/opt/***/dags/test/thongbao/pipelines.py", line 11, in <module>
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO -     from pymysql.cursors import DictCursor
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO - builtins.ModuleNotFoundError: No module named 'pymysql'
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO - 
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO - 2022-05-16 10:21:23 [twisted] CRITICAL:
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO - Traceback (most recent call last):
+[2022-05-16 10:21:23,208] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 1660, in _inlineCallbacks
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -     result = current_context.run(gen.send, result)
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/crawler.py", line 102, in crawl
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -     self.engine = self._create_engine()
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/crawler.py", line 116, in _create_engine
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -     return ExecutionEngine(self, lambda _: self.stop())
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/core/engine.py", line 84, in __init__
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -     self.scraper = Scraper(crawler)
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/core/scraper.py", line 75, in __init__
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -     self.itemproc = itemproc_cls.from_crawler(crawler)
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/middleware.py", line 59, in from_crawler
+[2022-05-16 10:21:23,209] {subprocess.py:79} INFO -     return cls.from_settings(crawler.settings, crawler)
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/middleware.py", line 40, in from_settings
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -     mwcls = load_object(clspath)
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/utils/misc.py", line 61, in load_object
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -     mod = import_module(module)
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "/usr/local/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -     return _bootstrap._gcd_import(name[level:], package, level)
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[2022-05-16 10:21:23,210] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[2022-05-16 10:21:23,211] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+[2022-05-16 10:21:23,211] {subprocess.py:79} INFO -   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[2022-05-16 10:21:23,211] {subprocess.py:79} INFO -   File "/opt/***/dags/test/thongbao/pipelines.py", line 11, in <module>
+[2022-05-16 10:21:23,211] {subprocess.py:79} INFO -     from pymysql.cursors import DictCursor
+[2022-05-16 10:21:23,211] {subprocess.py:79} INFO - ModuleNotFoundError: No module named 'pymysql'
+[2022-05-16 10:21:23,424] {subprocess.py:83} INFO - Command exited with return code 1
+[2022-05-16 10:21:23,435] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 180, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2022-05-16 10:21:23,436] {taskinstance.py:1544} INFO - Marking task as FAILED. dag_id=a696, task_id=schedule_bgg_crawler, execution_date=20220516T101500, start_date=20220516T102121, end_date=20220516T102123
+[2022-05-16 10:21:23,469] {local_task_job.py:151} INFO - Task exited with return code 1

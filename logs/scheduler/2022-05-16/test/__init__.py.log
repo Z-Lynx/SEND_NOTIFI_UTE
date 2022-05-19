@@ -1,0 +1,10 @@
+[2022-05-16 14:16:58,805] {scheduler_job.py:182} INFO - Started process (PID=21) to work on /opt/airflow/dags/test/__init__.py
+[2022-05-16 14:16:58,805] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/__init__.py for tasks to queue
+[2022-05-16 14:16:58,806] {logging_mixin.py:104} INFO - [2022-05-16 14:16:58,806] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/__init__.py
+[2022-05-16 14:17:49,419] {scheduler_job.py:182} INFO - Started process (PID=93) to work on /opt/airflow/dags/test/__init__.py
+[2022-05-16 14:17:49,419] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/__init__.py for tasks to queue
+[2022-05-16 14:17:49,420] {logging_mixin.py:104} INFO - [2022-05-16 14:17:49,420] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/__init__.py
+[2022-05-16 14:18:40,000] {scheduler_job.py:182} INFO - Started process (PID=165) to work on /opt/airflow/dags/test/__init__.py
+[2022-05-16 14:18:40,001] {scheduler_job.py:633} INFO - Processing file /opt/airflow/dags/test/__init__.py for tasks to queue
+[2022-05-16 14:18:40,001] {logging_mixin.py:104} INFO - [2022-05-16 14:18:40,001] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/test/__init__.py
+[2022-05-16 14:19:32,754] {logging_mixin.py:104} INFO - [2022-05-16 14:19:32,753] {timeout.py:36} ERROR - Process timed out, PID: 165

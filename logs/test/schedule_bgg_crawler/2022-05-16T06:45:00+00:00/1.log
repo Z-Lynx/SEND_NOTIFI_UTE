@@ -1,0 +1,26 @@
+[2022-05-16 06:46:03,587] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: test.schedule_bgg_crawler 2022-05-16T06:45:00+00:00 [queued]>
+[2022-05-16 06:46:03,593] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: test.schedule_bgg_crawler 2022-05-16T06:45:00+00:00 [queued]>
+[2022-05-16 06:46:03,594] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 06:46:03,594] {taskinstance.py:1088} INFO - Starting attempt 1 of 1
+[2022-05-16 06:46:03,594] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2022-05-16 06:46:03,599] {taskinstance.py:1107} INFO - Executing <Task(BashOperator): schedule_bgg_crawler> on 2022-05-16T06:45:00+00:00
+[2022-05-16 06:46:03,601] {standard_task_runner.py:52} INFO - Started process 667 to run task
+[2022-05-16 06:46:03,603] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test', 'schedule_bgg_crawler', '2022-05-16T06:45:00+00:00', '--job-id', '14', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/test/test.py', '--cfg-path', '/tmp/tmphexb1yux', '--error-file', '/tmp/tmphrxuh850']
+[2022-05-16 06:46:03,604] {standard_task_runner.py:77} INFO - Job 14: Subtask schedule_bgg_crawler
+[2022-05-16 06:46:03,630] {logging_mixin.py:104} INFO - Running <TaskInstance: test.schedule_bgg_crawler 2022-05-16T06:45:00+00:00 [running]> on host f55524957fe2
+[2022-05-16 06:46:03,659] {taskinstance.py:1300} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test
+AIRFLOW_CTX_TASK_ID=schedule_bgg_crawler
+AIRFLOW_CTX_EXECUTION_DATE=2022-05-16T06:45:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-05-16T06:45:00+00:00
+[2022-05-16 06:46:03,660] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2022-05-16 06:46:03,660] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'dir']
+[2022-05-16 06:46:03,663] {subprocess.py:75} INFO - Output:
+[2022-05-16 06:46:03,666] {subprocess.py:83} INFO - Command exited with return code 0
+[2022-05-16 06:46:03,682] {taskinstance.py:1204} INFO - Marking task as SUCCESS. dag_id=test, task_id=schedule_bgg_crawler, execution_date=20220516T064500, start_date=20220516T064603, end_date=20220516T064603
+[2022-05-16 06:46:03,695] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-05-16 06:46:03,735] {local_task_job.py:151} INFO - Task exited with return code 0
